@@ -1,0 +1,49 @@
+.main-footer
+  background-color: $blue
+  .container
+    overflow: hidden
+    padding: 0 $base-spacing
+    @media screen and (min-width: $medium-screen)
+      padding: 0
+  .footer-logo
+    display: block
+    width: auto
+    height: 3 * $base-spacing
+    flex: 0 0 auto
+    margin-right: $small-spacing
+  .footer-title
+    margin-bottom: 0
+  .footer-left
+    color: white
+    @media screen and (min-width: $medium-screen)
+      width: 45%
+      float: left
+    @media screen and (min-width: $large-screen)
+      width: 40%
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+  .footer-right
+    margin-top: 2 * $base-spacing
+    @media screen and (min-width: $medium-screen)
+      margin-top: 0
+      margin-right: $base-spacing
+      width: 45%
+      float: right
+    @media screen and (min-width: $large-screen)
+      width: 40%
+    p
+      margin-bottom: $small-spacing/2
+    p:nth-child(2)
+      font-size: modular-scale(-1)
+      margin-bottom: 0
+
+
+.footer-copyright
+  background-color: $blue
+  padding: $small-spacing $base-spacing
+  color: white
+  border-bottom: none
+  text-align: center
+  font-size: modular-scale(-1)

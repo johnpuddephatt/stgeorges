@@ -1,0 +1,61 @@
+---
+---
+
+
+@import 'bourbon/bourbon'
+@import 'base/base'
+@import 'neat/neat'
+
+@import 'fonts'
+
+@import '_containers'
+@import '_navigation'
+@import '_footer'
+
+@import '_gridnavigation'
+@import '_hero'
+@import '_introduction'
+@import '_facts'
+@import '_casestudy'
+
+@import '_home_aboutus'
+
+@import '_tabs'
+
+
+@import '_activity'
+
+
+
+{% assign duration = 8000 %}
+$slide-duration: {{duration}}ms
+
+{% assign transition = 500 %}
+$slide-transition-duration: {{transition}}ms
+
+.container
+  .case-slide
+  {% for story in site.stories %}
+    &:nth-child({{forloop.index}})
+      animation-duration: {{forloop.length}} * $slide-duration
+      animation-delay: {{forloop.index}} * $slide-duration
+  {% endfor %}
+
+{% assign n = 100 | divided_by: site.stories.size %}
+
+
+@keyframes fade
+  0%
+    z-index: 99
+    opacity: 0
+  {{ duration | divided_by: transition | times: n |  divided_by: 100 }}%
+    opacity: 1
+  {{ n }}%
+    z-index: 99
+    opacity: 1
+  {{ n | times: 2 }}%
+    z-index: 0
+    opacity: 1
+  100%
+    z-index: 0
+    opacity: 0

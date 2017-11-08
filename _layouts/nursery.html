@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<section class="section section--hero section--hero--single section--hero--{{ page.collection}}">
+  <div class="container">
+    <header class="activity-header">
+      <a class="breadcrumb" href="../">{{ page.collection }}</a>
+      <h1 class="hero-title">{{ page.title }}</h1>
+    </header>
+  </div>
+</section>
+
+<section class="section section--body section--body--nursery">
+  <div class="container">
+    <div class="activity-body">
+      {{ page.description | markdownify | prepend: '<h2 class="activity-intro">' | append: '</h2>' }}
+    </div>
+
+    <div class="tab-wrap" data-tabs="4">
+      <input type="radio" name="tabs" id="tab-overview" checked>
+      <label for="tab-overview">Overview</label>
+      <div class="tab-content">
+        <h2>Our services</h2>
+        {{ page.services | markdownify }}
+      </div>
+      <input type="radio" name="tabs" id="tab-documents">
+      <label for="tab-documents">Documents</label>
+      <div class="tab-content">
+
+      </div>
+      <input type="radio" name="tabs" id="tab-viewings">
+
+      <label for="tab-viewings">Viewings</label>
+      <div class="tab-content">
+
+      </div>
+      <input type="radio" name="tabs" id="tab-contact">
+      <label for="tab-contact">Contact</label>
+      <div class="tab-content">
+        <h3>Address</h3>
+        <p>{{ page.address}}</p>
+        <h3>Telephone</h3>
+        <p>{{ page.phone}}</p>
+        <h3>Finding us</h3>
+        {{page.map}}
+
+      </div>
+
+      <div class="slide slide-four"></div>
+    </div>
+  </div>
+</section>
+
+{% include scripts_tabs.html %}

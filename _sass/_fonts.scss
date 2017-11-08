@@ -1,0 +1,17 @@
+@include font-face("Filson Soft", "./fonts/Filson_Soft_Bold"){
+  font-style: normal;
+  font-weight: 700;
+  file-formats: ttf;
+}
+
+@include font-face("Filson Soft", "./fonts/Filson_Soft_Regular"){
+  font-style: normal;
+  font-weight: 400;
+  file-formats: ttf;
+}
+
+@include font-face("Paper Cutout", "./fonts/Paper_Cutout"){
+  font-style: normal;
+  font-weight: 400;
+  file-formats: ttf;
+}

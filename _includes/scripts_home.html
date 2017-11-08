@@ -1,0 +1,10 @@
+<script>
+  var current = 0,
+    slides = document.querySelectorAll(".home-slide"),
+    hero = document.querySelector(".section--hero");
+  setInterval(function() {
+  hero.dataset.slide = current + 1;
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  }, 3000);
+
+</script>

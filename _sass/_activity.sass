@@ -1,0 +1,88 @@
+.section--hero--activity
+  background-image: url(/images/activity.jpg)
+.section--hero--nurseries
+  background-image: url(/images/nurseries3.jpg)
+.section--hero--centre
+  background-image: url(/images/centre.jpg)
+.section--hero--course
+  background-image: url(/images/course.jpg)
+
+.section--hero--about
+  background-image: url(/images/aboutstgeorges.jpg)
+.section--hero--jobs
+  background-image: url(/images/staff.jpg)
+
+.section--hero--single
+  background-size: cover
+  background-position: center
+  .container
+    justify-content: flex-end
+    align-items: center
+  .activity-header
+    position: relative
+    z-index: 99
+    background-color: $yellow
+    width: 100%
+    max-width: .6 * $max-width
+    padding: $base-spacing 2 * $base-spacing 0
+  .breadcrumb
+    color: white
+    text-transform: capitalize
+    display: block
+    margin-bottom: $small-spacing
+    &::after
+      content: ''
+      width: $small-spacing
+      height: $small-spacing
+
+      background-image: url(images/chevron.svg)
+      background-repeat: no-repeat
+      background-position: center right
+      background-size: contain
+      display: inline-block
+.section--body
+  @media screen and (min-width: $medium-screen)
+    margin-bottom: 2 * $base-spacing
+  .container
+    margin-top: 0
+
+  .activity-body
+    background-color: $yellow
+    padding: $base-spacing 2 * $base-spacing 2 * $base-spacing
+    width: 100%
+    max-width: .6 * $max-width
+    margin: 0 auto
+    ul
+      margin-bottom: $small-spacing
+    li::before
+      background-image: url(/images/chevron.svg)
+
+  .activity-intro
+    margin-bottom: $base-spacing
+
+.council-logo
+  max-width: .6 * $max-width
+  margin: 2 * $base-spacing auto 0
+  text-align: right
+  p
+    margin-bottom: 0
+    font-weight: 700
+  img
+    max-width: 40%
+    margin-left: auto
+    display: block
+
+
+.enquire-form
+  display: none
+  margin-top: 2 * $base-spacing
+  padding: 2 * $base-spacing $base-spacing 0
+  border-top: .2em dashed white
+
+.enquire-button
+  margin-top: $base-spacing
+
+.enquire-button.active
+  display: none
+  ~ .enquire-form
+    display: block

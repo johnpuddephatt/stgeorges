@@ -1,0 +1,42 @@
+<header>
+  <nav class="secondary-navigation">
+    <div class="container">
+      <ul>
+        {% assign nav_pages =  site.pages | where:"hidden",false %}
+        {% for page in nav_pages %}
+          {% if page.title %}
+            <li>
+              <a href="{{ page.url | replace: '.html', '' }}">
+                {{ page.title }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        <li>
+          <a href="http://www.facebook.com/{{ site.facebook_username}}" class="social-icon">{% include /images/facebook_square.svg %}</a>
+          <a href="http://twitter.com/{{ site.twitter_username }}" class="social-icon">{% include /images/twitter_square.svg %}</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="section primary-navigation">
+    <div class="container">
+      <ul>
+        <li class="navigation-logo">
+          <a href="/">
+            {% include /images/stgeorges_logo.svg %}
+          </a>
+        </li>
+        {% for section in site.sections %}
+          <li>
+            <a href="{{ section.url | replace: 'index.html', ''}}">
+              {{ section.title }}
+              <span>{{ section.subtitle }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>

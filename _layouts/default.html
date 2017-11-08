@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% if page.layout == 'home'%}
+      {% include scripts_home.html %}
+    {% endif %}
+
+    {% if page.layout == 'activity' or page.layout == 'page'%}
+      {% include scripts_activity.html %}
+    {% endif %}
+  </body>
+
+</html>

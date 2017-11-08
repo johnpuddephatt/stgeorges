@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<section class="section section--case-study">
+  <div class="container case-slide {% if page.flipped %}right-align{% endif %}" style="background-image: url({{ page.photo }})">
+    <div class="case-study-text">
+      <h2 class="case-study-pullout">{{ page.quote}}</h2>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="content-wrap">
+    <div class="case-study-intro">{{ page.intro | markdownify }}</div>
+    {{ page.content | markdownify }}
+
+    <a href="/{{page.title}}" class="button">Find out how you can benefit</a>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<section class="section section--hero section--hero--single section--hero--course">
+  <div class="container">
+    <header class="activity-header">
+      <a class="breadcrumb" href="../">{{ page.collection }}</a>
+      {{ page.subject_area | prepend: '<p class="activity-subject">' | append: '</p>' }}
+      <h1 class="hero-title">{{ page.title }}</h1>
+      {{ page.qualification | prepend: '<h3 class="activity-qualification">' | append: '</h3>' }}
+    </header>
+  </div>
+</section>
+
+<section class="section section--body section--body--course">
+  <div class="container">
+    <div class="activity-body">
+      {{ page.description | markdownify | prepend: '<h2 class="activity-intro">' | append: '</h2>' }}
+
+      {% if page.outcomes %}
+        {{ page.outcomes | markdownify | prepend: '<p><strong>You will learn:</strong> ' | append: '</p>' }}
+      {% endif %}
+      {% if page.requirements %}
+        {{ page.requirements | markdownify | prepend: '<p><strong>Who it’s for:</strong> ' | append: '</p>' }}
+      {% endif %}
+      {% if page.time_and_location %}
+        {{ page.time_and_location | markdownify | prepend: '<p><strong>Time location:</strong> ' | append: '</p>' }}
+      {% endif %}
+      {% if page.equipment %}
+        {{ page.equipment | markdownify | prepend: '<p><strong>What do I need?</strong> ' | append: '</p>' }}
+      {% endif %}
+      {% if page.council %}
+        <div class="council-logo">
+          <p>this is a course run by</p>
+          <img src="/images/wakefield-council.png" alt="Wakefield Council – working for you">
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+</section>
