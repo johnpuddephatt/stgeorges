@@ -1,0 +1,74 @@
+---
+pages:
+- _sections/young-people.md
+- _sections/wellbeing.md
+- _sections/nurseries.md
+- _sections/adult-education.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: subtitle
+  label: Subtitle
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: introduction_title
+  label: Introduction title
+  type: text
+  hidden: false
+  default: ''
+- name: introduction
+  label: Introduction
+  type: textarea
+  hidden: false
+  default: ''
+- name: introduction_photo
+  label: Introduction photo
+  type: file
+  hidden: false
+  default: ''
+- name: childname
+  label: Childname
+  type: text
+  hidden: false
+  default: ''
+- name: facts
+  label: Facts
+  type: field_group_list
+  fields:
+  - name: figure
+    label: Figure
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: story
+  label: Story
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: section

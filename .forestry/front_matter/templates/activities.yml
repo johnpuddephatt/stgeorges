@@ -1,0 +1,63 @@
+---
+pages:
+- _activities/world-of-words.md
+- _activities/urology-cancer-support-group.md
+- _activities/tuesday-leisure-club.md
+- _activities/table-tennis.md
+- _activities/singing-for-fun.md
+- _activities/pilates.md
+- _activities/lunch-club.md
+- _activities/golden-oldie-gardeners.md
+- _activities/dementia-cafe.md
+- _activities/cycling-for-all.md
+- _activities/coffee-club.md
+- _activities/chatty-craft-group.md
+- _activities/chair-based-exercise.md
+- _activities/boccia-bowling.md
+hide_body: false
+fields:
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: times
+  label: Times
+  type: list
+  hidden: false
+  default: ''
+- name: cost
+  label: Cost
+  type: text
+  hidden: false
+  default: ''
+- name: location
+  label: Location
+  type: text
+  hidden: false
+  default: ''
+- name: suitabilities
+  label: Suitabilities
+  type: list
+  hidden: false
+  default: ''
+- name: signup
+  label: Signup
+  type: boolean
+  hidden: false
+  default: ''
+- name: additional_info
+  label: Additional info
+  type: textarea
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: activity

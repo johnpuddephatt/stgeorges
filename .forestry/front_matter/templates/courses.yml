@@ -1,0 +1,65 @@
+---
+pages:
+- _courses/sample.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: qualification
+  label: Qualification
+  type: text
+  hidden: false
+  default: ''
+- name: subject_area
+  label: Subject area
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: outcomes
+  label: Outcomes
+  type: textarea
+  hidden: false
+  default: ''
+- name: requirements
+  label: Requirements
+  type: textarea
+  hidden: false
+  default: ''
+- name: time_and_location
+  label: Time and location
+  type: textarea
+  hidden: false
+  default: ''
+- name: equipment
+  label: Equipment
+  type: text
+  hidden: false
+  default: ''
+- name: information
+  label: Information
+  type: textarea
+  hidden: false
+  default: ''
+- name: council
+  label: Council
+  type: boolean
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: course

@@ -1,0 +1,53 @@
+---
+pages:
+- _stories/youngpeople.md
+- _stories/wellbeing.md
+- _stories/learning.md
+- _stories/childcare.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+- name: quote
+  label: Quote
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: photo
+  label: Photo
+  type: file
+  hidden: false
+  default: ''
+- name: flipped
+  label: Flipped
+  type: boolean
+  hidden: false
+  default: ''
+- name: intro
+  label: Intro
+  type: textarea
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: story
