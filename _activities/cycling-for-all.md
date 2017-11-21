@@ -1,4 +1,5 @@
 ---
+title: Cycling for all
 description: Cycling session with a difference! If you haven’t ridden a bike for a long time or have limited mobility this could be for you. We have trikes, quad, hand bike, tandem side by side and even a bike that can hold a wheelchair.
 times:
 - Monday 10.00am - 11.30am

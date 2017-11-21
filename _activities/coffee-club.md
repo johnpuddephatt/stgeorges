@@ -1,4 +1,5 @@
 ---
+title: Coffee club
 description: Coffee and a chat! Open to all.
 times:
   - Monday 11.00am - 12.30pm

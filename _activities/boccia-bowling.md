@@ -1,4 +1,5 @@
 ---
+title: Boccia bowling
 description: Seated bowls suitable for everyone
 times:
   - Tuesday 1.30pm - 3.30pm (fortnightly)

@@ -1,4 +1,5 @@
 ---
+title: Chatty craft group
 description: Crafty, chatty, sociable, fun!
 times:
   - Thursday 10.30am - 12.30pm

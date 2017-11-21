@@ -1,4 +1,5 @@
 ---
+title: Dementia cafe
 description: Our Dementia Café provides a safe, comfortable and supportive environment for people with dementia and their carers to socialise.
 times:
 - First Wednesday of every month 1.00pm - 3.00pm
