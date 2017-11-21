@@ -4,7 +4,7 @@ pages:
 - _nurseries/stswithuns.md
 - _nurseries/sandal.md
 - _nurseries/broadway.md
-hide_body: false
+hide_body: true
 fields:
 - name: title
   label: Nursery name
