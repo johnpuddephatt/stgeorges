@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="section section--hero section--hero--single section--hero--{{ page.collection}}">
+<section class="section section--hero section--hero--single section--hero--{{ page.collection}} section--hero--{{page.path | remove: '.md' | remove: '_nurseries/'}}">
   <div class="container">
     <header class="activity-header">
       <a class="breadcrumb" href="../">{{ page.collection }}</a>
@@ -38,7 +38,7 @@ layout: default
       <label for="tab-parents">Parents</label>
       <div class="tab-content">
         <h2>Parent admin</h2>
-        <p>Sign in to parent admin to view invoices, payment details and booking patterns, as well as update things like collection passwords, emergency contact details and medical records.</p>        
+        <p>Sign in to parent admin to view invoices, payment details and booking patterns, as well as update things like collection passwords, emergency contact details and medical records.</p>
         <a class="button" target="_blank" href="http://www.parentadmin.com">Access Parent Admin</a>
       </div>
       <input type="radio" name="tabs" id="tab-viewings">

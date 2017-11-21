@@ -42,5 +42,66 @@ tabs:
   content: |-
     The work St George’s does is carried out by over sixty members of dedicated staff, backed by a valued team of volunteers.
 
+    ![Photo of staff at St George’s](/images/staff-group.jpg)
+
+    ## Our senior leaders
+
+
+    ## Our trustees
     Our work is overseen by our board of trustees; an experienced team with a range of professional backgrounds who use their knowledge and experience to help guide the organisation towards fulfilling its charitable aims.
+
+    <div class="trustee-photos">
+      <div class="trustee">
+        <img src="/images/trustees/trustee9.jpg" />
+        <h4>Mike Holt</h4>
+        <p>Chair</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/trustees/trustee5.jpg" />
+        <h4>Freda Jackson</h4>
+        <p>Vice-chair</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/trustees/trustee8.jpg" />
+        <h4>Trustee name</h4>
+        <p>Position</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/trustees/trustee7.jpg" />
+        <h4>Trustee name</h4>
+        <p>Position</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/trustees/trustee6.jpg" />
+        <h4>Mike Tattersall</h4>
+        <p>Trustee</p>
+      </div>
+
+      <div class="trustee">
+        <img src="/images/trustees/trustee4.jpg" />
+        <h4>Trustee name</h4>
+        <p>Position</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/trustees/trustee3.jpg" />
+        <h4>Trustee name</h4>
+        <p>Position</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/trustees/trustee2.jpg" />
+        <h4>Trustee name</h4>
+        <p>Position</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/trustees/trustee1.jpg" />
+        <h4>Liz Halliday</h4>
+        <p>Trustee</p>
+      </div>
+
+    </div>
+
+
+
+
+
 ---

@@ -1,0 +1,103 @@
+.section--introduction {
+  .container {
+    font-size: modular-scale(1);
+    color: white;
+    overflow: hidden;
+
+    @media screen and (min-width: $medium-screen) {
+      display: -webkit-box;
+      display: flex;
+    }
+
+    @media screen and (min-width: $large-screen) {
+      display: block;
+    }
+
+    .introduction-title {
+      font-family: $heading-font-family;
+      line-height: $cutout-line-height;
+      letter-spacing: $cutout-letter-spacing;
+      font-weight: 400;
+      font-size: modular-scale(5);
+      text-transform: uppercase;
+      margin-bottom: $base-spacing;
+
+      @media screen and (min-width: $large-screen) {
+        font-size: modular-scale(6);
+      }
+
+      span {
+        display: block;
+
+        @media screen and (min-width: $large-screen) {
+          font-size: modular-scale(1);
+        }
+      }
+    }
+
+    .text {
+      font-weight: 700;
+      -webkit-font-smoothing: antialiased;
+      background-color: $yellow;
+
+      @media screen and (min-width: $medium-screen) {
+        float: left;
+        width: 50%;
+      }
+
+      @media screen and (min-width: $large-screen) {
+        width: calc(50% - #{$base-spacing});
+        margin-top: 2 * $base-spacing;
+        margin-right: -2 * $base-spacing;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+                align-items: center;
+        position: relative;
+        z-index: 99;
+
+        &::before {
+          content: "";
+          padding-top: 100%;
+          float: left;
+        }
+      }
+
+      .inner {
+        padding: (2 * $base-spacing) $base-spacing;
+
+        @media screen and (min-width: $large-screen) {
+          padding: 2 * $base-spacing;
+        }
+      }
+
+      *:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .image {
+      display: none;
+
+      @media screen and (min-width: $medium-screen) {
+        display: block;
+        float: left;
+        width: 50%;
+      }
+
+      @media screen and (min-width: $large-screen) {
+        width: calc(50% + 3 * #{$base-spacing});
+
+        &::before {
+          content: "";
+          padding-top: 100%;
+          float: left;
+        }
+      }
+
+      background-image: url(images/healthandwellbeing.jpg);
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+}

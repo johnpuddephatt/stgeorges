@@ -11,6 +11,7 @@ tabs:
 
     Current job vacancies, including details about how to apply, are listed below.
   childname: jobs
+  childname_heading: Current job vacancies
 - title: 'Volunteering'
   content: |-
     Volunteering with us can take many forms, and you don’t need loads of spare time to do it.
@@ -19,4 +20,5 @@ tabs:
 
     Current volunteering opportunities are listed below, however if you don’t see something that’s right for you but you’re interested in helping out, <a href="/contact/">get in touch</a>.
   childname: volunteering
+  childname_heading: Current volunteering opportunities
 ---  
