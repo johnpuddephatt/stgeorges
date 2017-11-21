@@ -32,11 +32,36 @@ layout: default
         <div class="tab-content">
           {{ tab.content | markdownify }}
           {% if site[tab.childname].size > 0  %}
+          <h3>Current opportunities</h3>
             <ul>
               {% for item in site[tab.childname] %}
-                <li>
-                  <h3>{{ item.title }}</h3>
+                <li class="tab-child-item">
+                  <h4>{{ item.title }}</h4>
                   {{ item.description | markdownify }}
+                  <ul>
+                    {% if item.contract %}
+                      <li><strong>Contract:</strong> {{ item.contract }}</li>
+                    {% endif %}
+                    {% if item.pay %}
+                      <li><strong>Pay:</strong> {{ item.pay }}</li>
+                    {% endif %}
+                    {% if item.hours %}
+                      <li><strong>Hours:</strong> {{ item.hours }}</li>
+                    {% endif %}
+                    {% if item.time %}
+                      <li><strong>Time involved:</strong> {{ item.time }}</li>
+                    {% endif %}
+                    {% if item.contact_email %}
+                      <li><strong>Contact email:</strong> <a href="mailto:{{ item.contact_email }}">{{ item.contact_email }}</a></li>
+                    {% endif %}
+                    {% if item.contact_phone %}
+                      <li><strong>Contact phone:</strong> {{ item.contact_phone }}</li>
+                    {% endif %}
+                  </ul>{{item}}
+                  {% if item.application_link %}
+                  <a href="{{ item.application_link }}" class="button">Apply now</a>
+                  {% endif %}
+
                 </li>
               {% endfor %}
             </ul>

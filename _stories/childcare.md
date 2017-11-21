@@ -1,12 +1,12 @@
 ---
 title: nurseries
-name: ???
+name: a parent’s
 quote: We feel so lucky to have him at St George’s
 description: When we ask parents what they think of us, one thing comes through really clearly – they love dropping their children off somewhere they know makes them happy.
-photo: '/images/childcare.jpg'
+photo: '/images/childcare-casestudy.jpg'
 flipped: true
 intro: |
-  We moved from London to Wake eld due to work and needed to find a new nursery for our son. We feel so lucky to have him at St George’s.
+  We moved from London to Wakefield due to work and needed to find a new nursery for our son. We feel so lucky to have him at St George’s.
 
   We really appreciate all the effort put in to help him settle and be happy, it has made things much easier for us.
 ---

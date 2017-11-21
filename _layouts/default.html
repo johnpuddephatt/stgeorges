@@ -15,9 +15,10 @@
       {% include scripts_home.html %}
     {% endif %}
 
-    {% if page.layout == 'activity' or page.layout == 'page'%}
+    {% if page.layout != 'home' %}
       {% include scripts_activity.html %}
     {% endif %}
+
   </body>
 
 </html>

@@ -1,12 +1,13 @@
 .section--hero--activity
   background-image: url(/images/activity.jpg)
 .section--hero--nurseries
-  background-image: url(/images/nurseries3.jpg)
+  background-image: url(/images/childcare.jpg)
 .section--hero--centre
   background-image: url(/images/centre.jpg)
 .section--hero--course
   background-image: url(/images/course.jpg)
-
+.section--hero--contact
+  background-image: url(/images/contact.jpg)
 .section--hero--about
   background-image: url(/images/aboutstgeorges.jpg)
 .section--hero--jobs
@@ -35,7 +36,7 @@
       width: $small-spacing
       height: $small-spacing
 
-      background-image: url(images/chevron.svg)
+      background-image: url(images/chevron-white.svg)
       background-repeat: no-repeat
       background-position: center right
       background-size: contain
@@ -55,7 +56,7 @@
     ul
       margin-bottom: $small-spacing
     li::before
-      background-image: url(/images/chevron.svg)
+      background-image: url(/images/chevron-white.svg)
 
   .activity-intro
     margin-bottom: $base-spacing
@@ -67,6 +68,7 @@
   p
     margin-bottom: 0
     font-weight: 700
+    color: #fff
   img
     max-width: 40%
     margin-left: auto
@@ -76,13 +78,18 @@
 .enquire-form
   display: none
   margin-top: 2 * $base-spacing
-  padding: 2 * $base-spacing $base-spacing 0
-  border-top: .2em dashed white
+  padding: 2 * $base-spacing $base-spacing
+  border: .2em solid white
+
+.tab-content
+  .enquire-form
+    border: .2em solid $blue
+
 
 .enquire-button
   margin-top: $base-spacing
 
 .enquire-button.active
   display: none
-  ~ .enquire-form
-    display: block
+.enquire-form.active
+  display: block

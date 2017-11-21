@@ -180,7 +180,7 @@ body::after
         &:last-child
           margin-right: 0
   &--body
-    li
+    li:not(.tab-child-item)
       margin-bottom: $small-spacing
       margin-left: $base-spacing
       position: relative
@@ -191,7 +191,7 @@ body::after
         left: -$base-spacing
         width: $base-spacing * .75
         height: $base-spacing * .9
-        background-image: url(/images/chevron.svg#yellow)
+        background-image: url(/images/chevron-yellow.svg)
         background-size: contain
         background-repeat: no-repeat
         background-position: center

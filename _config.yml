@@ -32,7 +32,7 @@ collections:
     permalink: /wellbeing/:title/index.html
   nurseries:
     output: true
-    permalink: /childcare/:title/index.html
+    permalink: /nurseries/:title/index.html
   courses:
     output: true
     permalink: /learning/:title/index.html

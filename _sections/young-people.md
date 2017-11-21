@@ -6,7 +6,7 @@ description: |
 introduction_title: Develop skills, get advice and have fun
 introduction:
   Our popular Youth Café is somewhere 11 - 18 year olds can socialise and meet friends. There’s always someone to talk to for advice or guidance.
-introduction_photo: '/images/youngpeople-intro.jpg'
+introduction_photo: '/images/youngpeople2.jpg'
 facts:
 - figure: '425'
   description: We’ve delivered 425 hours of support and activities for young people

@@ -32,12 +32,12 @@ tabs:
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2363.6537768595276!2d-1.5386839843188318!3d53.67097258004832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487966ce5e9786c3%3A0xe481f7a560b8b6c4!2sSt+George&#39;s+Community+Centre!5e0!3m2!1sen!2suk!4v1507031083283" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 - title: 'Send us a message'
   content: |-
-    <form>
+    <form action="http://formspree.io/info@stgeorgeslupset.org.uk" method="POST">
     <label for="form-name">Name
     <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
     </label>
     <label for="form-email">Email
-    <input type="email" name="email" id="form-email" placeholder="Enter your email address" required/>
+    <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
     </label>
     <label for="form-phone">Phone number
     <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
@@ -45,6 +45,6 @@ tabs:
     <label for="form-message">Message
     <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
     </label>
-    <input type="submit" value="submit"/>
+    <input type="submit" value="Send" class="button"/>
     </form>
 ---

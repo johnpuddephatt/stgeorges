@@ -31,6 +31,26 @@ tabs:
     As well as offering tea, coffee and refreshments our Coffee Shop staff can provide catering services. Please ask for details when booking.
 
     We have office space to let at reasonable rates. This includes office and all office desks. Contact the community centre to find out prices.
+
+    <button type="button" class="enquire-button" name="button">Enquire about room hire</button>
+    <form class="enquire-form" action="http://formspree.io/info@stgeorgeslupset.org.uk" method="POST">
+    <h2>Enquire about Room hire</h2>
+    <input type="text" name="_subject" hidden value="Enquiry about Room Hire"/>
+    <label for="form-name">Name
+    <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
+    </label>
+    <label for="form-email">Email
+    <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
+    </label>
+    <label for="form-phone">Phone number
+    <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
+    </label>
+    <label for="form-message">Message
+    <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
+    </label>
+    <input type="submit" value="Send" class="button"/>
+    </form>
+
 - title: 'Transport hire'
   content: |-
     St George's will be hiring the minibus with a driver included. The minibus has 14 seats, one for the driver and 13 passengers.

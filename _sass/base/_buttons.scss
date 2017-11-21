@@ -1,5 +1,7 @@
 #{$all-buttons} {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: transparent;
   border: .15em solid $action-color;
   border-radius: 2 * $base-spacing;
@@ -15,22 +17,25 @@
   text-align: center;
   text-decoration: none;
   transition: background-color $base-duration $base-timing;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  background-image: url(/images/chevron.svg#blue);
+  background-image: url(/images/chevron-blue.svg);
   padding-right: 1.5 * $base-spacing;
   background-size: auto 40%;
   background-repeat: no-repeat;
   background-position: right $small-spacing center;
   &.white {
-    background-image: url(/images/chevron.svg#white);
+    background-image: url(/images/chevron-white.svg);
     color: white;
     border-color: white;
     &:hover, &:focus {
       color: $base-font-color;
       background-color: white;
-      background-image: url(/images/chevron.svg#black);
+      background-image: url(/images/chevron-black.svg);
     }
   }
   &:hover,

@@ -17,6 +17,6 @@ tabs:
 
     Helping other people is hugely satisfying. Seeing how giving your time benefits others, helps you develop self-confidence and build connections with those around you.
 
-    Current volunteering opportunities are listed below, however if you don’t see something that’s right for you but you’re interested in helping out, get in touch.
+    Current volunteering opportunities are listed below, however if you don’t see something that’s right for you but you’re interested in helping out, <a href="/contact/">get in touch</a>.
   childname: volunteering
 ---  
