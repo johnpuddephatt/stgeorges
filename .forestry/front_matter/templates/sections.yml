@@ -1,9 +1,9 @@
 ---
 pages:
+- _sections/adult-education.md
 - _sections/young-people.md
 - _sections/wellbeing.md
 - _sections/nurseries.md
-- _sections/adult-education.md
 hide_body: false
 fields:
 - name: title
