@@ -49,8 +49,9 @@
 
   .footer-right {
     margin-top: 2 * $base-spacing;
-
+    display: none;
     @media screen and (min-width: $medium-screen) {
+      display: block;
       margin-top: 0;
       margin-right: $base-spacing;
       width: 45%;

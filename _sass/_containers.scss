@@ -46,10 +46,9 @@ body::after {
 .section {
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
-
+  padding-left: $small-spacing;
+  padding-right: $small-spacing;
   @media screen and (min-width: $medium-screen) {
-    padding-left: $small-spacing;
-    padding-right: $small-spacing;
   }
 
   @media screen and (min-width: $large-screen) {
@@ -60,7 +59,9 @@ body::after {
   .container {
     margin-top: $base-spacing;
     margin-bottom: $base-spacing;
-
+    + .container {
+      margin-top: 0;
+    }
     @media screen and (min-width: $large-screen) {
       margin-top: 2 * $base-spacing;
       margin-bottom: 2 * $base-spacing;
@@ -198,7 +199,7 @@ body::after {
 
     .container {
       overflow: hidden;
-
+      margin-bottom: 0;
       @media screen and (min-width: $medium-screen) {
         display: -webkit-box;
         display: flex;
@@ -206,22 +207,23 @@ body::after {
 
       & > a {
         display: block;
-        margin-bottom: $base-spacing;
+        margin-bottom: $small-spacing;
+        padding: $small-spacing;
+        flex: 1 1 50%;
 
         @media screen and (min-width: $medium-screen) {
-          -webkit-box-flex: 1;
-                  flex: 1 1 33.3%;
-          margin-right: $base-spacing;
-          margin-bottom: 0;
+          padding: $base-spacing;
+          margin-bottom: $small-spacing;
+          margin-right: $small-spacing;
         }
 
         @media screen and (min-width: $large-screen) {
-          margin-right: 2 * $base-spacing;
+          margin-right: $base-spacing;
+          margin-bottom: $base-spacing;
         }
 
         background-color: $blue;
         position: relative;
-        padding: $base-spacing;
         background-size: cover;
         display: -webkit-box;
         display: flex;
@@ -233,7 +235,10 @@ body::after {
         &::before {
           content: "";
           float: left;
-          padding-top: 33.3%;
+          padding-top: 15%;
+          @media screen and (min-width: $large-screen) {
+            padding-top: 33.3%;
+          }
         }
 
         &::after {
@@ -257,12 +262,13 @@ body::after {
           //; font-weight: 400
           //; text-transform: uppercase
           //; font-size: modular-scale(8);
-          margin-bottom: $small-spacing;
+          margin-bottom: 0;
           position: relative;
           z-index: 99;
 
           @media screen and (min-width: $medium-screen) {
             // font-size: modular-scale(6)
+            margin-bottom: $small-spacing;
           }
 
           @media screen and (min-width: $large-screen) {
@@ -278,6 +284,10 @@ body::after {
           margin-bottom: 0;
           font-size: modular-scale(0);
           line-height: $heading-line-height;
+          display: none;
+          @media screen and (min-width: $medium-screen) {
+            display: block;
+          }
         }
 
         &:last-child {

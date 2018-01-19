@@ -46,6 +46,18 @@ tabs:
 
     ## Our senior leaders
 
+    <div class="trustee-photos">
+      <div class="trustee">
+        <img src="/images/staff/lesley.jpg" />
+        <h4>Lesley Wagstaff</h4>
+        <p>Community Centre Manager</p>
+      </div>
+      <div class="trustee">
+        <img src="/images/staff/berni.jpg" />
+        <h4>Berni O’Brien</h4>
+        <p>Children and Young People Manager</p>
+      </div>
+    </div>
 
     ## Our trustees
     Our work is overseen by our board of trustees; an experienced team with a range of professional backgrounds who use their knowledge and experience to help guide the organisation towards fulfilling its charitable aims.

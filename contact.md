@@ -33,18 +33,43 @@ tabs:
 - title: 'Send us a message'
   content: |-
     <form action="http://formspree.io/info@stgeorgeslupset.org.uk" method="POST">
-    <label for="form-name">Name
-    <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
-    </label>
-    <label for="form-email">Email
-    <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
-    </label>
-    <label for="form-phone">Phone number
-    <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
-    </label>
-    <label for="form-message">Message
-    <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
-    </label>
-    <input type="submit" value="Send" class="button"/>
+      <label for="form-name">Name
+      <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
+      </label>
+      <label for="form-email">Email
+      <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
+      </label>
+      <label for="form-phone">Phone number
+      <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
+      </label>
+      <label for="form-type">My enquiry is about</label>
+      <select name="type" id="form-type">
+        <option value="" disabled selected>Please select...</option>
+        <option value="Childcare">Childcare and early education</option>
+        <option value="Learning and employability">Learning and employability</option>
+        <option value="Wellbeing">Wellbeing</option>
+        <option value="Young people’s activities">Young people’s activities</option>
+        <option value="The cafe">The Cafe</option>
+        <option value="Room hire">Room Hire</option>
+        <option value="Minibus hire">Minibus Hire</option>
+        <option value="Other">Other</option>
+      </select>
+      <div class="alert" id="childcare-alert"></div>
+      <input name="_cc" type="hidden" id="form-cc" />
+      <label for="form-message">Message</label>
+      <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
+      <input type="submit" value="Send" class="button"/>
     </form>
+    <script type="text/javascript">
+      var contactType = document.querySelector('#form-type');
+      var formCc = document.querySelector('#form-cc');
+      contactType.addEventListener("change", function(){
+        if(this.value == 'Childcare') {
+          formCc.value = 'childcare@stgeorgeslupset.co.uk';
+        }
+        else {
+          formCc.value = '';
+        }
+      });
+    </script>
 ---

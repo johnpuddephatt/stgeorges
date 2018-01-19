@@ -1,4 +1,8 @@
 .section--case-study {
+  display: none;
+  @media screen and (min-width: $medium-screen) {
+    display: block;
+  }
   .container {
     position: relative;
     height: 100vh;
