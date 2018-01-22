@@ -3,7 +3,13 @@
     input[type="radio"][name="tabs"]:nth-of-type(#{$i}) {
       &:checked {
         ~ .slide {
-          left: calc(((100% - #{4 * $base-spacing}) / #{$num-of-tabs}) * #{$i - 1});
+          left: calc(((100% - #{$base-spacing}) / #{$num-of-tabs}) * #{$i - 1});
+          @media screen and (min-width: $medium-screen) {
+            left: calc(((100% - #{2 * $base-spacing}) / #{$num-of-tabs}) * #{$i - 1});
+          }
+          @media screen and (min-width: $large-screen) {
+            left: calc(((100% - #{4 * $base-spacing}) / #{$num-of-tabs}) * #{$i - 1});
+          }
         }
 
         ~ .tab-content:nth-of-type(#{$i}) {
@@ -113,7 +119,7 @@ input[type="radio"][name="tabs"] {
     @media screen and (min-width: $medium-screen) {
       width: calc((100% - #{2 * $base-spacing}) / 4);
     }
-    @media screen and (min-width: $medium-screen) {
+    @media screen and (min-width: $large-screen) {
       width: calc((100% - #{4 * $base-spacing}) / 4);
     }
   }
@@ -142,7 +148,13 @@ input[name="tabs"] + label {
   background: white;
   opacity: 0.7;
   height: $small-spacing / 2;
-  margin-left: 2 * $base-spacing;
+  margin-left: $small-spacing;
+  @media screen and (min-width: $medium-screen) {
+    margin-left: $base-spacing;
+  }
+  @media screen and (min-width: $large-screen) {
+    margin-left: 2 * $base-spacing;
+  }
   position: absolute;
   left: 0;
   top: 1.75 * $base-spacing;

@@ -1,11 +1,13 @@
 ---
-title: Contact St George’s
+title: Contact
 layout: page
 hidden: false
 description: Whether you want to ask us something, tell us something, or get help planning a visit to us, you’ll find the information you need below.
 tabs:
 - title: 'Contact details'
   content: |-
+    ## Contact our centre
+
     Telephone: 01924 369631
 
     Email: [info@stgeorgeslupset.org.uk](mailto:info@stgeorgeslupset.org.uk)
@@ -23,7 +25,17 @@ tabs:
 
 
     You can also stay up to date by finding us on [Facebook](http://www.facebook.com/StGeorgesCommunityCentre) or following us on [Twitter](http://twitter.com/stgeorgeslupset).
-    <p class="message">Contact details for each of our nurseries can be found on their individual pages.</p>
+
+    ## Contact our nurseries
+
+    Contact details for each of our nurseries can be found on their individual pages:
+
+    * [Childcare @ Broadway](/nurseries/broadway)
+    * [Childcare @ Sandal](/nurseries/sandal)
+    * [Childcare @ St. Swithun’s](/nurseries/stswithuns)
+    * [Childcare @ Sunbeam](/nurseries/sunbeam)
+
+
 - title: 'Finding us'
   content: |-
     St George's Community Centre is located in Lupset, Wakefield. Situated in between Leeds, Pontefract, Barnsley, Huddersfield and Halifax, there is easy access from the M1, M62 and M606.

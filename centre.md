@@ -1,7 +1,7 @@
 ---
 title: Our Centre
 layout: page
-hidden: true
+hidden: false
 description: |
   Our community centre in Lupset is the space where a lot of our work – from wellbeing classes to our youth café – takes place. But it’s also the base from which we offer a number of services or facilities.
 tabs:

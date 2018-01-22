@@ -56,7 +56,14 @@
     background-color: $yellow;
     width: 100%;
     max-width: 0.6 * $max-width;
-    padding: $base-spacing (2 * $base-spacing) 0;
+    padding: $base-spacing $small-spacing 0;
+    @media screen and (min-width: $medium-screen) {
+      padding: $base-spacing $base-spacing 0;
+    }
+    @media screen and (min-width: $large-screen) {
+      padding: $base-spacing (2 * $base-spacing) 0;
+    }
+
   }
 
   .breadcrumb {
@@ -89,9 +96,9 @@
 
   .activity-body {
     background-color: $yellow;
-    padding: $base-spacing $small-spacing (2 * $base-spacing);
+    padding: $base-spacing $small-spacing ($base-spacing);
     @media screen and (min-width: $medium-screen) {
-      padding: $base-spacing $base-spacing (2 * $base-spacing);
+      padding: $base-spacing $base-spacing ($base-spacing);
     }
     @media screen and (min-width: $large-screen) {
       padding: $base-spacing (2 * $base-spacing) (2 * $base-spacing);

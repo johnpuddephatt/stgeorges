@@ -3,10 +3,11 @@
     font-size: modular-scale(1);
     color: white;
     overflow: hidden;
-
+    text-align: center;
     @media screen and (min-width: $medium-screen) {
       display: -webkit-box;
       display: flex;
+      text-align: left;
     }
 
     @media screen and (min-width: $large-screen) {

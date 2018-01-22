@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page
-hidden: true
+hidden: false
 description: |
   St George’s provides happy, welcoming spaces where local people can feel part of something.
 tabs:

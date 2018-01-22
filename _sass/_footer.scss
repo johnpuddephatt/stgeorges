@@ -78,6 +78,9 @@
   padding: $small-spacing $base-spacing;
   color: white;
   border-bottom: none;
-  text-align: center;
+  text-align: left;
   font-size: modular-scale(-1);
+  @media screen and (min-width: $medium-screen) {
+    text-align: center;
+  }
 }

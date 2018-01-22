@@ -1,6 +1,6 @@
 ---
 title: nurseries
-name: a parent’s
+name: a parent
 quote: We feel so lucky to have him at St George’s
 description: When we ask parents what they think of us, one thing comes through really clearly – they love dropping their children off somewhere they know makes them happy.
 photo: '/images/childcare-casestudy.jpg'
