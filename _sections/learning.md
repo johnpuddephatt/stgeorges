@@ -1,6 +1,6 @@
 ---
-title: Courses
-subtitle: Adult learning &amp; employability
+title: Learning
+subtitle: Adult courses &amp; employability
 description: |
   We deliver affordable workshops and adult education courses, great for improving skills, meeting people and having fun. We also offer regular job clubs with advice on writing CVs and job searching.
 introduction_title: We help you gain skills and boost your employability

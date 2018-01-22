@@ -91,7 +91,10 @@
   margin-bottom: $base-spacing;
 
   .social-icon {
-    margin-left: $small-spacing;
+    margin-left: $small-spacing/2;
+    @media screen and (min-width: $medium-screen) {
+      margin-left: $small-spacing;
+    }
   }
 
   svg path {
@@ -115,6 +118,9 @@
 
     li {
       margin-left: $small-spacing;
+      &:first-child {
+        margin-left: 0;
+      }
     }
 
     a {
