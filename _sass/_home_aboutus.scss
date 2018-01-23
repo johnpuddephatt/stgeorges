@@ -5,15 +5,14 @@
     color: white;
     padding-top: 2 * $base-spacing;
     padding-bottom: 2 * $base-spacing;
-
     @media screen and (min-width: $large-screen) {
+      padding-left: 50%;
       display: -webkit-box;
       display: flex;
       -webkit-box-align: center;
               align-items: center;
       -webkit-box-pack: justify;
               justify-content: space-between;
-
       &::before {
         display: block;
         content: "";
@@ -21,9 +20,11 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left center;
-        width: calc(50% - #{$base-spacing});
-        padding-top: calc(50% - #{$base-spacing});
-        position: relative;
+        width: 45%;
+        height: 90%;
+        top: 5%;
+        left: 5%;
+        position: absolute;
       }
     }
 
@@ -33,7 +34,7 @@
 
       @media screen and (min-width: $large-screen) {
         padding-right: 0;
-        width: 50%;
+        width: 100%;
         padding-top: 2 * $base-spacing;
         padding-bottom: $base-spacing;
         padding-left: $base-spacing;
