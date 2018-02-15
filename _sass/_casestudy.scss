@@ -45,29 +45,6 @@
       background-image: none !important;
     }
 
-    .case-study-text {
-      @media screen and (min-width: $medium-screen) {
-        width: 67%;
-
-        &::before {
-          content: "";
-          z-index: -1;
-          display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 75%;
-          bottom: 0;
-          background-image: linear-gradient(to left, rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.85));
-          blend-mode: multiply;
-        }
-      }
-
-      @media screen and (min-width: $large-screen) {
-        width: 48.5%;
-      }
-    }
-
     &.right-align {
       justify-content: flex-end;
 
@@ -117,6 +94,34 @@
       }
     }
   }
+  .case-study-text {
+
+    z-index: 9;
+    @media screen and (min-width: $medium-screen) {
+      width: 67%;
+
+      &::before {
+        content: "";
+        z-index: -1;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 75%;
+        bottom: 0;
+        background-image: linear-gradient(to left, rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.85));
+        blend-mode: multiply;
+      }
+    }
+
+    @media screen and (min-width: $large-screen) {
+      width: 48.5%;
+    }
+  }
+  .button {
+    background-color: rgba(0,0,0,.25);
+  }
+
 }
 
 .case-study-intro {

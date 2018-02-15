@@ -11,6 +11,6 @@ intro: |
 ---
 Ian started coming along to the chair exercise classes at St George’s after experiencing a few problems resulting from a health condition.
 
-He attends the pelvic floor and posture exercises that are part of the class have led to a significant improvement for him.
+He finds the pelvic floor and posture exercises that are part of the class have led to a significant improvement for him.
 
 Ian is like many of our community members in that he’s seen a big social benefit to coming to St George’s, even though that wasn’t what brought him here.

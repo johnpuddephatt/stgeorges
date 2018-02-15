@@ -16,5 +16,5 @@ facts:
   description: We’ve given 19 students work experience placements
 - figure: '240'
   description: We’ve enabled young volunteers to give 240 hours of their time
-story: youngpeople
+story: young-people
 ---

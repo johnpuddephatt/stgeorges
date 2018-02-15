@@ -1,5 +1,5 @@
 ---
-title: youngpeople
+title: young-people
 name: Liam
 quote: It's good to get outside and relax
 description: Liam is a pupil of one of our partners, the Springfield Pupil Referal Unit. They work with excluded young people to re-engage them with learning.

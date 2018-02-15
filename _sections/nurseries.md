@@ -9,7 +9,7 @@ introduction: |
 introduction_photo: '/images/childcare-intro.jpg'
 childname: nurseries
 facts:
-- figure: '21,000'
+- figure: '210,000'
   description: We’ve provided over 210,000 hours of high quality childcare
 - figure: '95%'
   description: We’ve ensured 95% of children leave our nurseries at their expected level of learning and development

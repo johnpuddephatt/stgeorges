@@ -28,9 +28,9 @@ tabs:
 
     The building has disabled access, toilets and offers free parking.
 
-    As well as offering tea, coffee and refreshments our Coffee Shop staff can provide catering services. Please ask for details when booking.
+    As well as offering tea, coffee and refreshments, our coffee shop staff can provide catering services. Please ask for details when booking.
 
-    We have office space to let at reasonable rates. This includes office and all office desks. Contact the community centre to find out prices.
+    We also have furnished office space to let at reasonable rates. Contact us for prices.
 
     <button type="button" class="enquire-button" name="button">Enquire about room hire</button>
     <form class="enquire-form" action="http://formspree.io/info@stgeorgeslupset.org.uk" method="POST">
@@ -53,16 +53,11 @@ tabs:
 
 - title: 'Transport hire'
   content: |-
-    St George's will be hiring the minibus with a driver included. The minibus has 14 seats, one for the driver and 13 passengers.
+    St George’s has its own Minibus that can be hired with a driver included. The Minibus is a 17 seater inclusive of driver and can accommodate up to 2 wheelchairs (this affects seating capacity).
 
-    It is wheelchair accessible. Please enquire for details.
-
-    The costs to hire the minibus are £16 per hour for non-members and £15 per hour for members.
-
-    Dragon Community Transport are asking groups/hirers to become members at a yearly cost of £10.
-
-    You can become a member of Dragon Community Transport by completing the membership form. This should be read in conjunction with the Terms and Conditions.
-
+    You must become a member of St George’s Community Transport at a cost of £15 per year. The hourly rate is £17 (inclusive of driver and fuel) with a minimum of 3 hours.
+    
+    We encourage community groups and organisations to hire from us. The Minibus is not for private hire.
     For more information please contact 01924 369631, email us or call into the Centre.
 
     <button type="button" class="enquire-button" name="button">Enquire about transport</button>

@@ -1,17 +1,15 @@
 <script>
   var buttons = document.querySelectorAll('.enquire-button');
   var forms = [];
-  for (var i = 0; i < buttons.length; buttons++) {
-    forms[i] = buttons[i].parentNode.parentNode.querySelector('.enquire-form');
-    console.log(buttons[i] + i);
-    if(forms[i]) {
-      buttons[i].addEventListener('click', function(){
 
-        this.classList.toggle('active');
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function(e){
+      var form = e.target.parentNode.parentNode.querySelector('.enquire-form');
+      form.classList.toggle('active');
+      // buttons[i].classList.toggle('active');
 
-        forms[i].classList.toggle('active');
-      })
-    }
+    })
+
   }
 
 </script>
