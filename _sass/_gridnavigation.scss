@@ -18,7 +18,8 @@
     position: relative;
     overflow: hidden;
     -webkit-box-flex: 0;
-            flex: 0 1 calc(50% - #{$small-spacing});
+    flex: 1 0 40% ;
+    flex: 0 1 calc(50% - #{$small-spacing});
     text-align: center;
     margin-bottom: $base-spacing;
 
@@ -28,7 +29,8 @@
 
     @media screen and (min-width: $large-screen) {
       -webkit-box-flex: 0;
-              flex: 0 1 calc(25% - 1.5 * #{$base-spacing});
+      flex: 1 0 20%;
+      flex: 0 1 calc(25% - 1.5 * #{$base-spacing});
       margin-bottom: 2 * $base-spacing;
 
       &:nth-child(2n - 1), &:nth-child(4n - 1), &:nth-child(4n - 2) {

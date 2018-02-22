@@ -27,7 +27,7 @@ tabs:
     We take pride in being honest and professional in all that we do. That means taking responsibility, not only for how we treat the people we work with, but also how we look after our money.
 - title: 'Our purpose'
   content: |-
-    We’re a locally-focused independent charity working with the public and private sector for positive change in Lupset, West Wakefield and beyond.
+    We’re a locally-focused independent charity and recognised community anchor working with the public and private sector for positive change in Lupset, West Wakefield and beyond.
 
     Founded in 1997, we’ve successfully delivered services and activities to improve personal and community health and wellbeing for the past 20 years.
 
@@ -38,7 +38,7 @@ tabs:
     ### We’re here to provide a friendly, trusted space
     We are a welcoming space for the community with meeting rooms, IT facilities, a coffee shop, community allotment and four childcare settings across Wakefield – Lupset, Eastmoor and Sandal. It matters to us that we provide an environment free from exploitation and fear.
     ### We’re here to have long term impact
-    We’re a strong, resilient organisation, a recognised community anchor organisation with 53 different partner organisations and an income of £1.2M of which over 88% comes from non-grant sources.
+    We’re a strong, resilient organisation with 53 different partner organisations and an income of £1.2M of which over 88% comes from non-grant sources.
 - title: 'Our people'
   content: |-
     The work St George’s does is carried out by over sixty members of dedicated staff, backed by a valued team of volunteers.
