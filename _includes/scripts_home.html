@@ -1,10 +1,21 @@
 <script>
   var current = 0,
-    slides = document.querySelectorAll(".home-slide"),
-    hero = document.querySelector(".section--hero");
+  slides = document.querySelectorAll(".home-slide"),
+  hero = document.querySelector(".section--hero");
   setInterval(function() {
-  hero.dataset.slide = current + 1;
-  current = (current != slides.length - 1) ? current + 1 : 0;
+    hero.dataset.slide = current + 1;
+    current = (current != slides.length - 1) ? current + 1 : 0;
   }, 3000);
+
+
+  var caseCurrent = 0,
+  caseslides = document.querySelectorAll(".case-slide"),
+  casewrapper = document.querySelector(".section--case-study");
+  setInterval(function() {
+    casewrapper.dataset.slide = caseCurrent + 1;
+    caseCurrent = (caseCurrent != caseslides.length - 1) ? caseCurrent + 1 : 0;
+  }, 3000);
+
+
 
 </script>

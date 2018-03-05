@@ -22,10 +22,12 @@
       height: 100%;
       top: 0;
       left: 0;
-      animation-name: fade;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
+      opacity: 0;
+      transition: opacity (4 * $base-duration);
     }
+  }
+  &[data-slide="1"] .case-slide:nth-child(1), &[data-slide="2"] .case-slide:nth-child(2), &[data-slide="3"] .case-slide:nth-child(3), &[data-slide="4"] .case-slide:nth-child(4) {
+    opacity: 1;
   }
 
   .case-slide {
