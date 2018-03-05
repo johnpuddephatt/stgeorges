@@ -7,7 +7,7 @@ introduction_title: We help you gain skills and boost your employability
 introduction: |
  Whether you want help with basics like maths, English and IT, or more creative skills like sewing and nail art, we can help. We’ve helped people into higher education and back into work after unemployment.
 introduction_photo: '/images/learning-intro.jpg'
-childname: courses
+childname: learning
 facts:
 - figure: '61'
   description: We’ve employed 61 staff, making us one of the biggest employers in West Wakefield

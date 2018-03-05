@@ -1,7 +1,9 @@
 .section--hero--activity {
-  background-image: url(/images/activity.jpg);
+  @include srcset('/images/activity.jpg');
 }
-
+.section--hero--children {
+  background-image: url(/images/youth.jpg);
+}
 .section--hero--nurseries {
   background-image: url(/images/childcare.jpg);
 }

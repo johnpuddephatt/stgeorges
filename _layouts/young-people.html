@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<section class="section section--hero section--hero--single section--hero--children">
+  <div class="container">
+    <header class="activity-header">
+      <a class="breadcrumb" href="../">{{ page.collection | replace:'-',' ' | capitalize }}</a>
+      <h1 class="hero-title">{{ page.title }}</h1>
+    </header>
+  </div>
+</section>
+
+<section class="section section--body section--body--course">
+  <div class="container">
+    <div class="activity-body">
+      {{ page.description | markdownify | prepend: '<h2 class="activity-intro">' | append: '</h2>' }}
+      {% if page.requirements %}
+        {{ page.requirements | markdownify | prepend: '<p><strong>Who it’s for:</strong> ' | append: '</p>' }}
+      {% endif %}
+      {% if page.times %}
+      <p><strong>This activity happens on:</strong></p>
+        <ul>
+          {% for time in page.times %}
+            <li>{{ time }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if page.location %}
+        {{ page.location | prepend: '<p><strong>Location:</strong> ' | append: '</p>' }}
+      {% endif %}
+      {% if page.equipment %}
+        {{ page.equipment | markdownify | prepend: '<p><strong>What do I need?</strong> ' | append: '</p>' }}
+      {% endif %}
+      <button type="button" class="enquire-button white" name="button">Enquire about {{page.title}}</button>
+      <form class="enquire-form" action="http://formspree.io/info@stgeorgeslupset.org.uk" method="POST">
+        <h2>Enquire about {{page.title}}</h2>
+      <input type="text" name="_subject" hidden value="Enquiry about {{page.title}}"/>
+      <label for="form-name">Name
+      <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
+      </label>
+      <label for="form-email">Email
+      <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
+      </label>
+      <label for="form-phone">Phone number
+      <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
+      </label>
+      <label for="form-message">Message
+      <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
+      </label>
+      <input type="submit" value="Send" class="button white"/>
+      </form>
+
+      {% if page.council %}
+        <div class="council-logo">
+          <p>this is a course run by</p>
+          <img src="/images/wakefield-council.png" alt="Wakefield Council – working for you">
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+</section>

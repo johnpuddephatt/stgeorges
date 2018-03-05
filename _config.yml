@@ -18,7 +18,8 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Feel welcome, happy and part of something.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "stgeorges.letsdance.agency" # the base hostname & protocol for your site, e.g. http://example.com
+cloudinary: letsdance
 twitter_username: stgeorgeslupset
 facebook_username:  StGeorgesCommunityCentre
 collections:
@@ -31,9 +32,12 @@ collections:
   nurseries:
     output: true
     permalink: /nurseries/:title/index.html
-  courses:
+  learning:
     output: true
     permalink: /learning/:title/index.html
+  young-people:
+    output: true
+    permalink: /young-people/:title/index.html
   stories:
     output: true
     permalink: /story/:title/index.html
@@ -64,9 +68,14 @@ defaults:
       layout: nursery
   - scope:
       path: ""
-      type: courses
+      type: young-people
     values:
-      layout: course
+      layout: young-people
+  - scope:
+      path: ""
+      type: learning
+    values:
+      layout: learning
   - scope:
       path: ""
       type: sections
@@ -82,3 +91,12 @@ defaults:
       type: pages
     values:
       layout: page
+
+breakpoints:
+  - 320
+  - 480
+  - 640
+  - 960
+  - 1280
+  - 1600
+  - 2000
