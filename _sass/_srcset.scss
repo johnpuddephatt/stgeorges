@@ -2,7 +2,7 @@
 @mixin srcset($image,$width: 100%,$quality: 80) {
   @each $size in $sizes {
     @media screen and (min-width: $size) {
-      background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/w_#{$width/100% * $size},q_#{$quality},e_sharpen/#{$baseurl}#{$image}')
+      background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/w_#{$width/100% * $size/1px},q_#{$quality},e_sharpen/http://#{$baseurl}#{$image}')
     }
   }
 }
