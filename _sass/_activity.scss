@@ -2,43 +2,43 @@
   @include srcset('/images/activity.jpg');
 }
 .section--hero--children {
-  background-image: url(/images/youth.jpg);
+  @include srcset('/images/youth.jpg');
 }
 .section--hero--nurseries {
-  background-image: url(/images/childcare.jpg);
+  @include srcset('/images/childcare.jpg');
 }
 
 .section--hero--sandal {
-  background-image: url(/images/sandal3.jpg);
+  @include srcset('/images/sandal3.jpg');
 }
 .section--hero--broadway {
-  background-image: url(/images/broadway.jpg);
+  @include srcset('/images/broadway.jpg');
 }
 .section--hero--sunbeam {
-  background-image: url(/images/sunbeam.jpg);
+  @include srcset('/images/sunbeam.jpg');
 }
 .section--hero--stswithuns {
-  background-image: url(/images/stswithuns.jpg);
+  @include srcset('/images/stswithuns.jpg');
 }
 
 .section--hero--centre {
-  background-image: url(/images/centre_wide.jpg);
+  @include srcset('/images/centre_wide.jpg');
 }
 
 .section--hero--course {
-  background-image: url(/images/learning_computer.jpg);
+  @include srcset('/images/learning_computer.jpg');
 }
 
 .section--hero--contact {
-  background-image: url(/images/contact.jpg);
+  @include srcset('/images/contact.jpg');
 }
 
 .section--hero--about {
-  background-image: url(/images/aboutstgeorges.jpg);
+  @include srcset('/images/aboutstgeorges.jpg');
 }
 
 .section--hero--jobs {
-  background-image: url(/images/staff.jpg);
+  @include srcset('/images/staff.jpg');
 }
 
 .section--hero--single {
