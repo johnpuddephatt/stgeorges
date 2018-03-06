@@ -34,7 +34,7 @@
   }
 
   &--home {
-    background-image: url(/images/partofsomething2.jpg);
+    @include srcset('/images/partofsomething2.jpg');
     background-size: cover;
     background-position: center center;
 
@@ -57,13 +57,12 @@
       background-position: center;
 
       &:nth-child(1) {
-        background-image: url(/images/partofsomething2.jpg);
+        @include srcset('/images/partofsomething2.jpg');
         background-position: center 25%;
       }
 
       &:nth-child(2) {
-        background-image: url(/images/slide-2.jpg);
-
+        @include srcset('/images/slide-2.jpg');
         .hero-title {
           font-size: modular-scale(9);
 
@@ -78,11 +77,9 @@
       }
 
       &:nth-child(3) {
-        background-image: url(../images/slide-1.jpg);
-
+        @include srcset('/images/slide-1.jpg');
         .hero-title {
           font-size: modular-scale(9);
-
           @media screen and (min-width: $medium-screen) {
             font-size: modular-scale(9);
           }
