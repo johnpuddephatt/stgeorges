@@ -146,6 +146,9 @@
   margin-top: 2 * $base-spacing;
   padding: (2 * $base-spacing) $base-spacing;
   border: 0.2em solid white;
+  h2 {
+    margin-top: 0;
+  }
 }
 
 .tab-content {
