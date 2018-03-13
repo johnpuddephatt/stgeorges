@@ -43,7 +43,7 @@ collections:
     permalink: /story/:title/index.html
   jobs:
     output: false
-  volunteering:
+  volunteering-opportunities:
     output: false
 
 # Build settings

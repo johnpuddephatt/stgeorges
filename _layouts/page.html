@@ -31,8 +31,16 @@ layout: default
         <label for="tab-{{tab.title | replace:' ','-' | downcase}}">{{tab.title}}</label>
         <div class="tab-content">
           {{ tab.content | markdownify }}
+          {% if tab.files %}
+          <ul>
+            {% for file in tab.files %}
+            <li><a href="{{ file.path }}">{{ file.name }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {{ tab.contact }}
           {% if site[tab.childname].size > 0  %}
-          <h3>Current opportunities</h3>
+          <h3>Current {{ tab.childname | replace: '-', ' ' }}</h3>
             <ul>
               {% for item in site[tab.childname] %}
                 <li class="tab-child-item">
