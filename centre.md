@@ -14,6 +14,9 @@ tabs:
     We can also offer an outside catering service.
 
     All our ingredients are sourced locally. We use Allum's Butchers in Wakefield, Hoffman's in Wakefield and RK Harris in Leeds.
+  files:
+  - name: Cafe menu
+    path: /uploads/St-Georges-Menu.pdf
 - title: 'Room hire'
   content: |-
     St George’s Community Centre is a warm, welcoming modern building close to Wakefield City Centre with good motorway links.
