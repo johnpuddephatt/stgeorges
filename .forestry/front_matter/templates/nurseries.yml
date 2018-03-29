@@ -36,18 +36,21 @@ fields:
 - name: viewing_code
   label: Viewing code
   type: textarea
-  hidden: false
+  hidden: true
   default: ''
+  description: iframe from Nursery in a box
 - name: registration_code
   label: Registration code
   type: textarea
-  hidden: false
+  hidden: true
   default: ''
+  description: iframe from Nursery in a box
 - name: map
   label: Map
   type: textarea
-  hidden: false
+  hidden: true
   default: ''
+  description: Google Maps iFrame
 - name: date
   label: Date
   type: datetime
