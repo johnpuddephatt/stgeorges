@@ -1,0 +1,38 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: contract
+  label: Contract
+  type: text
+  hidden: false
+  default: ''
+- name: hours
+  label: Hours
+  type: text
+  hidden: false
+  default: ''
+- name: pay
+  label: Pay
+  type: text
+  hidden: false
+  default: ''
+- name: application_link
+  label: Application link
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
