@@ -1,21 +1,11 @@
 ---
-pages:
-- _activities/world-of-words.md
-- _activities/walking-group.md
-- _activities/urology-cancer-support-group.md
-- _activities/tuesday-leisure-club.md
-- _activities/table-tennis.md
-- _activities/singing-for-fun.md
-- _activities/pilates.md
-- _activities/lunch-club.md
-- _activities/golden-oldie-gardeners.md
-- _activities/dementia-cafe.md
-- _activities/cycling-for-all.md
-- _activities/chatty-craft-group.md
-- _activities/chair-based-exercise.md
-- _activities/boccia-bowling.md
 hide_body: true
 fields:
+- type: text
+  label: Title
+  name: title
+  config:
+    required: true
 - name: description
   label: Description
   type: textarea
@@ -41,11 +31,15 @@ fields:
   type: list
   hidden: false
   default: ''
+  description: If the event is suitable for particular groups of people – e.g. "those
+    with disabilities" add them below.
 - name: signup
   label: Signup
   type: boolean
   hidden: false
   default: ''
+  description: If you want people to contact you in advance (rather than just turn
+    up), turn this setting on.
 - name: additional_info
   label: Additional info
   type: textarea
@@ -54,10 +48,11 @@ fields:
 - name: date
   label: Date
   type: datetime
-  hidden: false
+  hidden: true
   default: ''
+  description: Not used.
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: activity

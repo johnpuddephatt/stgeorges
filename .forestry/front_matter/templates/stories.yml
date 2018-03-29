@@ -1,9 +1,4 @@
 ---
-pages:
-- _stories/youngpeople.md
-- _stories/wellbeing.md
-- _stories/learning.md
-- _stories/childcare.md
 hide_body: false
 fields:
 - name: title

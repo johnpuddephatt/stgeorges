@@ -1,9 +1,4 @@
 ---
-pages:
-- _nurseries/sunbeam.md
-- _nurseries/stswithuns.md
-- _nurseries/sandal.md
-- _nurseries/broadway.md
 hide_body: true
 fields:
 - name: title
