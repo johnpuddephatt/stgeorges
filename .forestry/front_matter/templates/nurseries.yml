@@ -57,11 +57,10 @@ fields:
   hidden: true
   default: nursery
 - type: list
+  name: services
+  label: Services
+  description: Enter each service separately
   config:
     use_select: false
     source:
       type: datafiles
-- type: list
-  name: services
-  label: Services
-  description: Enter each service separately
