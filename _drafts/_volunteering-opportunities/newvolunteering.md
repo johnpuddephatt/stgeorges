@@ -7,4 +7,5 @@ skills_required: Experience working with children desirable.
 time: A few hours each week
 contact_email: info@stgeorgeslupset.org.uk
 contact_phone: 12345
+date: 2018-03-29 14:58:29 +0000
 ---
