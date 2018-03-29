@@ -1,0 +1,47 @@
+---
+pages:
+- _young-people/wednesday-youth-cafe.md
+- _young-people/homework-study-space.md
+- _young-people/friday-youth-cafe.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: times
+  label: Times
+  type: list
+  hidden: false
+  default: ''
+- name: cost
+  label: Cost
+  type: text
+  hidden: false
+  default: ''
+- name: location
+  label: Location
+  type: text
+  hidden: false
+  default: ''
+- name: signup
+  label: Signup
+  type: boolean
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: young-people
