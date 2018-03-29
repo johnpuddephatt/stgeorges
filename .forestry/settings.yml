@@ -4,6 +4,24 @@ frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
 body_file_url_template: "/uploads/:year:/:month:/:day:"
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
-collections: 
+admin_path:
+webhook_url:
+collections:
+  _jobs:
+    default_front_matter_template: jobs
+  _volunteering-opportunities:
+    default_front_matter_template: volunteering-opportunities
+  _stories:
+    default_front_matter_template: stories
+  _young-people:
+    default_front_matter_template: young-people
+  _stories:
+    default_front_matter_template: stories
+  _sections:
+    default_front_matter_template: sections
+  _learning:
+    default_front_matter_template: learning
+  _nurseries:
+    default_front_matter_template: nurseries
+  _activities:
+    default_front_matter_template: activities
