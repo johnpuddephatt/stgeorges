@@ -51,5 +51,8 @@ fields:
     type: text
     hidden: true
     default: ''
+  - type: image_gallery
+    label: Files
+    name: files
   hidden: false
   default: ''

@@ -4,11 +4,11 @@ frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
 body_file_url_template: "/uploads/:year:/:month:/:day:"
 new_page_extension: md
 auto_deploy: false
-admin_path:
-webhook_url:
+admin_path: 
+webhook_url: 
 collections:
-  pages:
-    default_front_matter_template: pages
+  _sections:
+    default_front_matter_template: sections
   _stories:
     default_front_matter_template: stories
   _young-people:
@@ -19,5 +19,3 @@ collections:
     default_front_matter_template: nurseries
   _activities:
     default_front_matter_template: activities
-  _sections:
-    default_front_matter_template: sections
