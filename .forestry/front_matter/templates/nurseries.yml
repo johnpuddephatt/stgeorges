@@ -59,7 +59,7 @@ fields:
 - type: list
   name: services
   label: Services
-  description: Enter each service separately
+  description: Type in each service separately and click add.
   config:
     use_select: false
     source:
