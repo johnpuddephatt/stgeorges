@@ -2,7 +2,7 @@
 title: 'Childcare @ St.Swithun’s'
 description: |
 address: St Swithun's Community Centre, Arncliffe Road, Eastmoor, Wakefield, WF1 4RW.
-services: |
+services:
   - Sessional care for children aged 2 to 5 years
 opening_hours: 9.00am - 12noon and 1.00pm - 4.00pm Monday to Friday (term-time only)
 phone: 01924 361212 (ext 240)

@@ -3,7 +3,7 @@ title: 'Childcare @ Broadway'
 description: |
   The nursery is housed within the St Georges Community Centre and has a baby room, a toddler room, a toddler plus room and a pre-school room. All our rooms are led by experienced room leaders.
 address: St George's Community Centre, Broadway, Lupset, Wakefield, WF2 8AA
-services: |
+services:
   - Our Baby Room cares for children aged 3 months to approximately 16 months and can take a maximum of 9 babies.
   - Our Toddler Room cares for children aged approx 14 months to 2 years of age and takes a maximum of 9 children
   - Our Toddler Plus Room cares for children aged approximately 2 to 3+ and takes a maximum of 24 children

@@ -3,7 +3,7 @@ title: 'Childcare @ Sandal'
 description: |
 
 address: 255 Barnsley Road, Sandal, Wakefield WF1 5NU
-services: |
+services:
   - The Nest cares for children aged 3 months to approximately 30 months and can take a maximum of 15 babies/toddlers.
   - The Den cares for children aged 30 months - 5 years and can take a maximum of 33 children.
 opening_hours: 8.00am - 6.00pm
