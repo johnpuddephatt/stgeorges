@@ -51,8 +51,15 @@ fields:
     type: text
     hidden: true
     default: ''
-  - type: image_gallery
-    label: Files
+  - type: field_group_list
     name: files
+    label: Files
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: file
+      name: path
+      label: Path
   hidden: false
   default: ''
