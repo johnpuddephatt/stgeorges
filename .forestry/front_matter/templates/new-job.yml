@@ -1,5 +1,5 @@
 ---
-hide_body: false
+hide_body: true
 fields:
 - name: title
   label: Title
@@ -26,13 +26,15 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: application_link
-  label: Application link
-  type: text
-  hidden: false
-  default: ''
 - name: date
   label: Date
   type: datetime
-  hidden: false
+  hidden: true
   default: ''
+  description: Not used
+- type: file
+  name: application_link
+  label: Application pack
+  description: Upload the application form or pack here (5MB max file size)
+  config:
+    maxSize: '5'
