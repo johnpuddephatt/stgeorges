@@ -1,6 +1,4 @@
 ---
-pages:
-- _courses/sample.md
 hide_body: true
 fields:
 - name: title
