@@ -13,11 +13,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: services
-  label: Services
-  type: textarea
-  hidden: false
-  default: ''
 - name: opening_hours
   label: Opening hours
   type: text
@@ -61,3 +56,12 @@ fields:
   type: text
   hidden: true
   default: nursery
+- type: list
+  config:
+    use_select: false
+    source:
+      type: datafiles
+- type: list
+  name: services
+  label: Services
+  description: Enter each service separately
