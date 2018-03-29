@@ -44,12 +44,12 @@ fields:
   - name: childname
     label: Childname
     type: text
-    hidden: false
+    hidden: true
     default: ''
   - name: childname_heading
     label: Childname heading
     type: text
-    hidden: false
+    hidden: true
     default: ''
   hidden: false
   default: ''
