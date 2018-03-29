@@ -34,7 +34,7 @@ fields:
 - name: childname
   label: Childname
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: facts
   label: Facts
@@ -67,3 +67,7 @@ fields:
   type: text
   hidden: false
   default: section
+- type: select
+  config:
+    source:
+      type: pages
