@@ -11,6 +11,11 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: intro
+  label: Intro
+  type: textarea
+  hidden: false
+  default: ''
 - name: quote
   label: Quote
   type: text
@@ -31,18 +36,14 @@ fields:
   type: boolean
   hidden: false
   default: ''
-- name: intro
-  label: Intro
-  type: textarea
-  hidden: false
-  default: ''
 - name: date
   label: Date
   type: datetime
-  hidden: false
+  hidden: true
   default: ''
+  description: Not used
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: story
