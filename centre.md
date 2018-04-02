@@ -37,9 +37,9 @@ tabs:
 
   contact: |
     <button type="button" class="enquire-button" name="button">Enquire about room hire</button>
-    <form class="enquire-form" action="http://formspree.io/info@stgeorgeslupset.org.uk" method="POST">
+    <form class="enquire-form" action="https://form.letsdance.agency/zXE32nJQ" method="POST">
     <h2>Enquire about Room hire</h2>
-    <input type="text" name="_subject" hidden value="Enquiry about Room Hire"/>
+    <input type="text" name="_subject" hidden value="Enquiry about Room Hire from St George’s website"/>
     <label for="form-name">Name
     <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
     </label>
@@ -69,8 +69,8 @@ tabs:
   - name: Booking form
     path: /uploads/Transport-Booking-Form.docx
   contact: |
-    <button type="button" class="enquire-button" name="button">Enquire about transport</button>
-    <form class="enquire-form" action="http://formspree.io/info@stgeorgeslupset.org.uk" method="POST">
+    <button type="button" class="enquire-button" name="button">Enquire about transport from St George’s website</button>
+    <form class="enquire-form" action="https://form.letsdance.agency/zXE32nJQ" method="POST">
     <h2>Enquire about Transport</h2>
     <input type="text" name="_subject" hidden value="Enquiry about Community Transport"/>
     <label for="form-name">Name
