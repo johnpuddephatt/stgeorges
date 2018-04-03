@@ -70,10 +70,10 @@ tabs:
   - name: Booking form
     path: /uploads/Transport-Booking-Form.docx
   contact: |
-    <button type="button" class="enquire-button" name="button">Enquire about transport from St George’s website</button>
+    <button type="button" class="enquire-button" name="button">Enquire about transport</button>
     <form class="enquire-form" action="https://form.letsdance.agency/zXE32nJQ" method="POST">
     <h2>Enquire about Transport</h2>
-    <input type="text" name="_subject" hidden value="Enquiry about Community Transport"/>
+    <input type="text" name="_subject" hidden value="Enquiry about Community Transport from St George’s website"/>
     <label for="form-name">Name
     <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
     </label>
