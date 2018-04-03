@@ -211,7 +211,7 @@ input[name="tabs"] + label {
     }
   }
 
-  iframe {
+  iframe.nurseryinabox {
     margin: $base-spacing (-$base-spacing);
     max-width: none;
     width: calc(100% + #{2 * $base-spacing});
