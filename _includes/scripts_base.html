@@ -24,10 +24,10 @@
       statusMessage[i].classList.add('status');
 
       // Set up the AJAX request
-      request[i] = new XMLHttpRequest();
 
       // Listen for the form being submitted
       form[i].addEventListener("submit", function(evt) {
+        request[i] = new XMLHttpRequest();
         request[i].open("POST", formAction, true);
         request[i].setRequestHeader("accept", "application/json");
         evt.preventDefault();
