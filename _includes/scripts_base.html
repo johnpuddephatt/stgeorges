@@ -1,7 +1,6 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
   if (document.forms[0] && window.FormData) {
-    var statusMessage;
     for (var i = 0; i < document.forms.length; i++) {
       var message = new Object();
       message.loading = "Sending message...";
@@ -11,7 +10,7 @@
 
       var form = document.forms[i];
       var formAction = form.getAttribute("action");
-      statusMessage = document.createElement("div");
+      var statusMessage = document.createElement("div");
       statusMessage.innerHTML = message.loading;
       statusMessage.classList.add('message');
       statusMessage.classList.add('status');
