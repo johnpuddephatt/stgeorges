@@ -42,7 +42,7 @@ fields:
     hidden: false
     default: ''
     config:
-      wysiwyg: true
+      wysiwyg: false
   - name: childname
     label: Childname
     type: text
