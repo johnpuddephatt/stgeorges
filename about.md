@@ -6,25 +6,22 @@ description: |
   St George’s provides happy, welcoming spaces where local people can feel part of something.
 tabs:
 - title: Our values
-  content: |-
-    We know the work St George’s does makes a real difference to our community members.
-
-    But we also know that the way we do things matters just as much as what we actually do. That’s why everything we do is guided by our values. They tell our community members what they can expect from us, and help our staff  make the right decisions.
-
-    ### We’re welcoming
-    St George’s exists to meet the needs of a diverse local community. That means providing friendly, inclusive spaces where everyone feels welcome.
-
-    ### We’re positive
-    We want to raise aspirations and give people the opportunity to make life-improving choices. That means we look to inspire people with a positive, can-do attitude.
-
-    ### We’re caring
-    Being caring means we treat people with respect, compassion and dignity. But it also means that we work with passion, because we care about making a difference.
-
-    ### We’re fair
-    We’re here for everyone in Lupset, which means we believe in treating people equally and without prejudice.
-
-    ### We’re responsible
-    We take pride in being honest and professional in all that we do. That means taking responsibility, not only for how we treat the people we work with, but also how we look after our money.
+  content: We know the work St George’s does makes a real difference to our community
+    members. But we also know that the way we do things matters just as much as what
+    we actually do. That’s why everything we do is guided by our values. They tell
+    our community members what they can expect from us, and help our staff make the
+    right decisions. <br><br>### We’re welcoming<br><br>St George’s exists to meet
+    the needs of a diverse local community. That means providing friendly, inclusive
+    spaces where everyone feels welcome.<br><br>###We’re positive<br><br>We want to
+    raise aspirations and give people the opportunity to make life-improving choices.
+    That means we look to inspire people with a positive, can-do attitude.<br><br>###
+    We’re caring Being caring means we treat people with respect, compassion and dignity.
+    But it also means that we work with passion, because we care about making a difference.
+    <br><br>### We’re fair<br>We’re here for everyone in Lupset, which means we believe
+    in treating people equally and without prejudice.<br><br>### We’re responsible<br>We
+    take pride in being honest and professional in all that we do. That means taking
+    responsibility, not only for how we treat the people we work with, but also how
+    we look after our money.
 - title: Our purpose
   content: We’re a locally-focused independent charity and recognised community anchor
     working with the public and private sector for positive change in Lupset, West
