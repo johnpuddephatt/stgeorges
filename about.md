@@ -5,7 +5,7 @@ hidden: false
 description: |
   St George’s provides happy, welcoming spaces where local people can feel part of something.
 tabs:
-- title: 'Our values'
+- title: Our values
   content: |-
     We know the work St George’s does makes a real difference to our community members.
 
@@ -25,7 +25,7 @@ tabs:
 
     ### We’re responsible
     We take pride in being honest and professional in all that we do. That means taking responsibility, not only for how we treat the people we work with, but also how we look after our money.
-- title: 'Our purpose'
+- title: Our purpose
   content: |-
     We’re a locally-focused independent charity and recognised community anchor working with the public and private sector for positive change in Lupset, West Wakefield and beyond.
 
@@ -39,7 +39,7 @@ tabs:
     We are a welcoming space for the community with meeting rooms, IT facilities, a coffee shop, community allotment and four childcare settings across Wakefield – Lupset, Eastmoor and Sandal. It matters to us that we provide an environment free from exploitation and fear.
     ### We’re here to have long term impact
     We’re a strong, resilient organisation with 53 different partner organisations and an income of £1.2M of which over 88% comes from non-grant sources.
-- title: 'Our people'
+- title: Our people
   content: |-
     The work St George’s does is carried out by over sixty members of dedicated staff, backed by a valued team of volunteers.
 
@@ -116,9 +116,4 @@ tabs:
       </div>
 
     </div>
-
-
-
-
-
 ---
