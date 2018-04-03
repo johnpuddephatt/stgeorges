@@ -7,15 +7,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 collections:
+  _nurseries:
+    default_front_matter_template: nurseries
+  _learning:
+    default_front_matter_template: learning
+  _activities:
+    default_front_matter_template: activities
   _sections:
     default_front_matter_template: sections
   _stories:
     default_front_matter_template: stories
   _young-people:
     default_front_matter_template: young-people
-  _learning:
-    default_front_matter_template: learning
-  _nurseries:
-    default_front_matter_template: nurseries
-  _activities:
-    default_front_matter_template: activities
