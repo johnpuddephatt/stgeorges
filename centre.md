@@ -52,6 +52,7 @@ tabs:
     <label for="form-message">Message
     <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
     </label>
+    <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
     <input type="submit" value="Send" class="button"/>
     </form>
 
@@ -85,6 +86,7 @@ tabs:
     <label for="form-message">Message
     <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
     </label>
+    <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
     <input type="submit" value="Send" class="button"/>
     </form>
 ---  
