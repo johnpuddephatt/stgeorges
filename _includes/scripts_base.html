@@ -1,7 +1,7 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
   if (document.forms[0] && window.FormData) {
-    var statusMessage = [];
+    var statusMessage;
     for (var i = 0; i < document.forms.length; i++) {
       var message = new Object();
       message.loading = "Sending message...";
@@ -11,10 +11,10 @@
 
       var form = document.forms[i];
       var formAction = form.getAttribute("action");
-      statusMessage[i] = document.createElement("div");
-      statusMessage[i].innerHTML = message.loading;
-      statusMessage[i].classList.add('message');
-      statusMessage[i].classList.add('status');
+      statusMessage = document.createElement("div");
+      statusMessage.innerHTML = message.loading;
+      statusMessage.classList.add('message');
+      statusMessage.classList.add('status');
 
       // Set up the AJAX request
       var request = new XMLHttpRequest();
@@ -24,8 +24,8 @@
         request.open("POST", formAction, true);
         request.setRequestHeader("accept", "application/json");
         evt.preventDefault();
-        console.log(statusMessage[i]);
-        form.insertAdjacentElement('afterbegin',statusMessage[i]);
+        console.log(statusMessage);
+        form.insertAdjacentElement('afterbegin',statusMessage);
 
         // Create a new FormData object passing in the form's key value pairs (that was easy!)
         var formData = new FormData(form);
