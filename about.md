@@ -12,16 +12,16 @@ tabs:
     our community members what they can expect from us, and help our staff make the
     right decisions. <br><br>### We’re welcoming<br><br>St George’s exists to meet
     the needs of a diverse local community. That means providing friendly, inclusive
-    spaces where everyone feels welcome.<br><br>###We’re positive<br><br>We want to
-    raise aspirations and give people the opportunity to make life-improving choices.
+    spaces where everyone feels welcome.<br><br>### We’re positive<br><br>We want
+    to raise aspirations and give people the opportunity to make life-improving choices.
     That means we look to inspire people with a positive, can-do attitude.<br><br>###
-    We’re caring Being caring means we treat people with respect, compassion and dignity.
-    But it also means that we work with passion, because we care about making a difference.
-    <br><br>### We’re fair<br>We’re here for everyone in Lupset, which means we believe
-    in treating people equally and without prejudice.<br><br>### We’re responsible<br>We
-    take pride in being honest and professional in all that we do. That means taking
-    responsibility, not only for how we treat the people we work with, but also how
-    we look after our money.
+    We’re caring<br>Being caring means we treat people with respect, compassion and
+    dignity. But it also means that we work with passion, because we care about making
+    a difference. <br><br>### We’re fair<br>We’re here for everyone in Lupset, which
+    means we believe in treating people equally and without prejudice.<br><br>###
+    We’re responsible<br>We take pride in being honest and professional in all that
+    we do. That means taking responsibility, not only for how we treat the people
+    we work with, but also how we look after our money.
 - title: Our purpose
   content: We’re a locally-focused independent charity and recognised community anchor
     working with the public and private sector for positive change in Lupset, West
