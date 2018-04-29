@@ -41,6 +41,8 @@ fields:
     type: textarea
     hidden: false
     default: ''
+    config:
+      wysiwyg: false
   - name: childname
     label: Childname
     type: text
