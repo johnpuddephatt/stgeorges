@@ -18,9 +18,7 @@
 
   .hero-title {
     padding: 0;
-    font-size: modular-scale(4);
     @media screen and (min-width: $medium-screen) {
-      font-size: modular-scale(5);
       padding: $base-spacing 0 0;
     }
   }
@@ -58,16 +56,27 @@
       &:nth-child(1) {
         background-image: url("/images/slide-1.jpg");
         background-position: center 25%;
+        .hero-title {
+          font-size: modular-scale(10);
+          @media screen and (min-width: $medium-screen) {
+            font-size: modular-scale(11);
+          }
+          @media screen and (min-width: $large-screen) {
+            font-size: modular-scale(12);
+          }
+        }
       }
 
       &:nth-child(2) {
         background-image: url("/images/slide-2.jpg");
-        font-size: modular-scale(9);
-        @media screen and (min-width: $medium-screen) {
-          font-size: modular-scale(10);
-        }
-        @media screen and (min-width: $large-screen) {
-          font-size: modular-scale(12);
+        .hero-title {
+          font-size: modular-scale(9);
+          @media screen and (min-width: $medium-screen) {
+            font-size: modular-scale(10);
+          }
+          @media screen and (min-width: $large-screen) {
+            font-size: modular-scale(12);
+          }
         }
       }
 
@@ -84,43 +93,43 @@
           }
         }
       }
-}
-      &[data-slide="1"] .home-slide:nth-child(1),
-      &[data-slide="2"] .home-slide:nth-child(2),
-      &[data-slide="3"] .home-slide:nth-child(3) {
-        opacity: 1;
+    }
 
-        .hero-title {
-          opacity: 0.9;
-          -webkit-transform: scale(1);
-          transform: scale(1);
+    &[data-slide="1"] .home-slide:nth-child(1),
+    &[data-slide="2"] .home-slide:nth-child(2),
+    &[data-slide="3"] .home-slide:nth-child(3) {
+      opacity: 1;
+
+      .hero-title {
+        opacity: 0.9;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+    .container {
+      z-index: 99;
+
+      .hero-title {
+        text-shadow: 0 0 (2 * $base-spacing) rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        transition: all (4 * $base-duration) ease-in-out;
+        -webkit-transform: scale(0.99);
+        transform: scale(0.99);
+        font-family: $heading-font-family;
+        letter-spacing: $cutout-letter-spacing;
+        line-height: $cutout-line-height;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: modular-scale(11);
+        @media screen and (min-width: $medium-screen) {
+          font-size: modular-scale(11);
+        }
+        @media screen and (min-width: $large-screen) {
+          font-size: modular-scale(13);
         }
       }
-
-      .container {
-        z-index: 99;
-
-        .hero-title {
-          text-shadow: 0 0 (2 * $base-spacing) rgba(0, 0, 0, 0.3);
-          opacity: 0;
-          transition: all (4 * $base-duration) ease-in-out;
-          -webkit-transform: scale(0.99);
-          transform: scale(0.99);
-          font-family: $heading-font-family;
-          letter-spacing: $cutout-letter-spacing;
-          line-height: $cutout-line-height;
-          text-align: center;
-          font-weight: 400;
-          text-transform: uppercase;
-          font-size: modular-scale(11);
-          @media screen and (min-width: $medium-screen) {
-            font-size: modular-scale(11);
-          }
-          @media screen and (min-width: $large-screen) {
-            font-size: modular-scale(13);
-          }
-        }
-  
     }
   }
 
