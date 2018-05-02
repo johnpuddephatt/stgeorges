@@ -36,7 +36,7 @@
   }
 }
 .section--hero--stswithuns {
-  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_south,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/stswithuns.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_faces,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/stswithuns.jpg');
   @media screen and (orientation: portrait) {
     background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/stswithuns.jpg');
   }

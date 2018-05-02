@@ -696,7 +696,7 @@ hr {
     font-size: 2.44141em; }
     @media screen and (min-width: 720px) {
       .section--hero .hero-title {
-        padding: 2.4rem 0 0;
+        padding: 0 0 0;
         font-size: 3.05176em; } }
   .section--hero p {
     font-size: 1.25em;
@@ -1451,7 +1451,7 @@ input[name="tabs"] + label {
       background-image: url("//res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/https://stgeorgeslupset.org.uk/images/sunbeam.jpg"); } }
 
 .section--hero--stswithuns {
-  background-image: url("//res.cloudinary.com/letsdance/image/fetch/c_fill,g_south,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/https://stgeorgeslupset.org.uk/images/stswithuns.jpg"); }
+  background-image: url("//res.cloudinary.com/letsdance/image/fetch/c_fill,g_faces,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/https://stgeorgeslupset.org.uk/images/stswithuns.jpg"); }
   @media screen and (orientation: portrait) {
     .section--hero--stswithuns {
       background-image: url("//res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/https://stgeorgeslupset.org.uk/images/stswithuns.jpg"); } }
