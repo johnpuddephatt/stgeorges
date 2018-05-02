@@ -725,212 +725,54 @@ hr {
       background-size: cover;
       background-position: center; }
       .section--hero--home .home-slide:nth-child(1) {
+        background-image: url("/images/slide-1.jpg");
         background-position: center 25%; }
-        @media screen and (min-width: 480px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_480,h_192,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_720,h_288,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (min-width: 640px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_640,h_256,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1280,h_512,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (min-width: 960px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1440,h_576,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1920,h_768,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (min-width: 1280px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1280,h_512,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1920,h_768,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2560,h_1024,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (min-width: 1600px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1600,h_640,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2400,h_960,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_3200,h_1280,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (min-width: 2000px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2000,h_800,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_3000,h_1200,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-          .section--hero--home .home-slide:nth-child(1) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_4000,h_1600,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-1.jpg"); } }
       .section--hero--home .home-slide:nth-child(2) {
+        background-image: url("/images/slide-2.jpg");
         font-size: 7.45058em; }
-        @media screen and (min-width: 480px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_480,h_192,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_720,h_288,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (min-width: 640px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_640,h_256,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1280,h_512,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (min-width: 960px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1440,h_576,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1920,h_768,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (min-width: 1280px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1280,h_512,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1920,h_768,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2560,h_1024,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (min-width: 1600px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1600,h_640,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2400,h_960,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_3200,h_1280,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (min-width: 2000px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2000,h_800,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_3000,h_1200,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
-        @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-          .section--hero--home .home-slide:nth-child(2) {
-            background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_4000,h_1600,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-2.jpg"); } }
         @media screen and (min-width: 720px) {
           .section--hero--home .home-slide:nth-child(2) {
             font-size: 9.31323em; } }
         @media screen and (min-width: 1200px) {
           .section--hero--home .home-slide:nth-child(2) {
             font-size: 14.55192em; } }
-      @media screen and (min-width: 480px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_480,h_192,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_720,h_288,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (min-width: 640px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_640,h_256,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1280,h_512,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (min-width: 960px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_960,h_384,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1440,h_576,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1920,h_768,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (min-width: 1280px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1280,h_512,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1920,h_768,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2560,h_1024,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (min-width: 1600px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_1600,h_640,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2400,h_960,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_3200,h_1280,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (min-width: 2000px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_2000,h_800,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_3000,h_1200,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-        .section--hero--home .home-slide:nth-child(3) {
-          background-image: url("http://res.cloudinary.com/letsdance/image/fetch/c_fill,g_auto,w_4000,h_1600,q_auto,f_auto/www.stgeorgeslupset.org.uk/images/slide-3.jpg"); } }
-      .section--hero--home .home-slide:nth-child(3) .hero-title {
-        font-size: 7.45058em; }
-        @media screen and (min-width: 720px) {
-          .section--hero--home .home-slide:nth-child(3) .hero-title {
-            font-size: 7.45058em; } }
-        @media screen and (min-width: 1200px) {
-          .section--hero--home .home-slide:nth-child(3) .hero-title {
-            font-size: 11.64153em; } }
-      .section--hero--home .home-slide:nth-child(3)[data-slide="1"] .home-slide:nth-child(1), .section--hero--home .home-slide:nth-child(3)[data-slide="2"] .home-slide:nth-child(2), .section--hero--home .home-slide:nth-child(3)[data-slide="3"] .home-slide:nth-child(3) {
-        opacity: 1; }
-        .section--hero--home .home-slide:nth-child(3)[data-slide="1"] .home-slide:nth-child(1) .hero-title, .section--hero--home .home-slide:nth-child(3)[data-slide="2"] .home-slide:nth-child(2) .hero-title, .section--hero--home .home-slide:nth-child(3)[data-slide="3"] .home-slide:nth-child(3) .hero-title {
-          opacity: 0.9;
-          -webkit-transform: scale(1);
-          transform: scale(1); }
-      .section--hero--home .home-slide:nth-child(3) .container {
-        z-index: 99; }
-        .section--hero--home .home-slide:nth-child(3) .container .hero-title {
-          text-shadow: 0 0 4.8rem rgba(0, 0, 0, 0.3);
-          opacity: 0;
-          transition: all 600ms ease-in-out;
-          -webkit-transform: scale(0.99);
-          transform: scale(0.99);
-          font-family: "Paper Cutout";
-          letter-spacing: -0.03em;
-          line-height: 0.65;
-          text-align: center;
-          font-weight: 400;
-          text-transform: uppercase;
-          font-size: 11.64153em; }
+      .section--hero--home .home-slide:nth-child(3) {
+        background-image: url("/images/slide-3.jpg"); }
+        .section--hero--home .home-slide:nth-child(3) .hero-title {
+          font-size: 7.45058em; }
           @media screen and (min-width: 720px) {
-            .section--hero--home .home-slide:nth-child(3) .container .hero-title {
-              font-size: 11.64153em; } }
+            .section--hero--home .home-slide:nth-child(3) .hero-title {
+              font-size: 7.45058em; } }
           @media screen and (min-width: 1200px) {
-            .section--hero--home .home-slide:nth-child(3) .container .hero-title {
-              font-size: 18.18989em; } }
+            .section--hero--home .home-slide:nth-child(3) .hero-title {
+              font-size: 11.64153em; } }
+        .section--hero--home .home-slide:nth-child(3)[data-slide="1"] .home-slide:nth-child(1), .section--hero--home .home-slide:nth-child(3)[data-slide="2"] .home-slide:nth-child(2), .section--hero--home .home-slide:nth-child(3)[data-slide="3"] .home-slide:nth-child(3) {
+          opacity: 1; }
+          .section--hero--home .home-slide:nth-child(3)[data-slide="1"] .home-slide:nth-child(1) .hero-title, .section--hero--home .home-slide:nth-child(3)[data-slide="2"] .home-slide:nth-child(2) .hero-title, .section--hero--home .home-slide:nth-child(3)[data-slide="3"] .home-slide:nth-child(3) .hero-title {
+            opacity: 0.9;
+            -webkit-transform: scale(1);
+            transform: scale(1); }
+        .section--hero--home .home-slide:nth-child(3) .container {
+          z-index: 99; }
+          .section--hero--home .home-slide:nth-child(3) .container .hero-title {
+            text-shadow: 0 0 4.8rem rgba(0, 0, 0, 0.3);
+            opacity: 0;
+            transition: all 600ms ease-in-out;
+            -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+            font-family: "Paper Cutout";
+            letter-spacing: -0.03em;
+            line-height: 0.65;
+            text-align: center;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 11.64153em; }
+            @media screen and (min-width: 720px) {
+              .section--hero--home .home-slide:nth-child(3) .container .hero-title {
+                font-size: 11.64153em; } }
+            @media screen and (min-width: 1200px) {
+              .section--hero--home .home-slide:nth-child(3) .container .hero-title {
+                font-size: 18.18989em; } }
   .section--hero--subsection .container {
     display: -webkit-box;
     display: flex;
