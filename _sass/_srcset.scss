@@ -1,20 +1,18 @@
-@mixin srcset($image,$width: 100%,$quality: auto,$ratio:0) {
+@mixin srcset($image,$width: 100%,$quality: 85) {
   @if( $local  != 'true' ) {
     @each $size in $sizes {
       $w: $width/100% * $size/1px;
-      $h: if($ratio != 0, 'h_' + $w / $ratio + ',', '');
-      $h150: if($ratio != 0, 'h_' + 1.5 * $w / $ratio + ',', '');
-      $h200: if($ratio != 0, 'h_' + 2 * $w / $ratio + ',', '');
+
       @media screen and (min-width: $size) {
-        background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,w_#{$w},#{$h}q_#{$quality},f_auto/#{$baseurl}#{$image}')
+        background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/w_#{$w},q_#{$quality}/#{$baseurl}#{$image}')
       }
       @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: $size),
              screen and (min-resolution: 150dpi) and (min-width: $size) {
-        background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,w_#{$w * 1.5},#{$h150}q_#{$quality},f_auto/#{$baseurl}#{$image}')
+        background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/w_#{$w * 1.5},q_#{$quality}/#{$baseurl}#{$image}')
       }
       @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: $size),
              screen and (min-resolution: 200dpi) and (min-width: $size) {
-        background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,w_#{$w * 2},#{$h200}q_#{$quality},f_auto/#{$baseurl}#{$image}')
+        background-image: url('http://res.cloudinary.com/#{$cloudinary}/image/fetch/w_#{$w * 2},q_#{$quality}/#{$baseurl}#{$image}')
       }
     }
   } @else {
