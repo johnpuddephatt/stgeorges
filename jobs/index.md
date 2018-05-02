@@ -1,5 +1,5 @@
 ---
-title: Jobs & Volunteering
+title: Jobs & Volunteer
 layout: page
 hidden: false
 description: |

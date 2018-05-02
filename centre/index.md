@@ -1,5 +1,5 @@
 ---
-title: Our Centre
+title: Centre
 layout: page
 hidden: false
 description: |
