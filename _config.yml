@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+local: false
 title: St George’s
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -22,6 +23,7 @@ url: "www.stgeorgeslupset.org.uk" # the base hostname & protocol for your site, 
 cloudinary: letsdance
 twitter_username: stgeorgeslupset
 facebook_username:  StGeorgesCommunityCentre
+
 collections:
   sections:
     output: true
@@ -93,7 +95,6 @@ defaults:
       layout: page
 
 breakpoints:
-  - 320
   - 480
   - 640
   - 960

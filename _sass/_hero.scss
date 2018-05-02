@@ -56,19 +56,18 @@
       background-position: center;
 
       &:nth-child(1) {
-        @include srcset('/images/slide-1.jpg');
+        @include srcset('/images/slide-1.jpg', 100%, auto, 2.5 );
         @media screen and (orientation: portrait) {
-          @include srcset('/images/slide-1.jpg',200%);
+          @include srcset('/images/slide-1.jpg', 100%, auto, .5 );
         }
         background-position: center 25%;
       }
 
       &:nth-child(2) {
-        @include srcset('/images/slide-2.jpg');
+        @include srcset('/images/slide-2.jpg', 100%, auto, 2.5 );
         @media screen and (orientation: portrait) {
-          @include srcset('/images/slide-2.jpg',200%);
-        }
-        .hero-title {
+          @include srcset('/images/slide-2.jpg', 100%, auto, .5 );
+        }        .hero-title {
           font-size: modular-scale(9);
 
           @media screen and (min-width: $medium-screen) {
@@ -82,11 +81,10 @@
       }
 
       &:nth-child(3) {
-        @include srcset('/images/slide-3.jpg');
+        @include srcset('/images/slide-3.jpg', 100%, auto, 2.5 );
         @media screen and (orientation: portrait) {
-          @include srcset('/images/slide-3.jpg',200%);
-        }
-        .hero-title {
+          @include srcset('/images/slide-3.jpg', 100%, auto, .5 );
+        }        .hero-title {
           font-size: modular-scale(9);
           @media screen and (min-width: $medium-screen) {
             font-size: modular-scale(9);

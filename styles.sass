@@ -1,6 +1,7 @@
 ---
 ---
 
+$local: {{ site.local }}
 $cloudinary: {{ site.cloudinary }}
 $sizes: {% for breakpoint in site.breakpoints %}{{ breakpoint }}px,{% endfor%}
 $baseurl: '{{ site.url }}'
