@@ -34,7 +34,7 @@
   }
 
   &--home {
-    @include srcset('/images/partofsomething2.jpg');
+    // @include srcset('/images/partofsomething2.jpg');
     background-size: cover;
     background-position: center center;
 
