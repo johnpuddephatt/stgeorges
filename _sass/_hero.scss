@@ -58,11 +58,17 @@
 
       &:nth-child(1) {
         @include srcset('/images/slide-1.jpg');
+        @media screen and (orientation: portrait) {
+          @include srcset('/images/slide-1.jpg',150%);
+        }
         background-position: center 25%;
       }
 
       &:nth-child(2) {
         @include srcset('/images/slide-2.jpg');
+        @media screen and (orientation: portrait) {
+          @include srcset('/images/slide-2.jpg',150%);
+        }
         .hero-title {
           font-size: modular-scale(9);
 
@@ -78,6 +84,9 @@
 
       &:nth-child(3) {
         @include srcset('/images/slide-3.jpg');
+        @media screen and (orientation: portrait) {
+          @include srcset('/images/slide-3.jpg',150%);
+        }
         .hero-title {
           font-size: modular-scale(9);
           @media screen and (min-width: $medium-screen) {
