@@ -5,43 +5,75 @@
   }
 }
 .section--hero--children {
-  @include srcset('/images/youth.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/youth.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/youth.jpg');
+  }
 }
 .section--hero--nurseries {
-  @include srcset('/images/childcare.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/childcare.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/childcare.jpg');
+  }
 }
 
 .section--hero--sandal {
-  @include srcset('/images/sandal3.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/sandal3.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/sandal3.jpg');
+  }
 }
 .section--hero--broadway {
-  @include srcset('/images/broadway.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/broadway.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/broadway.jpg');
+  }
 }
 .section--hero--sunbeam {
-  @include srcset('/images/sunbeam.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/sunbeam.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/sunbeam.jpg');
+  }
 }
 .section--hero--stswithuns {
-  @include srcset('/images/stswithuns.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/stswithuns.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/stswithuns.jpg');
+  }
 }
 
 .section--hero--centre {
-  @include srcset('/images/centre_wide.jpg');
-}
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/centre_wide.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/centre_wide.jpg');
+  }}
 
 .section--hero--course {
-  @include srcset('/images/learning_computer.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/learning_computer.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/learning_computer.jpg');
+  }
 }
 
 .section--hero--contact {
-  @include srcset('/images/contact.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/contact.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/contact.jpg');
+  }
 }
 
 .section--hero--about {
-  @include srcset('/images/aboutstgeorges.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/aboutstgeorges.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/aboutstgeorges.jpg');
+  }
 }
 
 .section--hero--jobs {
-  @include srcset('/images/staff.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/staff.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/staff.jpg');
+  }
 }
 
 .section--hero--single {
