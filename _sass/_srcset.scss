@@ -1,4 +1,5 @@
 @mixin srcset($image,$width: 100%,$quality: 85) {
+  background-image: url('#{$image}');
   @if( $local  != 'true' ) {
     @each $size in $sizes {
       $w: $width/100% * $size/1px;

@@ -1406,665 +1406,689 @@ input[name="tabs"] + label {
       .tab-content .trustee-photos .trustee p {
         margin-bottom: 0; }
 
-@media screen and (min-width: 480px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--activity {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+.section--hero--activity {
+  background-image: url("/images/activity.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--activity {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/activity.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--children {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+.section--hero--children {
+  background-image: url("/images/youth.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--children {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/youth.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--nurseries {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+.section--hero--nurseries {
+  background-image: url("/images/childcare.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--nurseries {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/childcare.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--sandal {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+.section--hero--sandal {
+  background-image: url("/images/sandal3.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--sandal {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/sandal3.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--broadway {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+.section--hero--broadway {
+  background-image: url("/images/broadway.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--broadway {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/broadway.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--sunbeam {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+.section--hero--sunbeam {
+  background-image: url("/images/sunbeam.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--sunbeam {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/sunbeam.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--stswithuns {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+.section--hero--stswithuns {
+  background-image: url("/images/stswithuns.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--stswithuns {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/stswithuns.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--centre {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+.section--hero--centre {
+  background-image: url("/images/centre_wide.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--centre {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/centre_wide.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--course {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+.section--hero--course {
+  background-image: url("/images/learning_computer.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--course {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/learning_computer.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--contact {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+.section--hero--contact {
+  background-image: url("/images/contact.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--contact {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/contact.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--about {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+.section--hero--about {
+  background-image: url("/images/aboutstgeorges.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--about {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/aboutstgeorges.jpg"); } }
 
-@media screen and (min-width: 480px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (min-width: 640px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (min-width: 960px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (min-width: 1280px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (min-width: 1600px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (min-width: 2000px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
-  .section--hero--jobs {
-    background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+.section--hero--jobs {
+  background-image: url("/images/staff.jpg"); }
+  @media screen and (min-width: 480px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_480,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 480px), screen and (min-resolution: 150dpi) and (min-width: 480px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_720,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px), screen and (min-resolution: 200dpi) and (min-width: 480px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (min-width: 640px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_640,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 640px), screen and (min-resolution: 150dpi) and (min-width: 640px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 640px), screen and (min-resolution: 200dpi) and (min-width: 640px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (min-width: 960px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_960,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 960px), screen and (min-resolution: 150dpi) and (min-width: 960px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1440,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px), screen and (min-resolution: 200dpi) and (min-width: 960px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (min-width: 1280px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1280,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px), screen and (min-resolution: 150dpi) and (min-width: 1280px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1920,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 200dpi) and (min-width: 1280px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2560,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (min-width: 1600px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_1600,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1600px), screen and (min-resolution: 150dpi) and (min-width: 1600px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2400,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1600px), screen and (min-resolution: 200dpi) and (min-width: 1600px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3200,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (min-width: 2000px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_2000,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 2000px), screen and (min-resolution: 150dpi) and (min-width: 2000px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_3000,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 2000px), screen and (min-resolution: 200dpi) and (min-width: 2000px) {
+    .section--hero--jobs {
+      background-image: url("http://res.cloudinary.com/letsdance/image/fetch/w_4000,q_85/https://stgeorgeslupset.org.uk//images/staff.jpg"); } }
 
 .section--hero--single {
   background-size: cover;
