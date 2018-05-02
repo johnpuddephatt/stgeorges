@@ -34,7 +34,6 @@
   }
 
   &--home {
-    // @include srcset('/images/partofsomething2.jpg');
     background-size: cover;
     background-position: center center;
 
@@ -59,7 +58,7 @@
       &:nth-child(1) {
         @include srcset('/images/slide-1.jpg');
         @media screen and (orientation: portrait) {
-          @include srcset('/images/slide-1.jpg',150%);
+          @include srcset('/images/slide-1.jpg',200%);
         }
         background-position: center 25%;
       }
@@ -67,7 +66,7 @@
       &:nth-child(2) {
         @include srcset('/images/slide-2.jpg');
         @media screen and (orientation: portrait) {
-          @include srcset('/images/slide-2.jpg',150%);
+          @include srcset('/images/slide-2.jpg',200%);
         }
         .hero-title {
           font-size: modular-scale(9);
@@ -85,7 +84,7 @@
       &:nth-child(3) {
         @include srcset('/images/slide-3.jpg');
         @media screen and (orientation: portrait) {
-          @include srcset('/images/slide-3.jpg',150%);
+          @include srcset('/images/slide-3.jpg',200%);
         }
         .hero-title {
           font-size: modular-scale(9);
