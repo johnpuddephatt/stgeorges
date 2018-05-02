@@ -142,6 +142,10 @@ input[name="tabs"] + label {
   height: 2 * $base-spacing;
   transition: color 0.2s ease;
   width: 100%;
+  font-size: modular-scale(-1);
+  @media screen and (min-width: $medium-screen) {
+    font-size: modular-scale(0);
+  }
 }
 
 .slide {
@@ -178,6 +182,10 @@ input[name="tabs"] + label {
   h3 {
     margin-top: $base-spacing;
     font-size: modular-scale(0);
+  }
+
+  iframe {
+    max-width: 100%;
   }
 
   > *:first-child {
