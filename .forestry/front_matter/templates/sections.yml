@@ -60,14 +60,10 @@ fields:
 - name: date
   label: Date
   type: datetime
-  hidden: false
+  hidden: true
   default: ''
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: section
-- type: select
-  config:
-    source:
-      type: pages
