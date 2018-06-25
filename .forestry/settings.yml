@@ -13,13 +13,13 @@ collections:
     default_front_matter_template: learning
   _activities:
     default_front_matter_template: activities
-  _job:
-    default_front_matter_template: jobs
-  _volunteering:
-    default_front_matter_template: volunteering
   _sections:
     default_front_matter_template: sections
   _stories:
     default_front_matter_template: stories
   _young-people:
     default_front_matter_template: young-people
+  _jobs:
+    default_front_matter_template: jobs
+  _volunteering:
+    default_front_matter_template: volunteering
