@@ -1,5 +1,6 @@
 ---
 hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -55,7 +56,7 @@ fields:
 - name: story
   label: Story
   type: text
-  hidden: false
+  hidden: true
   default: ''
 - name: date
   label: Date

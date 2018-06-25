@@ -1,11 +1,6 @@
 ---
-pages:
-- jobs.md
-- index.md
-- contact.md
-- centre.md
-- about.md
 hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -65,3 +60,5 @@ fields:
       label: Path
   hidden: false
   default: ''
+pages:
+- index.md
