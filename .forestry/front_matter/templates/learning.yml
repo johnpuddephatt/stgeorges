@@ -5,5 +5,46 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: learning
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: qualification
+  label: Qualification
+- type: text
+  label: Subject
+  name: subject_area
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: list
+  label: Outcomes
+  name: outcomes
+  config:
+    use_select: false
+    source:
+      type: datafiles
+- type: list
+  label: Requirements
+  name: requirements
+- type: list
+  label: Time and Location
+  name: time_and_location
+- type: list
+  name: equipment
+  label: Equipment required
+- type: list
+  name: information
+  label: Additional info
+- type: boolean
+  name: council
+  label: Wakefield Council course
+  description: Enable this setting to display the Wakefield council logo
