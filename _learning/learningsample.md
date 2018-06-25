@@ -25,8 +25,7 @@ time_and_location:
 - 'Dates: Monday 13th March - Monday 17th July 2017'
 - 'Location: St George’s Community Centre'
 equipment:
-- |
-  1 A4 folder, dividers, plastic wallets, calculator, pen and paper/notebook
+- 1 A4 folder, dividers, plastic wallets, calculator, pen and paper/notebook
 information:
 - You are expected to attend and be punctual to all sessions.
 - The course will involve sitting 2 internally marked exams. Learners must motivated
@@ -41,5 +40,5 @@ information:
   to ensure you can participate fully and be successful in all aspects of the course.
 council: true
 date: 2018-06-25 15:23:13 +0000
-layout: ''
+layout: 'learning'
 ---
