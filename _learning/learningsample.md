@@ -1,7 +1,3 @@
-
-
-
-
 ---
 title: Computerised Accounting
 qualification: AAT Level 1 Award
