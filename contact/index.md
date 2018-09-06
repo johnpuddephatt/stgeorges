@@ -65,6 +65,7 @@ tabs:
         <option value="The cafe">The Cafe</option>
         <option value="Room hire">Room Hire</option>
         <option value="Minibus hire">Minibus Hire</option>
+        <option value="Volunteering">Volunteering</option>
         <option value="Other">Other</option>
       </select>
       <div class="alert" id="childcare-alert"></div>

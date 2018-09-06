@@ -19,17 +19,51 @@ layout: default
       {{ page.description | markdownify | prepend: '<h2 class="activity-intro">' | append: '</h2>' }}
 
       {% if page.outcomes %}
-        {{ page.outcomes | markdownify | prepend: '<p><strong>You will learn:</strong> ' | append: '</p>' }}
+        <h3>You will learn:</h3>
+        <ul>
+          {% for outcome in page.outcomes %}
+            <li>{{ outcome }}</li>
+          {% endfor %}
+        </ul>
       {% endif %}
+
       {% if page.requirements %}
-        {{ page.requirements | markdownify | prepend: '<p><strong>Who it’s for:</strong> ' | append: '</p>' }}
+        <h3>Who it’s for:</h3>
+        <ul>
+          {% for requirement in page.requirements %}
+            <li>{{ requirement }}</li>
+          {% endfor %}
+        </ul>
       {% endif %}
+
       {% if page.time_and_location %}
-        {{ page.time_and_location | markdownify | prepend: '<p><strong>Time and location:</strong> ' | append: '</p>' }}
+        <h3>Time and location:</h3>
+        <ul>
+          {% for time in page.time_and_location %}
+            <li>{{ time }}</li>
+          {% endfor %}
+        </ul>
       {% endif %}
+
       {% if page.equipment %}
-        {{ page.equipment | markdownify | prepend: '<p><strong>What do I need?</strong> ' | append: '</p>' }}
+        <h3>What do I need:</h3>
+        <ul>
+          {% for equipment in page.equipment %}
+            <li>{{ equipment }}</li>
+          {% endfor %}
+        </ul>
       {% endif %}
+
+
+      {% if page.information %}
+        <h3>Additional information:</h3>
+        <ul>
+          {% for info in page.information %}
+            <li>{{ info }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
       <button type="button" class="enquire-button white" name="button">Enquire about {{page.title}}</button>
       <form class="enquire-form" action="https://form.letsdance.agency/vzMz7DYk" method="POST">
         <h2>Enquire about {{page.title}}</h2>

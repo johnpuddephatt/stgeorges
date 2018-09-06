@@ -8,4 +8,5 @@ location: St George's Community Centre
 suitabilities:
   - Have mobility issues
 signup: false
+additional_info: Transport available locally for £5 (booking is essential)
 ---
