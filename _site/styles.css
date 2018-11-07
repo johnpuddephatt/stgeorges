@@ -614,6 +614,16 @@ hr {
       font-size: 0.8em;
       margin-bottom: 0; }
 
+.footer-navigation {
+  text-align: center; }
+  .footer-navigation .container {
+    margin-bottom: auto; }
+  .footer-navigation a {
+    color: white;
+    display: inline-block; }
+    .footer-navigation a + a {
+      margin-left: 2.4rem; }
+
 .footer-copyright {
   background-color: #3FCDDA;
   padding: 1.2rem 2.4rem;

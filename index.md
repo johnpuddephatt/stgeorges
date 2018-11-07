@@ -1,7 +1,7 @@
 ---
 layout: home
 hidden: true
-title: ''
+title: 'Welcome'
 description: ''
 tabs: []
 ---

@@ -74,6 +74,20 @@
   }
 }
 
+.footer-navigation {
+  .container {
+    margin-bottom: auto;
+  }
+  text-align: center;
+  a {
+    color: white;
+    display: inline-block;
+    + a {
+      margin-left: $base-spacing;
+    }
+  }
+}
+
 .footer-copyright {
   background-color: $blue;
   padding: $small-spacing $base-spacing;
@@ -85,3 +99,5 @@
     text-align: center;
   }
 }
+
+
