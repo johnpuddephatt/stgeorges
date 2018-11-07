@@ -59,8 +59,9 @@ fields:
   hidden: true
   default: activity
 pages:
-- _activities/urology-cancer-support-group.md
+- _activities/test2.md
 - _activities/boccia-bowling.md
+- _activities/urology-cancer-support-group.md
 - _activities/new-activity.md
 - _activities/lunch-club.md
 - _activities/tuesday-leisure-club.md
