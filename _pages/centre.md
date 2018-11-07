@@ -1,10 +1,10 @@
 ---
-title: Centre
+title: Our centre
 layout: page
 hidden: false
-description: 'Our community centre in Lupset is the space where a lot of our work
-  – from wellbeing classes to our youth café – takes place. But it’s also the base
-  from which we offer many services and facilities.'
+description: Our community centre in Lupset is the space where a lot of our work – from
+  wellbeing classes to our youth café – takes place. But it’s also the base from which
+  we offer many services and facilities.
 date: 2018-05-09 15:50:54 +0000
 tabs:
 - title: Our cafe
