@@ -2,7 +2,7 @@
 layout: story
 title: wellbeing
 name: Ian
-quote: It became a bit of a social thing
+quote: It’s become a bit of a social thing
 description: Ian started coming along to chair exercise classes at St George’s after
   experiencing a few problems resulting from a health condition.
 photo: "/images/healthandwellbeing4.jpg"
