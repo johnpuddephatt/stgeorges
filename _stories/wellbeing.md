@@ -11,7 +11,7 @@ intro: |
 
   We do the exercise and then we have a coffee afterwards and what started off as a half an hour exercise class can often lead up to one and a half, two hours at St George’s.
 flipped: false
-date: ''
+date: 2018-05-09 15:50:54 +0000
 
 ---
 Ian started coming along to the chair exercise classes at St George’s after experiencing a few problems resulting from a health condition.
