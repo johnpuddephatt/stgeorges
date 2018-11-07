@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="section section--hero section--hero--single section--hero--{{page.path | replace:'/index.md',''}}">
+<section class="section section--hero section--hero--single section--hero--{{page.path | replace:'_pages/','' | replace: '.md', ''}}">
   <div class="container">
     <header class="activity-header">
       <h1 class="hero-title">{{ page.title }}</h1>

@@ -18,13 +18,18 @@ title: St George’s
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Feel welcome, happy and part of something.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.stgeorgeslupset.org.uk" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+# url: "www.stgeorgeslupset.org.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /stgeorges
+url: https://johnpuddephatt.github.io
 cloudinary: letsdance
 twitter_username: stgeorgeslupset
 facebook_username:  StGeorgesCommunityCentre
 
 collections:
+  pages:
+    output: true
+    permalink: /:name/index.html
   sections:
     output: true
     permalink: /:name/index.html
