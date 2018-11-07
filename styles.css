@@ -698,7 +698,8 @@ hr {
   .section--hero .container {
     margin-top: 0;
     margin-bottom: 0;
-    height: 70vh; }
+    height: 70vh;
+    max-height: 30em; }
   .section--hero .container *:last-child {
     margin-bottom: 0; }
   .section--hero .hero-title {
