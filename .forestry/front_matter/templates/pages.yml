@@ -11,7 +11,7 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: page
 - name: hidden
   label: Hidden
