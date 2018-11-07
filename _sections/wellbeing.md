@@ -19,6 +19,6 @@ facts:
   description: We’ve involved 269 people per week in our activities
 - figure: '1,100'
   description: We’ve driven 1,100 people to health and wellbeing activities on our community bus
-
+date: 2018-05-09 15:50:54 +0000
 story: wellbeing
 ---
