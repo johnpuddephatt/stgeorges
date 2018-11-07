@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Dementia cafe
 description: Our Dementia Café provides a safe, comfortable and supportive environment for people with dementia and their carers to socialise.
 times:

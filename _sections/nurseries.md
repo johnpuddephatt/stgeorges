@@ -1,4 +1,5 @@
 ---
+layout: section
 title: Nurseries
 subtitle: Childcare &amp; Early Education
 description: |

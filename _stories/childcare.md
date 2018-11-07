@@ -1,4 +1,5 @@
 ---
+layout: story
 title: nurseries
 name: a parent
 quote: We feel so lucky to have him at St George’s

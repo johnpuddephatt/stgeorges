@@ -1,4 +1,5 @@
 ---
+layout: volunteering
 published: false
 title: Example volunteering post
 description: |

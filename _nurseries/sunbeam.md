@@ -1,4 +1,5 @@
 ---
+layout: nursery
 title: 'Childcare @ Sunbeam'
 description: |
 address: 9-11 Lupset Crescent, Lupset, Wakefield. WF2 8RH

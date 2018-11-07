@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Boccia bowling
 description: Seated bowls suitable for everyone
 times:

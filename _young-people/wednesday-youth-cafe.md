@@ -1,4 +1,5 @@
 ---
+layout: young-people
 title: Wednesday Youth Cafe
 description: >
   For ages 10 - 16 years. Fun sessions ranging from arts & crafts, sports, cooking, games and trips.

@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Chatty craft group
 description: Crafty, chatty, sociable, fun!
 times:

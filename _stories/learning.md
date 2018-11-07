@@ -1,4 +1,5 @@
 ---
+layout: story
 title: learning
 name: Juli
 quote: I felt a duty to offer something back

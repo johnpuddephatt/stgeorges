@@ -1,4 +1,5 @@
 ---
+layout: story
 title: wellbeing
 name: Ian
 quote: It's become a bit of a social thing

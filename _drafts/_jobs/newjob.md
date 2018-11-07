@@ -1,4 +1,5 @@
 ---
+layout: job
 published: false
 title: New job
 description: |

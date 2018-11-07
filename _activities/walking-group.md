@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Walking group
 description: Walks suitable for everyone and well behaved dogs are welcome too.
 times:

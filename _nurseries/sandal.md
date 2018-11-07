@@ -1,4 +1,5 @@
 ---
+layout: nursery
 title: 'Childcare @ Sandal'
 description: |
 

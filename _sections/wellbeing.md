@@ -1,4 +1,5 @@
 ---
+layout: section
 title: Wellbeing
 subtitle: Activities &amp; Advice
 description: |

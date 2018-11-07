@@ -41,5 +41,4 @@ information:
 council: true
 date: 2018-06-25 15:23:13 +0000
 layout: learning
-
 ---

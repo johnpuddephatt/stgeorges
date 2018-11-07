@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: World of words
 description: If you like words, books and creative writing then this group is for you. Learn how to be more creative in your writing, listen to the spoken word, discuss books and much more.
 times:

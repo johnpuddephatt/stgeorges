@@ -1,4 +1,5 @@
 ---
+layout: nursery
 title: 'Childcare @ St.Swithun’s'
 description: |
 address: St Swithun's Community Centre, Arncliffe Road, Eastmoor, Wakefield, WF1 4RW.

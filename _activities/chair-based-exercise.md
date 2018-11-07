@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Chair-based exercise
 description: Small, friendly class aimed at those new to exercise or less mobile.  
 times:

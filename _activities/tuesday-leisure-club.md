@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Tuesday leisure club
 description: Fancy some TLC? This small and friendly group welcomes everyone especially those who may be lonely, isolated or have long term health conditions. It's sociable, caring and fun!
 times: Tuesday Fortnightly 1.30pm - 3.30pm

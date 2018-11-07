@@ -1,4 +1,5 @@
 ---
+layout: story
 title: young-people
 name: Liam
 quote: It's good to get outside and relax

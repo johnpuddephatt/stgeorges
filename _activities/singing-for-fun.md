@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Singing for fun
 description: You don't have to be a singer just willing to have a go! The group is informal and fun.
 times:

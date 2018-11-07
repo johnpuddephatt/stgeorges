@@ -1,4 +1,5 @@
 ---
+layout: activity
 title: Lunch club
 description: Delicious homemade 3 course lunch with time for a cuppa and a chat too.
 times:

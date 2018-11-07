@@ -1,4 +1,5 @@
 ---
+layout: section
 title: Learning
 subtitle: Adult courses &amp; employability
 description: |
