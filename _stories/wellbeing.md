@@ -2,13 +2,17 @@
 layout: story
 title: wellbeing
 name: Ian
-quote: It's become a bit of a social thing
-description: Ian started coming along to chair exercise classes at St George’s after experiencing a few problems resulting from a health condition.
-photo: '/images/healthandwellbeing4.jpg'
+quote: It’s become a bit of a social thing
+description: Ian started coming along to chair exercise classes at St George’s after
+  experiencing a few problems resulting from a health condition.
+photo: "/images/healthandwellbeing4.jpg"
 intro: |
   In coming I’m part of a group and it’s also become a bit of a social thing.
 
   We do the exercise and then we have a coffee afterwards and what started off as a half an hour exercise class can often lead up to one and a half, two hours at St George’s.
+flipped: false
+date: ''
+
 ---
 Ian started coming along to the chair exercise classes at St George’s after experiencing a few problems resulting from a health condition.
 
