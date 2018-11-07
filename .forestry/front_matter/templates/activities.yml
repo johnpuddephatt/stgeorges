@@ -1,4 +1,5 @@
 ---
+label: activities
 hide_body: true
 is_partial: false
 fields:
@@ -57,3 +58,19 @@ fields:
   type: text
   hidden: true
   default: activity
+pages:
+- _activities/urology-cancer-support-group.md
+- _activities/boccia-bowling.md
+- _activities/new-activity.md
+- _activities/lunch-club.md
+- _activities/tuesday-leisure-club.md
+- _activities/dementia-cafe.md
+- _activities/walking-group.md
+- _activities/world-of-words.md
+- _activities/singing-for-fun.md
+- _activities/chatty-craft-group.md
+- _activities/golden-oldie-gardeners.md
+- _activities/table-tennis.md
+- _activities/pilates.md
+- _activities/chair-based-exercise.md
+- _activities/cycling-for-all.md

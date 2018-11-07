@@ -1,4 +1,5 @@
 ---
+label: young-people
 hide_body: true
 is_partial: false
 fields:
@@ -42,3 +43,7 @@ fields:
   type: text
   hidden: false
   default: young-people
+pages:
+- _young-people/homework-study-space.md
+- _young-people/wednesday-youth-cafe.md
+- _young-people/friday-youth-cafe.md

@@ -1,4 +1,5 @@
 ---
+label: sections
 hide_body: true
 is_partial: false
 fields:
@@ -68,3 +69,8 @@ fields:
   type: text
   hidden: true
   default: section
+pages:
+- _sections/wellbeing.md
+- _sections/learning.md
+- _sections/nurseries.md
+- _sections/young-people.md
