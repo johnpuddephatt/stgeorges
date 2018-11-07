@@ -41,7 +41,7 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: young-people
 pages:
 - _young-people/homework-study-space.md
