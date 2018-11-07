@@ -61,5 +61,3 @@ fields:
       label: Path
   hidden: false
   default: ''
-pages:
-- index.md

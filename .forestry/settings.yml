@@ -4,17 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
   path: _volunteering
   label: Volunteering
   create: all
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
 - type: directory
   path: _jobs
   label: Jobs
@@ -50,11 +44,6 @@ sections:
   label: Sections
   create: all
   match: "**/*"
-- type: directory
-  path: _data
-  label: Data
-  create: none
-  match: "**/*.{json,yaml,yml}"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
