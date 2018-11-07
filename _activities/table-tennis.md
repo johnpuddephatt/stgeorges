@@ -8,4 +8,5 @@ cost: £1
 location: St George's Community Centre
 signup: false
 additional_info: Bats and balls provided
+date: 2018-05-09 15:50:54 +0000
 ---

@@ -4,6 +4,7 @@ layout: page
 hidden: false
 description: |
   St George’s provides happy, welcoming spaces where local people can feel part of something.
+date: 2018-05-09 15:50:54 +0000
 tabs:
 - title: Our values
   content: |-

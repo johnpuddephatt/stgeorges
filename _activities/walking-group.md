@@ -8,4 +8,5 @@ cost: free
 location: St George's Community Centre
 signup: true
 additional_info: Please wear sensible shoes and clothing appropriate for the weather.
+date: 2018-05-09 15:50:54 +0000
 ---

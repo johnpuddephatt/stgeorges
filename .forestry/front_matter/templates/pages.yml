@@ -61,3 +61,9 @@ fields:
       label: Path
   hidden: false
   default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: true
+  default: ''
+  description: Not used.

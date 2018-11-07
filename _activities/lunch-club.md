@@ -10,4 +10,6 @@ suitabilities:
   - Have mobility issues
 signup: false
 additional_info: Transport available locally for £5 (booking is essential)
+date: 2018-05-09 15:50:54 +0000
+
 ---

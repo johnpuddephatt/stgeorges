@@ -4,6 +4,7 @@ layout: page
 hidden: false
 description: |
   Our people are really important to us. Ask our community what makes St George’s unique and the people who work for us come up again and again.
+date: 2018-05-09 15:50:54 +0000
 tabs:
 - title: 'Jobs'
   content: |-

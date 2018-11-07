@@ -11,4 +11,6 @@ suitabilities:
   - Are deaf hard of hearing
 signup: false
 additional_info: Equipment provided
+date: 2018-05-09 15:50:54 +0000
+
 ---

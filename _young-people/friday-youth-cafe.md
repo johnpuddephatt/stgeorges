@@ -1,4 +1,5 @@
 ---
+layout: young-people
 title: Friday Youth Cafe
 description: >
   Are you 13 years plus and looking for something to do on a Friday evening?
@@ -8,4 +9,5 @@ times:
 cost: 50p (includes refreshments)
 location: St George's Community Centre
 signup: false
+date: 2018-05-09 15:50:54 +0000
 ---

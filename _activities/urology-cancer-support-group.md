@@ -7,4 +7,6 @@ times:
 cost: Free
 location: St George's Community Centre
 signup: false
+date: 2018-05-09 15:50:54 +0000
+
 ---

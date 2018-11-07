@@ -10,4 +10,6 @@ suitabilities:
   - Have mobility issues
 signup: false
 additional_info: Please wear appropriate clothing, you might get mucky!
+date: 2018-05-09 15:50:54 +0000
+
 ---

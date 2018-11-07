@@ -11,4 +11,5 @@ additional_info: |
   As well as offering a range of fun and engaging activities, Dementia Cafés give both carers and people with dementia a chance to get information and advice and talk to others with similar problems.
 
   These regular social groups improve wellbeing and reduce isolation for whole families. New friendships are often formed and people who attend can leave the sessions feeling like they have a better quality of life.
+date: 2018-05-09 15:50:54 +0000
 ---
