@@ -1,0 +1,42 @@
+---
+label: new-job
+hide_body: true
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: contract
+  label: Contract
+  type: text
+  hidden: false
+  default: ''
+- name: hours
+  label: Hours
+  type: text
+  hidden: false
+  default: ''
+- name: pay
+  label: Pay
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: true
+  default: ''
+  description: Not used
+- type: file
+  name: application_link
+  label: Application pack
+  description: Upload the application form or pack here (5MB max file size)
+  config:
+    maxSize: '5'
