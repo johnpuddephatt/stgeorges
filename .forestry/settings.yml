@@ -7,43 +7,59 @@ sections:
 - type: directory
   path: _volunteering
   label: Volunteering
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - volunteering
 - type: directory
   path: _jobs
   label: Jobs
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - jobs
 - type: directory
   path: _stories
   label: Stories
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - stories
 - type: directory
   path: _young-people
   label: Young-people
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - young-people
 - type: directory
   path: _learning
   label: Learning
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - learning
 - type: directory
   path: _nurseries
   label: Nurseries
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - nurseries
 - type: directory
   path: _activities
   label: Activities
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - activities
 - type: directory
   path: _sections
   label: Sections
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - sections
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
