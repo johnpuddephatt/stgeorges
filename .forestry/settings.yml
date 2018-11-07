@@ -7,8 +7,10 @@ sections:
 - type: directory
   path: _volunteering
   label: Volunteering
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - volunteering
 - type: directory
   path: _jobs
   label: Jobs
