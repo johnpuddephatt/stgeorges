@@ -1,7 +1,7 @@
 ---
 title: Computerised Accounting
 qualification: AAT Level 2 Award
-subject_area: Business Administration and Law
+subject_area: Business Administration & Law
 description: |
   Whether you are considering a new career, need accounting skills for your business,
   or already work in the field, our AAT Computerised Accounting course covers
@@ -41,4 +41,5 @@ information:
 council: true
 date: 2018-06-25 15:23:13 +0000
 layout: learning
+
 ---
