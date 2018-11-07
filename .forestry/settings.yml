@@ -34,7 +34,7 @@ sections:
   - stories
 - type: directory
   path: _young-people
-  label: Young-people
+  label: Young people
   create: documents
   match: "**/*"
   templates:
