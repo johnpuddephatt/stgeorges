@@ -2,7 +2,7 @@
 layout: young-people
 title: Friday Youth Cafe
 description: 'Are you 13 years or older and looking for something to do on a Friday
-  evening? Activities include arts & crafts, sports, cooking, games, guest speakers
+  evening? Activities include arts and crafts, sports, cooking, games, guest speakers
   and trips.
 
 '
