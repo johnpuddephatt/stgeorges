@@ -1,7 +1,6 @@
 ---
-layout: section
 title: Young people
-subtitle: Children & Teenagers
+subtitle: Children and Teenagers
 description: We offer a space where people aged 6 – 18 can take part in sports, music,
   drama and crafts. We also lead trips away from the centre, such as to local museums
   and on woodland adventures.
@@ -22,4 +21,6 @@ facts:
   description: We’ve enabled young volunteers to give 240 hours of their time
 story: young-people
 date: 2018-05-09 15:50:54 +0000
+layout: section
+
 ---
