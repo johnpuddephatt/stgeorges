@@ -38,7 +38,7 @@ information:
   events
 - The first session will involve an assessment of your maths, English and ICT skills
   to ensure you can participate fully and be successful in all aspects of the course.
-council: true
+council: false
 date: 2018-06-25 15:23:13 +0000
 layout: learning
 
