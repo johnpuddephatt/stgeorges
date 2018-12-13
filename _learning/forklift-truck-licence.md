@@ -4,7 +4,7 @@ title: Forklift Truck Licence
 date: 2018-12-13 16:17:12 +0000
 qualification: Level 2
 subject_area: Forklift Truck/Warehousing
-description: 2 week classroom based course the 4 days at local FLT test centre for
+description: 2 week classroom based course then 4 days at local FLT test centre for
   practical test
 outcomes:
 - Free Forklift truck licence
