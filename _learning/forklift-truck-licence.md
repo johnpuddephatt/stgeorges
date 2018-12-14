@@ -18,6 +18,5 @@ equipment:
 information:
 - ''
 council: false
-published: false
 
 ---
