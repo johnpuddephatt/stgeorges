@@ -1,6 +1,6 @@
 ---
 layout: learning
-title: IT Workshop
+title: Digital Inclusion
 date: 2018-12-14 14:17:05 +0000
 qualification: none
 subject_area: I.T
