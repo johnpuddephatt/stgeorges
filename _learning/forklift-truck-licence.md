@@ -7,7 +7,7 @@ subject_area: Forklift Truck/Warehousing
 description: 2 week classroom based course, then 4 days at local FLT Test Centre for
   practical test
 outcomes:
-- 'Free Forklift Truck Licence and Level 2 in Warehousing '
+- " How to operate a Forklift Truck and Level 2 in Warehousing "
 requirements:
 - Must be 19+ unemployed and claiming a benefit. Also you need to have basic English
   skills.
