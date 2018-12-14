@@ -2,7 +2,7 @@
 layout: learning
 title: IT Workshop
 date: 2018-12-14 14:17:05 +0000
-qualification: ''
+qualification: none
 subject_area: Learn to use the internet safety including employability skills
 description: Help with employability skills, CV writing, looking for work
 outcomes:
