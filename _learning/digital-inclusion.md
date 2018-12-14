@@ -8,7 +8,7 @@ description: Help with employability skills, CV writing, looking for work
 outcomes:
 - 'Receive a FREE laptop '
 requirements:
-- Must be 18+, in receipt of benefits, photo ID, or birth certificate
+- Must be 19+, in receipt of benefits, photo ID, or birth certificate
 time_and_location:
 - 28th January 2019, 9.30 - 2.30 @ St George's Community Centre
 equipment:
