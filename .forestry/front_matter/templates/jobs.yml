@@ -40,3 +40,5 @@ fields:
   description: Upload the application form or pack here (5MB max file size)
   config:
     maxSize: '5'
+pages:
+- _jobs/qualified-early-years-practitioners.md
