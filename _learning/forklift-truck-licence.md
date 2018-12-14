@@ -13,7 +13,9 @@ requirements:
   skills.
 time_and_location:
 - St Georges Community Centre 04/02/19 9:30-3:30
-equipment: []
+equipment:
+- Proof of benefit letter and photo identification.  You may also bring your birth
+  certificate if you don't have photo ID
 information:
 - ''
 council: false
