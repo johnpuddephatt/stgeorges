@@ -13,8 +13,7 @@ requirements:
   skills.
 time_and_location:
 - St Georges Community Centre 04/02/19 9:30-3:30
-equipment:
-- Proof of benefit and photo Identification
+equipment: []
 information:
 - ''
 council: false
