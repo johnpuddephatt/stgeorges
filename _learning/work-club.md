@@ -14,7 +14,7 @@ time_and_location:
 equipment:
 - Enthusiasim and a possitive attitude
 information:
-- These a drop-in sessions so no appointment needed
+- The Work Club is adrop-in group so no appointment needed
 council: false
 published: false
 
