@@ -8,7 +8,7 @@ description: Information and advice to help you search for employment
 outcomes:
 - Guidance back in to employment
 requirements:
-- 'Unemployed seeking work '
+- 'Unemployed, seeking work '
 time_and_location:
 - 1:00-4:00 at St George's Community Centre
 equipment:
