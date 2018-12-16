@@ -16,6 +16,5 @@ equipment:
 information:
 - The Work Club is adrop-in group so no appointment needed
 council: false
-published: false
 
 ---
