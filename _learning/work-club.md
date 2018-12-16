@@ -13,7 +13,8 @@ time_and_location:
 - 1:00-4:00 at St George's Community Centre
 equipment:
 - Enthusiasim and a possitive attitude
-information: []
+information:
+- These a drop-in sessions so no appointment needed
 council: false
 published: false
 
