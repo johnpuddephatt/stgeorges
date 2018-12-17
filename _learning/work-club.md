@@ -13,7 +13,7 @@ requirements:
 time_and_location:
 - 1:00-4:00 at St George's Community Centre
 equipment:
-- Enthusiasim and a possitive attitude
+- Enthusiasm and a positive attitude
 information:
 - The Work Club is a drop-in group, so no appointment needed
 council: false
