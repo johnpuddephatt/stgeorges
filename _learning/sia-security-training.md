@@ -16,7 +16,7 @@ equipment:
 information:
 - You will have the choice to be funded, for either the door supervisors badge or
   CCTV badge
-- Induction 7th January 2019, this course will be for 3 weeks
+- Induction 7th January 2019, this course is for 3 weeks
 council: false
 
 ---
