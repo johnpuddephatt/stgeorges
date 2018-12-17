@@ -11,7 +11,7 @@ outcomes:
 requirements:
 - Must be over 19+ proof of  benefits, photo ID and birth certificate
 time_and_location:
-- 21st  January 2019, 9.30 - 3.30 @ St George's Community Centre
+- 21st  January 2019, 9.30 - 3.30 at St George's Community Centre
 equipment:
 - Pen and note pad
 information:
