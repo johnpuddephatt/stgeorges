@@ -2,7 +2,7 @@
 layout: learning
 title: SIA Security Training
 date: 2018-12-17 10:45:29 +0000
-qualification: FREE SIA Security Badge, valid for 3 years
+qualification: FREE SIA Security/CCTV Badge, valid for 3 years
 subject_area: 'Level 2 Security '
 description: ''
 outcomes:
@@ -14,7 +14,8 @@ time_and_location:
 equipment:
 - Pen and note pad
 information:
-- ''
+- You will have the choice to be funded for either the door supervisors badge or CCTV
+  badge
 - Induction 7th January 2019, this course will be for 3 weeks
 council: false
 
