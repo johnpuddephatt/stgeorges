@@ -2,8 +2,8 @@
 layout: learning
 title: CSCS Training
 date: 2018-12-17 09:37:20 +0000
-qualification: " FREE CSCS Card valid for 3 years and a Health and Safety Level 1
-  certificate"
+qualification: " FREE CSCS Card valid for 3 years, which includes a Health and Safety
+  Level 1 certificate"
 subject_area: Construction
 description: ''
 outcomes:
