@@ -7,7 +7,7 @@ subject_area: Construction
 description: 'Learn how to work within a construction environment including Health
   & Safety '
 outcomes:
-- Receive your CSCS Card on completion of this course
+- 'How to work within a construction environment, including Health & Safety '
 requirements:
 - Must be over 21+ proof of  Benefits, photo ID and birth certificate
 time_and_location:
