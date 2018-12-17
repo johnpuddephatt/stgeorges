@@ -4,8 +4,7 @@ title: CSCS Training
 date: 2018-12-17 09:37:20 +0000
 qualification: FREE CSCS Card valid for 3 years
 subject_area: Construction
-description: 'Learn how to work within a construction environment including Health
-  & Safety '
+description: ''
 outcomes:
 - 'How to work within a construction environment, including Health & Safety '
 requirements:
