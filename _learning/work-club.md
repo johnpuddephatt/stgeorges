@@ -6,7 +6,8 @@ qualification: ''
 subject_area: Employment
 description: Information and advice to help you search for employment
 outcomes:
-- Guidance back in to employment
+- A better knowledge and understanding of how to apply and search for jobs.You will
+  also be shown how to create a CV.
 requirements:
 - 'Unemployed, seeking work '
 time_and_location:
