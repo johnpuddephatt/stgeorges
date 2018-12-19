@@ -6,7 +6,7 @@ qualification: FREE SIA Security/CCTV Badge, valid for 3 years
 subject_area: 'Level 2 Security '
 description: ''
 outcomes:
-- Skilld to enable you to work within the Security Industry
+- Skills to enable you to work within the Security Industry
 requirements:
 - Must be 19+, proof of benefits, photo ID and birth certificate
 time_and_location:
