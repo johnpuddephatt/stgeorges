@@ -56,6 +56,8 @@ tabs:
     <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
     <input type="submit" value="Send" class="button"/>
     </form>
+  files:
+  - path: "/uploads/2018/12/19/St George's booking form.pdf"
 - title: Transport hire
   content: "St George’s has its own Minibus that can be hired with a driver included.
     The Minibus is a 17 seater inclusive of driver and can accommodate up to 2 wheelchairs
