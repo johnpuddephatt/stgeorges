@@ -46,7 +46,8 @@
   background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/centre_wide.jpg');
   @media screen and (orientation: portrait) {
     background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/centre_wide.jpg');
-  }}
+  }
+}
 
 .section--hero--course {
   background-position: bottom;
@@ -71,9 +72,9 @@
 }
 
 .section--hero--jobs {
-  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/staff.jpg');
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/26610440979_ad3b72ec6d_k.jpg');
   @media screen and (orientation: portrait) {
-    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/staff.jpg');
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/26610440979_ad3b72ec6d_k.jpg');
   }
 }
 
