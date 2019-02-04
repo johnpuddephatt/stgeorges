@@ -13,7 +13,7 @@ time_and_location:
 equipment:
 - Pen & Notepad
 information: []
-date: ''
+date: 2019-02-04 16:17:12 +0000
 council: false
 
 ---
