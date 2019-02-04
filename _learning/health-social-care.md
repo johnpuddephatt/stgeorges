@@ -3,7 +3,7 @@ layout: learning
 title: Health & Social Care
 qualification: Level 2
 subject_area: ''
-description: ''
+description: Health & Social Care
 outcomes:
 - Level 2 Qualification
 requirements:
