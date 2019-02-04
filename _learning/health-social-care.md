@@ -15,6 +15,5 @@ equipment:
 information: []
 date: ''
 council: false
-published: false
 
 ---
