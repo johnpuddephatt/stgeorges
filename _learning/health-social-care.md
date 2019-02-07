@@ -12,7 +12,8 @@ time_and_location:
 - St George's Community Centre 28th February 9:30-12:30
 equipment:
 - Pen & Notepad
-information: []
+information:
+- Induction will be 25th February 11-1pm
 date: 2019-02-04 16:17:12 +0000
 council: false
 
