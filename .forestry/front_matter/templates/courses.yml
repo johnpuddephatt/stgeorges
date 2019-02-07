@@ -57,7 +57,7 @@ fields:
   label: Date
   type: datetime
   hidden: true
-  default: '2019-02-04 16:17:12 +0000'
+  default: 2019-02-04 16:17:12 +0000
 - name: layout
   label: Layout
   type: text
