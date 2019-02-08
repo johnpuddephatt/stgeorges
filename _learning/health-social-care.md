@@ -14,7 +14,6 @@ equipment:
 - Pen & Notepad
 information:
 - Induction will be 25th February 11-1pm
-date: 2019-02-04 16:17:12 +0000
 council: false
 
 ---

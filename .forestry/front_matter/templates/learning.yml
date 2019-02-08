@@ -45,12 +45,6 @@ fields:
 - type: list
   name: information
   label: Additional info
-- name: date
-  label: Date
-  type: datetime
-  hidden: true
-  default: ''
-  description: Not used.
 - type: boolean
   name: council
   label: Wakefield Council course
