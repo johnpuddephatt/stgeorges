@@ -1,7 +1,11 @@
 ---
 title: Minibus Driver
-description: "Do you have a relevant UK driving license\nDriving community groups
-  to different venues.  \nFull Midas training will be given if required  "
+description: |-
+  Do you have a relevant UK driving license?
+
+  We’re looking for a volunteer to help us by driving community groups to different venues in the local area.
+
+  Full Midas training will be given if required.
 hours: Flexible to your needs
 
 ---
