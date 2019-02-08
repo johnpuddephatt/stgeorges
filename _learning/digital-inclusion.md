@@ -2,7 +2,7 @@
 layout: learning
 title: Digital Inclusion
 qualification: ''
-subject_area: I.T
+subject_area: I.T.
 description: ''
 outcomes:
 - " Employability skills, which includes how to create Cv's,Job Search and interview
