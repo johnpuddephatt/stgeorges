@@ -15,7 +15,6 @@ time_and_location:
 equipment: []
 information:
 - Induction 7th March 11-1pm
-date: ''
 council: false
 
 ---
