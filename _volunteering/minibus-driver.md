@@ -1,7 +1,7 @@
 ---
 title: Minibus Driver
 description: |-
-  Do you have a relevant UK driving license?
+  Do you hold a relevant UK driving license?
 
   We’re looking for a volunteer to help us by driving community groups to different venues in the local area.
 
