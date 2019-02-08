@@ -18,11 +18,5 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: true
-  default: ''
-  description: Not used
 pages:
 - _volunteering/minibus-driver.md
