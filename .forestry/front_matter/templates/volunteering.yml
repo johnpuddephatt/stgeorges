@@ -19,4 +19,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _volunteering/tuesday-leisure-club-tlc-assistant.md
 - _volunteering/minibus-driver.md
