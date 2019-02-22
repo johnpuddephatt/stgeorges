@@ -19,5 +19,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- _volunteering/gardener.md
 - _volunteering/befriender.md
 - _volunteering/minibus-driver.md
