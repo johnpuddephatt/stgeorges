@@ -9,7 +9,7 @@ outcomes:
 requirements:
 - 19+ unemployed on a work related benefit
 time_and_location:
-- St George's Community Centre 28th February 9:30-12:30
+- St George's Community Centre 7th March 9:30-12:30
 equipment:
 - Pen & Notepad
 information:
