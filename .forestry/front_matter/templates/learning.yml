@@ -51,6 +51,5 @@ fields:
   description: Enable this setting to display the Wakefield council logo
 pages:
 - _learning/health-social-care.md
-- _learning/families-learning-together.md
 - _learning/sia-security.md
 - _learning/work-club.md
