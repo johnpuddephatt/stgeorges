@@ -50,7 +50,6 @@ fields:
   label: Wakefield Council course
   description: Enable this setting to display the Wakefield council logo
 pages:
-- _learning/forklift-truck-licence.md
 - _learning/health-social-care.md
 - _learning/families-learning-together.md
 - _learning/sia-security.md
