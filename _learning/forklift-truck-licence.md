@@ -2,7 +2,7 @@
 layout: learning
 title: Forklift Truck Licence
 qualification: Qualified Forklift Truck Operator
-subject_area: ''
+subject_area: Warehousing
 description: ''
 outcomes:
 - How to operate a Forklift Truck (Counterbalance)
