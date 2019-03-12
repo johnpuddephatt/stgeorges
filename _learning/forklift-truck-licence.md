@@ -5,7 +5,7 @@ qualification: Qualified Forklift Truck Operator
 subject_area: Forklift Licence
 description: ''
 outcomes:
-- Free Licence &  Level 2  Warehousing
+- How to operate a Forklift Truck (Counterbalance)
 requirements:
 - age 19+ and claiming a work related benefit
 time_and_location:
