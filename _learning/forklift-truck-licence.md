@@ -9,7 +9,7 @@ outcomes:
 requirements:
 - age 19+ and claiming a work related benefit
 time_and_location:
-- 7th May 9:30-3:30 St George's Community Centre
+- 7th May 9:30-3:30 2019 St George's Community Centre
 equipment:
 - Pen and Paper
 information:
