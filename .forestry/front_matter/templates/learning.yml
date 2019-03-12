@@ -1,7 +1,6 @@
 ---
 label: learning
 hide_body: true
-is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -50,6 +49,7 @@ fields:
   label: Wakefield Council course
   description: Enable this setting to display the Wakefield council logo
 pages:
+- _learning/forklift-truck-licence.md
 - _learning/health-social-care.md
 - _learning/sia-security.md
 - _learning/work-club.md
