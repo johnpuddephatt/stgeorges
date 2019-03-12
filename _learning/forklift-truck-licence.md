@@ -1,7 +1,7 @@
 ---
 layout: learning
 title: Forklift Truck Licence
-qualification: Free Licence
+qualification: Qualified Forklift Truck Operator
 subject_area: Forklift Licence
 description: ''
 outcomes:
