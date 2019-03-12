@@ -1,7 +1,7 @@
 ---
 layout: learning
 title: Forklift Truck Licence
-qualification: Qualified Forklift Truck Operator
+qualification: ''
 subject_area: Warehousing
 description: ''
 outcomes:
