@@ -7,6 +7,5 @@ times:
 cost: lgyffu
 location: jdrdfyiff
 signup: false
-date: ''
-
+date: 2018-05-09 15:50:54 +0000
 ---
