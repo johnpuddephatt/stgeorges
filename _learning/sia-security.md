@@ -14,7 +14,6 @@ time_and_location:
 - St George's Community Centre 23rd April 9:30-3:30 for 12 days
 equipment:
 - Pen & Notepad
-- ''
 information:
 - Induction 15th April 11-1pm
 council: false
