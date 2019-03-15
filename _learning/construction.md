@@ -1,7 +1,7 @@
 ---
 layout: learning
 title: Construction
-qualification: Free 3 years Labourer Construction Card
+qualification: Free 3 years Labourer Card
 subject_area: ''
 description: ''
 outcomes:
