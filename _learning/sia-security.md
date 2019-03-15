@@ -3,7 +3,7 @@ layout: learning
 title: SIA Security/CCTV
 qualification: ''
 subject_area: Security
-description: "\n\tSIA LICENCE WILL BE PAID FOR IF SUCCESSFUL \n"
+description: "\n\tSIA Licence will be paid for on completion of course\n"
 outcomes:
 - Skills to work within the Security industry
 requirements:
