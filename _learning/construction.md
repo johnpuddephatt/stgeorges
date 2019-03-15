@@ -1,7 +1,7 @@
 ---
 layout: learning
 title: Construction
-qualification: 3 year CSCS labourer card
+qualification: ''
 subject_area: ''
 description: ''
 outcomes:
