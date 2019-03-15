@@ -3,9 +3,7 @@ layout: learning
 title: SIA Security/CCTV
 qualification: ''
 subject_area: Security
-description: "•\tDoor Supervisor & Security/Terrorism Awareness Training Given\n•\tProgression
-  to Advanced Physical Intervention & Handcuff Course\n•\tSIA LICENCE WILL BE PAID
-  FOR IF SUCCESSFUL \n"
+description: "\n\tSIA LICENCE WILL BE PAID FOR IF SUCCESSFUL \n"
 outcomes:
 - Skills to work within the Security industry
 requirements:
