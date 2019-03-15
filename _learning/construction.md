@@ -1,12 +1,11 @@
 ---
 layout: learning
 title: Construction
-qualification: ''
+qualification: Free 3 years Labourer Construction Card
 subject_area: ''
 description: ''
 outcomes:
 - Employability Skills & Health & Safety in the workplace
-- 3 Year labouer CSCS card
 requirements:
 - 19+ Unemployed and on a work related benefit
 time_and_location:
