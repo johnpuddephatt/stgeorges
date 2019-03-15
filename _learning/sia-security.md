@@ -7,7 +7,7 @@ description: "•\tDoor Supervisor & Security/Terrorism Awareness Training Given
   to Advanced Physical Intervention & Handcuff Course\n•\tSIA LICENCE WILL BE PAID
   FOR IF SUCCESSFUL \n"
 outcomes:
-- Security Badge to work within the Security industry
+- Skills to work within the Security industry
 requirements:
 - Must be 19+ and on a means tested benefit
 time_and_location:
