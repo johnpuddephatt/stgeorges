@@ -13,7 +13,7 @@ time_and_location:
 equipment:
 - Pen & Paper
 information:
-- Photo ID and proof of benefit letter required on start date
+- Photo ID and proof of benefit letter required on the start date
 council: false
 date: 2019-03-15 13:24:08 +0000
 
