@@ -3,7 +3,7 @@ layout: learning
 title: Construction
 qualification: 3 year CSCS labourer card
 subject_area: ''
-description: ''
+description: Employability Skills & Health & Safety in the workplace
 outcomes:
 - 3 Year labouer CSCS card
 requirements:
