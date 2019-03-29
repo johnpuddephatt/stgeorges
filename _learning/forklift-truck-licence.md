@@ -13,7 +13,6 @@ time_and_location:
 equipment:
 - Pen and Paper
 information:
-- Induction date 29th April 11-1
 - Photo ID and proof of benefit letter will be needed on Induction
 council: false
 date: 2019-03-12 15:09:36 +0000
