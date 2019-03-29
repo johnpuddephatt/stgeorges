@@ -1,8 +1,8 @@
 ---
 layout: learning
-title: Construction
-qualification: Free 3 years Labourer Card
-subject_area: ''
+title: Induction 9th May 11-1
+qualification: Free 3 years CSCS Labourer Card
+subject_area: Construction
 description: ''
 outcomes:
 - Employability Skills & Health & Safety in the workplace
