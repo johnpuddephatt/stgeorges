@@ -2,7 +2,7 @@
 layout: learning
 title: Forklift Truck Licence
 qualification: ''
-subject_area: Warehousing
+subject_area: Induction 29th April 11-1
 description: ''
 outcomes:
 - How to operate a Forklift Truck (Counterbalance)
