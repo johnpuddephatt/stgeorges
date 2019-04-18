@@ -45,5 +45,6 @@ fields:
   config:
     maxSize: '5'
 pages:
+- _jobs/early-years-practitioner-trainee-or-qualified-1.md
 - _jobs/early-years-practitioner-x-2.md
 - _jobs/early-years-practitioner-trainee-or-qualified.md
