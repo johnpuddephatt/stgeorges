@@ -10,6 +10,5 @@ contract: 'Permanent '
 hours: 37 hours per week over four days
 pay: "£8:21 to £8:71 dependant on age, expereince and qualifications"
 application_link: "/uploads/Information Sheet and Job Descriptions-2.pdf"
-published: false
 
 ---
