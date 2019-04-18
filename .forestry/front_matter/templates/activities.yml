@@ -57,6 +57,11 @@ fields:
   type: text
   hidden: true
   default: activity
+- name: date
+  label: Date
+  type: datetime
+  hidden: true
+  default: 2019-02-04 16:17:12 +0000
 pages:
 - _activities/boccia-bowling.md
 - _activities/new-activity.md
