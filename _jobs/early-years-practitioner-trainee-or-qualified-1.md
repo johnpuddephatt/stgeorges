@@ -7,6 +7,5 @@ contract: 12 months contract
 hours: 20 hours per week,  Monday to Friday mornings.
 pay: "£7:70 to £8:71 dependant on age, qualifications and experience. "
 application_link: "/uploads/Information Sheet and Job Descriptions.pdf"
-published: false
 
 ---
