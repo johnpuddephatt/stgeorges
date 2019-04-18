@@ -11,6 +11,5 @@ contract: Flexible
 hours: Flexible
 pay: "£7:70 to £8:71 dependant on age, expereince and qualifications."
 application_link: ''
-published: false
 
 ---
