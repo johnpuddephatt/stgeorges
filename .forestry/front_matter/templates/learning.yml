@@ -19,7 +19,7 @@ fields:
   label: Date
   type: datetime
   hidden: true
-  default: 2019-02-04 16:17:12 +0000
+  default: '2019-02-04T16:17:12.000+00:00'
 - type: text
   label: Subject
   name: subject_area
