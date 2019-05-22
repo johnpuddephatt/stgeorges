@@ -32,12 +32,6 @@ fields:
   type: datetime
   hidden: true
   default: '2019-02-04T16:17:12.000+00:00'
-- name: date
-  label: Date
-  type: datetime
-  hidden: true
-  default: ''
-  description: Not used
 - type: file
   name: application_link
   label: Application pack
@@ -45,6 +39,7 @@ fields:
   config:
     maxSize: '5'
 pages:
+- _learning/forklift-truck-licence.md
 - _jobs/early-years-practitioner.md
 - _jobs/relief-early-years-practitioners-qualified-or-unqualified.md
 - _jobs/early-years-practitioner-trainee-or-qualified.md
