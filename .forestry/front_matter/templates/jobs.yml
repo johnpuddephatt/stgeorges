@@ -39,8 +39,8 @@ fields:
   config:
     maxSize: '5'
 pages:
+- _jobs/early-years-practitioner-trainee-or-qualified.md
 - _learning/forklift-truck-licence.md
 - _jobs/early-years-practitioner.md
 - _jobs/relief-early-years-practitioners-qualified-or-unqualified.md
-- _jobs/early-years-practitioner-trainee-or-qualified.md
 - _jobs/early-years-practitioner-x-2.md
