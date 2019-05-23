@@ -9,7 +9,7 @@ outcomes:
 requirements:
 - Must be 19+ and claiming a benefit
 time_and_location:
-- St George's Community Centre 9:30-2:30
+- St George's Community Centre 31st May 9:30-2:30
 equipment: []
 information:
 - " Must bring Proof of benefit and I.D "
