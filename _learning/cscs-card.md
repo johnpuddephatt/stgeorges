@@ -2,7 +2,7 @@
 layout: learning
 date: 2019-02-04T16:17:12.000+00:00
 title: CSCS CARD
-qualification: Level 2
+qualification: ''
 subject_area: Construction
 description: ''
 outcomes:
@@ -14,6 +14,7 @@ time_and_location:
 equipment:
 - Pen & Notepad
 information:
+- Induction 17th June 10-1
 - proof of benefit and I.D required
 council: false
 
