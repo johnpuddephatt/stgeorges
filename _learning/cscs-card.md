@@ -4,7 +4,7 @@ date: 2019-02-04T16:17:12.000+00:00
 title: CSCS CARD
 qualification: Level 2
 subject_area: Construction
-description: ''
+description: course
 outcomes:
 - FREE CSCS Card
 requirements:
