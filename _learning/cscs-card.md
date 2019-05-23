@@ -4,9 +4,9 @@ date: 2019-02-04T16:17:12.000+00:00
 title: CSCS CARD
 qualification: Level 2
 subject_area: Construction
-description: course
+description: ''
 outcomes:
-- FREE CSCS Card
+- Health & Safety in the work place
 requirements:
 - Aged 19+ Unemployed claiming a benefit
 time_and_location:
