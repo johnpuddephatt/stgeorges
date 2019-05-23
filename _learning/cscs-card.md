@@ -15,7 +15,7 @@ equipment:
 - Pen & Notepad
 information:
 - Induction 17th June 10-1
-- proof of benefit and I.D required
+- Proof of benefit and I.D required
 council: false
 
 ---
