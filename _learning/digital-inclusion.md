@@ -6,7 +6,6 @@ subject_area: FREE Laptop
 description: ''
 outcomes:
 - I.T & Employability Skills
-- FREE Laptop
 requirements:
 - Must be 19+ and claiming a benefit
 time_and_location:
