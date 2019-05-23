@@ -4,7 +4,7 @@ date: 2019-02-04T16:17:12.000+00:00
 title: Forklift Truck Licence
 qualification: 'Level 2 '
 subject_area: Warehousing
-description: How to operate a Forklift Truck
+description: ''
 outcomes: []
 requirements:
 - Aged 19+ and unemployed claiming a benefit
