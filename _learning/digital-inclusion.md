@@ -2,7 +2,7 @@
 layout: learning
 title: Digital Inclusion
 qualification: Level 1
-subject_area: FREE Laptop
+subject_area: FREE LAPTOP
 description: ''
 outcomes:
 - I.T & Employability Skills
