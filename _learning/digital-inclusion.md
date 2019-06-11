@@ -5,7 +5,7 @@ qualification: Level 1
 subject_area: FREE LAPTOP
 description: ''
 outcomes:
-- I.T & Employability Skills
+- Customer Service & Employability Skills
 requirements:
 - Must be 19+ and claiming a benefit
 time_and_location:
