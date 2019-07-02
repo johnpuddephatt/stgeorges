@@ -9,7 +9,7 @@ outcomes:
 requirements:
 - Must be 19+ and claiming a benefit
 time_and_location:
-- St George's Community Centre 24th June 9:30-2:30
+- St George's Community Centre 26th July 9:30-2:30
 equipment:
 - Pen & Notepad
 information:
