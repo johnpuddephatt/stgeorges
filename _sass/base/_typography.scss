@@ -28,6 +28,14 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+.section-title {
+  font-size: modular-scale(3);
+  text-align: center;
+  margin-top: $base-spacing;
+  margin-bottom: -$small-spacing;
+  color: $blue;
+}
+
 p {
   margin: 0 0 $small-spacing;
 }

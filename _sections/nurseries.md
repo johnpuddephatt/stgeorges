@@ -9,6 +9,7 @@ introduction: |
   Our hardworking staff are committed to delivering a personalised approach by working closely with families to get to know individual children and their needs.
 introduction_photo: '/images/childcare-intro.jpg'
 childname: nurseries
+childname_title: Our nurseries
 facts:
 - figure: '210,000'
   description: We’ve provided over 210,000 hours of high quality childcare

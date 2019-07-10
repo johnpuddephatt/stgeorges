@@ -24,15 +24,27 @@ layout: default
         <h2>Our services</h2>
         {{ page.services | markdownify }}
 
+        <h2>Ofsted</h2>
+        {% if page.ofsted_link %}<a class="button" href="{{ page.ofsted_link }}" target="_blank">View our Ofsted reports and rating</a>{% endif %}
+
         <h2>Contact us</h2>
-        <h3>Address</h3>
-        <p>{{ page.address }}</p>
-        <h3>Telephone</h3>
-        <p>{{ page.phone }}</p>
-        <h3>Email</h3>
-        <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-        <h3>Finding us</h3>
-        {{page.map}}
+
+        <table>
+          <tr>
+            <td><strong>Address: </strong></td>
+            <td>{{ page.address }} (<a href="{{page.map}}" target="_blank">view on map</a>)</td>
+          </tr>
+          <tr>
+            <td><strong>Telephone:</strong></td>
+            <td>{{ page.phone }}</td>
+          </tr>
+          <tr>
+            <td><strong>Email:</strong></td>
+            <td><a href="mailto:{{ page.email }}">{{ page.email }}</a></td>
+          </tr>
+        </table>
+
+
 
 
       </div>
@@ -40,15 +52,21 @@ layout: default
       <label for="tab-parents">Parents</label>
       <div class="tab-content">
         <h2>Parent admin</h2>
-        <p>Sign in to parent admin to view invoices, payment details and booking patterns, as well as update things like collection passwords, emergency contact details and medical records.</p>
+        <p>For registered parents only – you will be sent a registration link. Sign in to parent admin to view invoices, payment details and booking patterns, as well as update things like collection passwords, emergency contact details and medical records.</p>
         <a class="button" target="_blank" href="http://www.parentadmin.com">Access Parent Admin</a>
+
+        <h2>Capture</h2>
+        <p>Track, share and support your child’s learning journey.</p>
+        <a class="button" target="_blank" href="https://family.capture-eduk8.com/#login">Access Capture</a>
       </div>
       <input type="radio" name="tabs" id="tab-viewings">
 
-      <label for="tab-viewings">Book a tour</label>
+      <label for="tab-viewings">Visit</label>
       <div class="tab-content">
-        <h2>Arrange a viewing</h2>
-        <p>To arrange a viewing, please complete the form below.</p>
+
+        <h2>Arrange a visit</h2>
+        <p>Our nurseries have an open door policy for prospective parents/carers.</p>
+        <p>To arrange a viewing at a specific time, you can complete the form below.</p>
         {{ page.viewing_code}}
 
       </div>
@@ -57,6 +75,7 @@ layout: default
       <div class="tab-content">
         <h2>Register a child</h2>
         <p>To register a child, please complete the form below.</p>
+        <p>Please note that applying for a place is not a guarantee of your childcare place. You’ll be added to our waiting list and we will allocate you a place when one comes available.</p>
         {{ page.registration_code}}
       </div>
 

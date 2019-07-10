@@ -1,6 +1,6 @@
 ---
 date: 2019-02-04T16:17:12.000+00:00
-title: 'CHIEF EXECUTIVE OFFICER   '
+title: 'Chief Executive Officer'
 description: ''
 contract: ''
 hours: "37"

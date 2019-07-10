@@ -26,6 +26,9 @@ layout: default
 
 {% if page.childname and site[page.childname] %}
   <section class="section section--navigation-grid">
+    {% if page.childname_title %}
+    <h3 class="section-title">{{ page.childname_title }}</h3>
+    {% endif %}
     <div class="navigation-grid-container container">
       <!-- <h2 class="navigation-grid-title"><span>{{ page.childname }}</span> at St George’s</h2> -->
       <ul class="navigation-grid">
