@@ -3,9 +3,9 @@ layout: learning
 date: 2019-02-04T16:17:12.000+00:00
 title: Digital Inclusion
 qualification: Level 2
-subject_area: 'I.T, Employability and Customer Service '
-description: Learn the basics in I.T and you will also get help creating a CV. you
-  will also gain Level 1 qualification in Customer Service
+subject_area: Learn the basics in I.T and you will also get help creating a CV. You
+  will also gain Level 1 qualification in Customer Servi
+description: 'I.T, Employability and Customer Service '
 outcomes:
 - FREE laptop
 requirements:
