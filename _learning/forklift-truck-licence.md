@@ -10,11 +10,10 @@ outcomes:
 requirements:
 - Aged 19+ and unemployed claiming a benefit
 time_and_location:
-- St George's Community Centre  08/07/19 9:30-3:30
+- St George's Community Centre  15/07/19 9:30-3:30
 equipment:
 - Pen & Notepad
-information:
-- There will be an Induction 3rd June 10-1
+information: []
 council: false
 
 ---
