@@ -1,0 +1,21 @@
+<fieldset class="input-group {{include.class}}">
+    <legend>
+      {% if include.label %}{{ include.label }}{% else %}{{ include.name | replace: '_', ' ' | capitalize }}{% endif %}
+      {% if include.required %}<span class="required">*</span>{% endif%}
+    </legend>
+    {% assign valuesArray = include.values | split: "," %}
+
+    <div class="radiogroup">
+      {% for value in valuesArray %}
+        <input type="radio"
+          id="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}--{{value}}"
+          name="{% if include.fieldset %}fieldset_{{include.fieldset}}[{% endif %}{{include.name}}{% if include.fieldset %}]{% endif%}"
+          value="{{ value }}"
+          {% if include.disabled %}disabled{% endif%}>
+        <label for="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}--{{value}}">{{ value | capitalize }}</label>
+      {% endfor %}
+    </div>
+
+</fieldset>
+
+{% if include.help %}<p class="help-text">{{include.help}}</p>{% endif%}

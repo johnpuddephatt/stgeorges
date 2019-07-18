@@ -1,0 +1,138 @@
+<script>
+  /************
+  serialize.js
+  ************/
+  var k_r_submitter=/^(?:submit|button|image|reset|file)$/i,k_r_success_contrls=/^(?:input|select|textarea|keygen)/i,brackets=/(\[[^\[\]]*\])/g;function serialize(e,s){"object"!=typeof s?s={hash:!!s}:void 0===s.hash&&(s.hash=!0);for(var a=s.hash?{}:"",r=s.serializer||(s.hash?hash_serializer:str_serialize),t=e&&e.elements?e.elements:[],n=Object.create(null),i=0;i<t.length;++i){var h=t[i];if((s.disabled||!h.disabled)&&h.name&&(k_r_success_contrls.test(h.nodeName)&&!k_r_submitter.test(h.type))){var l=h.name,c=h.value;if("checkbox"!==h.type&&"radio"!==h.type||h.checked||(c=void 0),s.empty){if("checkbox"!==h.type||h.checked||(c=""),"radio"===h.type&&(n[h.name]||h.checked?h.checked&&(n[h.name]=!0):n[h.name]=!1),null==c&&"radio"==h.type)continue}else if(!c)continue;if("select-multiple"!==h.type)a=r(a,l,c);else{c=[];for(var u=h.options,o=!1,p=0;p<u.length;++p){var _=u[p],f=s.empty&&!_.value,m=_.value||f;_.selected&&m&&(o=!0,a=s.hash&&"[]"!==l.slice(l.length-2)?r(a,l+"[]",_.value):r(a,l,_.value))}!o&&s.empty&&(a=r(a,l,""))}}}if(s.empty)for(var l in n)n[l]||(a=r(a,l,""));return a}function parse_keys(e){var s=[],a=new RegExp(brackets),r=/^([^\[\]]*)/.exec(e);for(r[1]&&s.push(r[1]);null!==(r=a.exec(e));)s.push(r[1]);return s}function hash_assign(e,s,a){if(0===s.length)return e=a;var r=s.shift(),t=r.match(/^\[(.+?)\]$/);if("[]"===r)return e=e||[],Array.isArray(e)?e.push(hash_assign(null,s,a)):(e._values=e._values||[],e._values.push(hash_assign(null,s,a))),e;if(t){var n=t[1],i=+n;isNaN(i)?(e=e||{})[n]=hash_assign(e[n],s,a):(e=e||[])[i]=hash_assign(e[i],s,a)}else e[r]=hash_assign(e[r],s,a);return e}function hash_serializer(e,s,a){if(s.match(brackets)){hash_assign(e,parse_keys(s),a)}else{var r=e[s];r?(Array.isArray(r)||(e[s]=[r]),e[s].push(a)):e[s]=a}return e}function str_serialize(e,s,a){return a=a.replace(/(\r)?\n/g,"\r\n"),a=(a=encodeURIComponent(a)).replace(/%20/g,"+"),e+(e?"&":"")+encodeURIComponent(s)+"="+a}
+
+  /************
+  prepopulate.js
+  ************/
+  !function(e){var t=function(e,o,n){for(var a in o)if(o.hasOwnProperty(a)){var r=a,i=o[a];if(void 0===i&&(i=""),null===i&&(i=""),void 0!==n&&(r=n+"["+a+"]"),i.constructor===Array)r+="[]";else if("object"==typeof i){t(e,i,r);continue}var c=e.elements.namedItem(r);if(c)switch(c.type||c[0].type){default:c.value=i;break;case"radio":case"checkbox":for(var f=0;f<c.length;f++)c[f].checked=i.indexOf(c[f].value)>-1;break;case"select-multiple":for(var l=i.constructor==Array?i:[i],s=0;s<c.options.length;s++)c.options[s].selected|=l.indexOf(c.options[s].value)>-1;break;case"select":case"select-one":c.value=i.toString()||i;break;case"date":c.value=new Date(i).toISOString().split("T")[0]}}};"function"==typeof define&&"object"==typeof define.amd&&define.amd?define(function(){return t}):"undefined"!=typeof module&&module.exports?module.exports=t:e.populate=t}(this);
+
+
+  /************
+  Form caching
+  ************/
+  var formElement = document.forms[0];
+  var pageName = window.location.pathname.split('/');
+  var pageFormData = pageName[pageName.length - 2] + "formData";
+  setInterval(function(){
+      var formJSON = serialize(formElement, { hash: true });
+      var formString = JSON.stringify(formJSON);
+      localStorage.setItem(pageFormData, formString );
+  var autosavebadge = document.querySelector('.badge-autosave');
+    autosavebadge.classList.add('badge-success');
+    setTimeout(function(){
+      autosavebadge.classList.remove('badge-success');
+    }, 3000)
+
+  }, 10000);
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var retrievedData = localStorage.getItem(pageFormData);
+    // console.log(retrievedData);
+    var parsedData = JSON.parse(retrievedData);
+    populate(formElement, parsedData);
+  });
+
+
+  /************
+  Textarea limiting/counting
+  ************/
+
+   var limitedTextareas = document.getElementsByTagName('textarea');
+    var counter = [];
+    for (var i = 0, len = limitedTextareas.length; i < len; i++) {
+      if(limitedTextareas[i].hasAttribute('maxlength')) {
+        counter[i] = document.createElement('div');
+        var textarea = limitedTextareas[i];
+        var maxlength = textarea.getAttribute('maxlength');
+        counter[i].className = 'badge badge-info form-counter';
+        counter[i].innerHTML = (maxlength - textarea.value.length) + ' characters remaining';
+        textarea.parentNode.appendChild(counter[i]);
+        textarea.addEventListener("keyup", function(e){
+          e.target.parentNode.querySelector('.form-counter').innerHTML = (e.target.getAttribute('maxlength') - e.target.value.length) + ' characters remaining';
+        });
+      }
+    }
+
+  /************
+  Interests duplicator
+  ************/
+
+    function duplicate(button) {
+
+      var clone = button.previousElementSibling.cloneNode(true);
+      clone.removeAttribute('hidden');
+      button.dataset.count++;
+      cloneSelects = clone.getElementsByTagName('select');
+      for(var i = 0; i<cloneSelects.length; i++) {
+        cloneSelects[i].setAttribute('name', cloneSelects[i].getAttribute('name').replace('$$$', button.dataset.count));
+        cloneSelects[i].setAttribute('id', cloneSelects[i].getAttribute('id').replace('$$$', button.dataset.count));
+        cloneSelects[i].removeAttribute('disabled');
+      }
+      cloneInputs = clone.getElementsByTagName('input');
+      for(var i = 0; i<cloneInputs.length; i++) {
+        cloneInputs[i].setAttribute('name', cloneInputs[i].getAttribute('name').replace('$$$', button.dataset.count));
+        cloneInputs[i].setAttribute('id', cloneInputs[i].getAttribute('id').replace('$$$', button.dataset.count));
+        cloneInputs[i].removeAttribute('disabled');
+      }
+      cloneTextareas = clone.getElementsByTagName('textarea');
+      for(var i = 0; i<cloneTextareas.length; i++) {
+        cloneTextareas[i].setAttribute('name', cloneTextareas[i].getAttribute('name').replace('$$$', button.dataset.count));
+        cloneTextareas[i].setAttribute('id', cloneTextareas[i].getAttribute('id').replace('$$$', button.dataset.count));
+        cloneTextareas[i].removeAttribute('disabled');
+      }
+      cloneLabels = clone.getElementsByTagName('label');
+      for(var i = 0; i<cloneLabels.length; i++) {
+        cloneLabels[i].setAttribute('for', cloneLabels[i].getAttribute('for').replace('$$$', button.dataset.count));
+      }
+      // duplicator.parentNode.appendChild(clone);
+      button.parentNode.insertBefore(clone,button.previousElementSibling);
+    }
+
+    var duplicator = document.querySelectorAll('.duplicator');
+    var duplicatorButton = [];
+    for(var i = 0; i<duplicator.length; i++) {
+
+      duplicatorButton[i] = document.createElement('button');
+      duplicatorButton[i].innerText = 'Add entry';
+      duplicatorButton[i].classList.add('duplicator-button');
+      duplicatorButton[i].dataset.count = 0;
+      duplicator[i].setAttribute('hidden',true);
+      duplicator[i].parentNode.appendChild(duplicatorButton[i]);
+      duplicatorButton[i].addEventListener('click', function(e){
+        e.preventDefault();
+        duplicate(e.target);
+      });
+    }
+
+    /**********
+    Get query variables
+    **********/
+    function getQueryVariable(variable)
+    {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        if(pair[0] == variable){return pair[1];}
+      }
+      return(false);
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+
+      var encodedSelectedTitle = getQueryVariable('title');
+      var selectedTitle = decodeURIComponent(encodedSelectedTitle);
+
+      if(selectedTitle) {
+        var jobTitleSelect = document.getElementById('form-_subject');
+        jobTitleSelect.value = selectedTitle;
+        if(jobTitleSelect.value == selectedTitle) {
+          // jobTitleSelect.disabled = true;
+        }
+      }
+    });
+</script>

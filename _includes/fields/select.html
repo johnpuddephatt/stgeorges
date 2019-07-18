@@ -1,0 +1,21 @@
+<div class="input-group {{include.class}}">
+  <label for="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}">
+    {% if include.label %}{{ include.label }}{% else %}{{ include.name | replace: '_', ' ' | capitalize }}{% endif %}
+    {% if include.required %}<span class="required">*</span>{% endif%}
+  </label>
+
+  {% assign valuesArray = include.values | split: "," %}
+
+  <select
+    id="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}"
+    name="{% if include.fieldset %}fieldset_{{include.fieldset}}[{% endif %}{{include.name}}{% if include.fieldset %}]{% endif%}"
+    {% if include.disabled %}disabled{% endif%}
+    {% if include.required %}required{% endif%}
+    >
+    {% for value in valuesArray %}
+      <option value="{{ value }}">{{ value }}</option>
+    {% endfor %}
+  </select>
+  {% if include.help %}<p class="help-text">{{include.help}}</p>{% endif%}
+
+</div>

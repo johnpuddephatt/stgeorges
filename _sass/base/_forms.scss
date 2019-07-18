@@ -1,14 +1,46 @@
 fieldset {
+  border: $base-border;
+  border-radius: $base-border-radius;
+  &.input-group {
+    position: relative;
+    padding: $small-spacing/2 $small-spacing;
+    margin-top: 2 * $base-spacing;
+    legend {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      label {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+fieldset:not(.input-group){
   background-color: transparent;
-  border: 0;
-  margin: 0;
-  padding: 0;
+  border: 0.2em solid $blue;
+  margin: $base-spacing 0 $base-spacing;
+  padding: 1.5 * $base-spacing 2 * $base-spacing 2.5 * $base-spacing;
+
+  > legend {
+    font-size: modular-scale(1);
+
+  }
+  h3 {
+    border-bottom: $base-border;
+    padding-bottom: $small-spacing;
+    margin: 2 * $base-spacing 0 $base-spacing;
+  }
+  > *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 legend {
   font-weight: 600;
   margin-bottom: $small-spacing / 2;
-  padding: 0;
+  margin-left: -$small-spacing;
+  padding: 0 $small-spacing;
 }
 
 label {
@@ -23,9 +55,10 @@ textarea {
   display: block;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  line-height: $base-spacing;
 }
 
-#{$all-text-inputs} {
+#{$all-text-inputs}, select {
   appearance: none;
   background-color: $base-background-color;
   border: $base-border;
@@ -65,10 +98,28 @@ textarea {
   resize: vertical;
 }
 
+.form-counter {
+  float: right;
+}
+
 [type="checkbox"],
 [type="radio"] {
   display: inline;
   margin-right: $small-spacing / 2;
+  + label {
+    display: inline-block;
+    margin-right: $base-spacing;
+    font-weight: 400;
+  }
+}
+
+.radiogroup  {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  label {
+    margin-bottom: 0;
+  }
 }
 
 [type="file"] {
@@ -79,9 +130,115 @@ textarea {
 select {
   margin-bottom: $small-spacing;
   width: 100%;
+  height: 1.5 * $base-spacing;
+}
+
+select#form-_subject {
+  font-size: modular-scale(1);
+  height: 2 * $base-spacing;
 }
 
 
 form .message {
+  margin-bottom: $base-spacing;
+}
+
+.field-group {
+  overflow: hidden;
+}
+
+.input-group {
+  margin-bottom: $base-spacing;
+  &.half {
+    float: left;
+    width: 45%;
+    + .half {
+      margin-left: 10%;
+    }
+    label, input {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.required {
+  color: $red;
+}
+
+.fieldset-intro {
+  margin-top: -$base-spacing;
+  margin-bottom: $base-spacing;
+  color: lighten($base-font-color,25%);
+}
+
+.duplicator {
+  display: flex;
+  border: $base-border;
+  .input-group {
+    flex: 1;
+    margin-bottom: 0;
+    + .input-group {
+      border-left: $base-border;
+    }
+  }
+  label {
+    padding: $small-spacing/4;
+    margin-bottom: 0;
+    border-bottom: $base-border;
+  }
+  &[hidden] {
+    display: none;
+  }
+  #{$all-text-inputs}, select {
+    border: none;
+    box-shadow: none;
+    padding: $small-spacing/4;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: modular-scale(-1);
+  }
+  textarea {
+    resize: none;
+  }
+  + .duplicator {
+    border-top: none;
+    label {
+      display: none;
+    }
+  }
+}
+
+.duplicator-button {
+  margin-top: $small-spacing;
+  float: right;
+}
+
+.badge-autosave {
+  transition: opacity 3s;
+  opacity: 0;
+  background-color: white;
+  color: $yellow;
+  position: absolute;
+  top: $base-spacing;
+  right: $base-spacing;
+  float: right;
+  &.badge-success {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+}
+
+.help-text {
+  margin-top: $small-spacing/4;
+  margin-bottom: 0;
+  opacity: .75;
+  font-size: modular-scale(-1);
+}
+
+[disabled] + .help-text {
+  display: none;
+}
+
+.g-recaptcha {
   margin-bottom: $base-spacing;
 }

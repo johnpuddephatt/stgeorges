@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="section section--hero section--hero--single section--hero--{{page.path | replace:'_pages/','' | replace: '.md', ''}}">
+  <div class="container">
+    <header class="activity-header">
+      <h1 class="hero-title">{{ page.title }}</h1>
+      <div class="badge badge-autosave">Autosaving...</div>
+    </header>
+  </div>
+</section>
+
+<section class="section section--body section--body--{{page.path | replace:'/index.md',''}}">
+  <div class="container">
+
+    <div class="activity-body">
+      {{ page.description | markdownify | prepend: '<h2 class="activity-intro">' | append: '</h2>' }}
+    </div>
+
+
+      {{ page.content }}
+
+
+  </div>
+</section>
+
+{% include scripts_apply.html %}
+{% include scripts_tabs.html %}

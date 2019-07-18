@@ -332,3 +332,9 @@
   color: white;
   padding: $small-spacing;
 }
+
+.pullout {
+  background-color: transparentize($blue,0.5);
+  padding: $base-spacing;
+  margin: $base-spacing 0;
+}

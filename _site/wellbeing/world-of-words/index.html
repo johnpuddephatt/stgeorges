@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width">
-    <link rel="stylesheet" href="https://www.stgeorgeslupset.org.uk/styles.css">
-    <link rel="canonical" href="https://www.stgeorgeslupset.org.uk/wellbeing/world-of-words/">
+    <link rel="stylesheet" href="http://localhost:4000/styles.css">
+    <link rel="canonical" href="http://localhost:4000/wellbeing/world-of-words/">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,20 +19,20 @@
 <meta property="og:title" content="World of words" />
 <meta name="description" content="If you like words, books and creative writing then this group is for you. Learn how to be more creative in your writing, listen to the spoken word, discuss books and much more." />
 <meta property='og:description' content="If you like words, books and creative writing then this group is for you. Learn how to be more creative in your writing, listen to the spoken word, discuss books and much more." />
-<link rel="canonical" href="https://www.stgeorgeslupset.org.uk/wellbeing/world-of-words/" />
-<meta property='og:url' content='https://www.stgeorgeslupset.org.uk/wellbeing/world-of-words/' />
+<link rel="canonical" href="http://localhost:4000/wellbeing/world-of-words/" />
+<meta property='og:url' content='http://localhost:4000/wellbeing/world-of-words/' />
 <meta property="og:site_name" content="St George’s" />
 <script type="application/ld+json">
     {
       "@context" : "http://schema.org",
       "@type" : "WebSite",
       "name" : "St George’s",
-      "url" : "https://www.stgeorgeslupset.org.uk"
+      "url" : "http://localhost:4000"
     }
   </script>
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-05-09T16:50:54+01:00" />
-<link rel="prev" href="https://www.stgeorgeslupset.org.uk/wellbeing/walking-group/" title="Walking group" />
+<link rel="prev" href="http://localhost:4000/wellbeing/walking-group/" title="Walking group" />
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -56,7 +56,7 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/about/">
+              <a href="http://localhost:4000/about/">
                 About
               </a>
             </li>
@@ -64,7 +64,7 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/centre/">
+              <a href="http://localhost:4000/centre/">
                 Our centre
               </a>
             </li>
@@ -72,7 +72,7 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/contact/">
+              <a href="http://localhost:4000/contact/">
                 Contact
               </a>
             </li>
@@ -80,8 +80,16 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/jobs/">
+              <a href="http://localhost:4000/jobs/">
                 Jobs & Volunteer
+              </a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:4000/thankyou/">
+                Thank you
               </a>
             </li>
           
@@ -296,53 +304,65 @@
       message.loading = "Sending message...";
       message.success =
         "<h3>Thank you for your message.</h3><p>We’ll get back to you as soon as we can.</p>";
-      message.failure = "Error. Message not sent.";
+      message.failure = "<h3>Error.</h3><p>Message not sent.</p>";
 
     for (var i = 0; i < document.forms.length; i++) {
 
-
-      // Set up the AJAX request
+      var statusMessage = document.querySelector('.form-status');
+      if (!statusMessage) {
+        var statusMessage = document.createElement("div");
+        statusMessage.classList.add('form-status');
+        this.insertAdjacentElement('afterbegin',statusMessage);
+      }
 
       // Listen for the form being submitted
       document.forms[i].addEventListener("submit", function(evt) {
 
-        var formAction = this.getAttribute("action");
-        var statusMessage = document.createElement("div");
-        statusMessage.innerHTML = message.loading;
-        statusMessage.classList.add('message');
-        statusMessage.classList.add('status');
-
-        var request = new XMLHttpRequest();
-        request.open("POST", formAction, true);
-        request.setRequestHeader("accept", "application/json");
         evt.preventDefault();
 
+        if (this.reportValidity() ) {
+          message.loading = this.dataset.loading || message.loading;
+          message.success = this.dataset.success || message.success;
+          message.failure = this.dataset.failure || message.failure;
+          var redirectURL = this.dataset.redirect;
+          var formAction = this.getAttribute("action");
 
-        this.insertAdjacentElement('afterbegin',statusMessage);
+          statusMessage.classList.add('message');
+          statusMessage.innerHTML = message.loading;
+          var request = new XMLHttpRequest();
+          request.open("POST", formAction, true);
+          request.setRequestHeader("accept", "application/json");
+          // Create a new FormData object passing in the form's key value pairs (that was easy!)
+          formData = new FormData(this);
+          // Send the formData
+          request.send(formData);
 
-        // Create a new FormData object passing in the form's key value pairs (that was easy!)
-        formData = new FormData(this);
-
-        // Send the formData
-        request.send(formData);
-
-        // Watch for changes to request.readyState and update the statusMessage accordingly
-        request.onreadystatechange = function() {
-          // <4 =  waiting on response from server
-          if (request.readyState < 4) {
-            statusMessage.innerHTML = message.loading;
-          }
-          else if (request.readyState === 4) {
-            // 4 = Response from server has been completely loaded.
-            // 200 - 299 = successful
-            if (request.status == 200 && request.status < 300) {
-              statusMessage.innerHTML = message.success;
+          // Watch for changes to request.readyState and update the statusMessage accordingly
+          request.onreadystatechange = function() {
+            // <4 =  waiting on response from server
+            if (request.readyState < 4) {
+              statusMessage.innerHTML = message.loading;
             }
-            else {
-              statusMessage.innerHTML = message.failure;
+            else if (request.readyState === 4) {
+              // 4 = Response from server has been completely loaded.
+              // 200 - 299 = successful
+              if (request.status == 200 && request.status < 300) {
+                if(redirectURL) {
+                  window.location.href = redirectURL;
+                }
+                else {
+                  statusMessage.innerHTML = message.success;
+                }
+              }
+              else {
+                statusMessage.innerHTML = message.failure;
+              }
             }
-          }
-        };
+          };
+        } else {
+          statusMessage.innerHTML = '<h3>There are some errors in your application</h3><p>Please check you have completed all required fields before submitting again.<p>';
+
+        }
       });
     }
   }

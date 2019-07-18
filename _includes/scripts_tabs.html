@@ -1,6 +1,19 @@
 <script>
   var tab = window.location.hash.substr(1);
   if(tab) {
-    var target = document.getElementById('tab-' + tab).checked = true;
+    var target = document.getElementById('tab-' + tab);
+    target.checked = true;
   }
+
+  var footerButtons = document.querySelectorAll('.tab-footer-navigation a');
+  for (var i = 0; i < footerButtons.length; i++) {
+    footerButtons[i].addEventListener('click', function(e){
+      e.preventDefault();
+      var tab = e.target.dataset.tab;
+      var target = document.getElementById('tab-' + tab);
+      target.checked = true;
+      target.scrollIntoView({behavior: "smooth", block: "start"});
+    });
+  }
+
 </script>

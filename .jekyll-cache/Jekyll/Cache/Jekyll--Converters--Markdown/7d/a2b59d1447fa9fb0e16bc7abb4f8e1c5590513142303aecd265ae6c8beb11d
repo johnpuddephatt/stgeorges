@@ -1,0 +1,537 @@
+I"�K<form novalidate="" action="https://form.letsdance.agency/ZbM5mMyr" method="POST" class="tab-wrap" data-tabs="3" data-redirect="/thankyou" data-failure="&lt;h3&gt;Error&lt;/h3&gt;&lt;p&gt;Your application was not sent. Please try again and contact us if the problem persists.&lt;/p&gt;" data-loading="&lt;strong&gt;Please wait.&lt;/strong&gt; Sending your application." data-success="&lt;h3&gt;Thank you&lt;/h3&gt;&lt;p&gt;Your application has been submitted.&lt;/p&gt;">
+    <input type="radio" name="tabs" value="tab-about" id="tab-about" />
+    <label for="tab-about">1. About you</label>
+    <div class="tab-content">
+      
+      <div class="input-group ">
+  <label for="form-_subject">
+    Job title
+    <span class="required">*</span>
+  </label>
+
+  
+
+  <select id="form-_subject" name="_subject" required="">
+    
+      <option value="Chief Executive Officer">Chief Executive Officer</option>
+    
+      <option value="Qualified Early Years Practitioner x 2">Qualified Early Years Practitioner x 2</option>
+    
+      <option value="Relief Early Years Practitioners (Qualified or Unqualified)">Relief Early Years Practitioners (Qualified or Unqualified)</option>
+    
+  </select>
+  <p class="help-text">Select the job you’re applying for.</p>
+
+</div>
+
+      <fieldset>
+        <legend>Your name and contact details</legend>
+        <div class="input-group ">
+  <label for="form-contact_details--name">
+    <span class="label-inner">Name</span>
+    <span class="required">*</span>
+  <input type="text" name="fieldset_contact_details[name]" id="form-contact_details--name" placeholder="Enter your full name" required="" />
+  </label>
+  
+</div>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-contact_details--email">
+    <span class="label-inner">Email</span>
+    <span class="required">*</span>
+  <input type="email" name="fieldset_contact_details[email]" id="form-contact_details--email" placeholder="Enter your email address" required="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-contact_details--phone">
+    <span class="label-inner">Phone</span>
+    <span class="required">*</span>
+  <input type="text" name="fieldset_contact_details[phone]" id="form-contact_details--phone" placeholder="Enter your phone number" required="" />
+  </label>
+  
+</div>
+        </div>
+
+        <div class="input-group ">
+  <label for="form-contact_details--address">
+    Address
+    <span class="required">*</span>
+  </label>
+  <textarea id="form-contact_details--address" name="fieldset_contact_details[address]" placeholder="Please provide your address including postcode" required=""></textarea>
+  
+</div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Diversity</legend>
+        <p class="fieldset-intro">Answering the questions below allows us to monitor our commitment to being an equal opportunities employer.</p>
+        <div class="alert">The details given in this section are confidential and <strong>will not be considered in any way during the appointment process</strong>.</div>
+
+        <fieldset class="input-group ">
+    <legend>
+      Age group
+      
+    </legend>
+    
+
+    <div class="radiogroup">
+      
+        <input type="radio" id="form-diversity--age_group--16-24" name="fieldset_diversity[age_group]" value="16-24" />
+        <label for="form-diversity--age_group--16-24">16-24</label>
+      
+        <input type="radio" id="form-diversity--age_group--25-34" name="fieldset_diversity[age_group]" value="25-34" />
+        <label for="form-diversity--age_group--25-34">25-34</label>
+      
+        <input type="radio" id="form-diversity--age_group--35-49" name="fieldset_diversity[age_group]" value="35-49" />
+        <label for="form-diversity--age_group--35-49">35-49</label>
+      
+        <input type="radio" id="form-diversity--age_group--50+" name="fieldset_diversity[age_group]" value="50+" />
+        <label for="form-diversity--age_group--50+">50+</label>
+      
+    </div>
+
+</fieldset>
+
+
+
+        <div class="input-group ">
+  <label for="form-diversity--ethnicity">
+    Ethnicity
+    
+  </label>
+
+  
+
+  <select id="form-diversity--ethnicity" name="fieldset_diversity[ethnicity]">
+    
+      <option value="Asian - Bangladesh">Asian - Bangladesh</option>
+    
+      <option value="Black - Caribbean">Black - Caribbean</option>
+    
+      <option value="Asian - EEC">Asian - EEC</option>
+    
+      <option value="Black - EEC">Black - EEC</option>
+    
+      <option value="Asian - Indian">Asian - Indian</option>
+    
+      <option value="Chinese">Chinese</option>
+    
+      <option value="Asian - Pakistan">Asian - Pakistan</option>
+    
+      <option value="White - EEC">White - EEC</option>
+    
+      <option value="Asian - Other">Asian - Other</option>
+    
+      <option value="White – Non EEC">White – Non EEC</option>
+    
+      <option value="Black - African">Black - African</option>
+    
+      <option value="Other">Other</option>
+    
+  </select>
+  
+
+</div>
+        <fieldset class="input-group ">
+    <legend>
+      Gender
+      
+    </legend>
+    
+
+    <div class="radiogroup">
+      
+        <input type="radio" id="form-diversity--gender--Male" name="fieldset_diversity[gender]" value="Male" />
+        <label for="form-diversity--gender--Male">Male</label>
+      
+        <input type="radio" id="form-diversity--gender--Female" name="fieldset_diversity[gender]" value="Female" />
+        <label for="form-diversity--gender--Female">Female</label>
+      
+        <input type="radio" id="form-diversity--gender--Non-binary" name="fieldset_diversity[gender]" value="Non-binary" />
+        <label for="form-diversity--gender--Non-binary">Non-binary</label>
+      
+    </div>
+
+</fieldset>
+
+
+
+
+        <div class="input-group ">
+  <label for="form-diversity--interview_requirements">
+    Interview requirements
+    
+  </label>
+  <textarea id="form-diversity--interview_requirements" name="fieldset_diversity[interview_requirements]" placeholder=""></textarea>
+  <p class="help-text">If you are successful in being invited for an interview do you have any specific requirements, i.e. an interview on the ground floor, information provided large print etc.? If so, please provide details.</p>
+</div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Convictions</legend>
+        <fieldset class="input-group ">
+    <legend>
+      Have you ever been convicted of an offence?
+      <span class="required">*</span>
+    </legend>
+    
+
+    <div class="radiogroup">
+      
+        <input type="radio" id="form-have_you_ever_been_convicted_of_an_offence?--yes" name="have_you_ever_been_convicted_of_an_offence?" value="yes" />
+        <label for="form-have_you_ever_been_convicted_of_an_offence?--yes">Yes</label>
+      
+        <input type="radio" id="form-have_you_ever_been_convicted_of_an_offence?--no" name="have_you_ever_been_convicted_of_an_offence?" value="no" />
+        <label for="form-have_you_ever_been_convicted_of_an_offence?--no">No</label>
+      
+    </div>
+
+</fieldset>
+
+<p class="help-text">This post is exempt from the provisions of section 4 (2) of the Rehabilitation of Offenders Act 1974, by virtue of the Rehabilitation Act 1974 (Exceptions) Order 1975.  Due to the nature of the position, the person appointed would have to be cleared for Child Protection purposes in line with Working Together to Safeguarding (2013). This will include an enhanced Disclosure and Barring Service check (DBS).</p>
+
+      </fieldset>
+
+    <div class="tab-footer-navigation">
+      <button disabled="" class="back white">Previous</button>
+      <a data-tab="experience" href="#" class="button white">Next</a>
+    </div>
+
+
+    </div>
+    <input type="radio" name="tabs" value="tab-experience" id="tab-experience" />
+    <label for="tab-experience">2. Your experience</label>
+
+    <div class="tab-content">
+      <fieldset>
+        <legend>Describe your suitability for the role</legend>
+        <p class="fieldset-intro">Tell us what experience, skills and abilities you can bring to the job. Match your skills to the person specification, and include skills gained from paid or voluntary work, or through family and leisure activities.</p>
+        <div class="input-group ">
+  <label for="form-suitability--information_to_support_your_application">
+    Information to support your application
+    <span class="required">*</span>
+  </label>
+  <textarea id="form-suitability--information_to_support_your_application" name="fieldset_suitability[information_to_support_your_application]" placeholder="" maxlength="3000" rows="15" required=""></textarea>
+  
+</div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Present or most recent employment</legend>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-employment--job_title">
+    <span class="label-inner">Job title</span>
+    
+  <input type="text" name="fieldset_employment[job_title]" id="form-employment--job_title" placeholder="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-employment--employer">
+    <span class="label-inner">Employer</span>
+    
+  <input type="text" name="fieldset_employment[employer]" id="form-employment--employer" placeholder="" />
+  </label>
+  
+</div>
+        </div>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-employment--date_appointed">
+    <span class="label-inner">Date appointed</span>
+    
+  <input type="date" name="fieldset_employment[date_appointed]" id="form-employment--date_appointed" placeholder="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-employment--date_left">
+    <span class="label-inner">Date left</span>
+    
+  <input type="date" name="fieldset_employment[date_left]" id="form-employment--date_left" placeholder="" />
+  </label>
+  <p class="help-text">Only if you’ve already left this role</p>
+</div>
+        </div>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-employment--salary_or_hourly_wage">
+    <span class="label-inner">Salary or hourly wage</span>
+    
+  <input type="text" name="fieldset_employment[salary_or_hourly_wage]" id="form-employment--salary_or_hourly_wage" placeholder="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-employment--notice_period">
+    <span class="label-inner">Notice period</span>
+    
+  <input type="text" name="fieldset_employment[notice_period]" id="form-employment--notice_period" placeholder="" />
+  </label>
+  
+</div>
+        </div>
+
+        <div class="input-group ">
+  <label for="form-employment--duties">
+    Duties
+    
+  </label>
+  <textarea id="form-employment--duties" name="fieldset_employment[duties]" placeholder="Summarise your main duties and responsibilities"></textarea>
+  
+</div>
+        <div class="input-group ">
+  <label for="form-employment--reason_for_leaving">
+    Reason for leaving
+    
+  </label>
+  <textarea id="form-employment--reason_for_leaving" name="fieldset_employment[reason_for_leaving]" placeholder="Please state your reason for leaving, if relevant."></textarea>
+  
+</div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Previous employment</legend>
+        <p class="fieldset-intro">Please provide details of your previous employment.</p>
+
+        <div class="duplicator">
+          <div class="input-group ">
+  <label for="form-previous_employment[$$$]--title">
+    Title
+    
+  </label>
+  <textarea id="form-previous_employment[$$$]--title" name="fieldset_previous_employment[$$$][title]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-previous_employment[$$$]--employer">
+    Employer
+    
+  </label>
+  <textarea id="form-previous_employment[$$$]--employer" name="fieldset_previous_employment[$$$][employer]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-previous_employment[$$$]--dates">
+    Dates
+    
+  </label>
+  <textarea id="form-previous_employment[$$$]--dates" name="fieldset_previous_employment[$$$][dates]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-previous_employment[$$$]--reason_you_left">
+    Reason you left
+    
+  </label>
+  <textarea id="form-previous_employment[$$$]--reason_you_left" name="fieldset_previous_employment[$$$][reason_you_left]" placeholder="" disabled=""></textarea>
+  
+</div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>References</legend>
+        <p class="fieldset-intro">Please provide two references, one of whom must be your present or most recent employer. At least one must be available for us to contact prior to interview.</p>
+          <div class="alert">Please ensure you have permission to use these people as referees</div>
+        <h3>First referee</h3>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-referee[1]--name">
+    <span class="label-inner">Name</span>
+    
+  <input type="text" name="fieldset_referee[1][name]" id="form-referee[1]--name" placeholder="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-referee[1]--job_title">
+    <span class="label-inner">Job title</span>
+    
+  <input type="text" name="fieldset_referee[1][job_title]" id="form-referee[1]--job_title" placeholder="" />
+  </label>
+  
+</div>
+        </div>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-referee[1]--contact_phone">
+    <span class="label-inner">Contact phone</span>
+    
+  <input type="text" name="fieldset_referee[1][contact_phone]" id="form-referee[1]--contact_phone" placeholder="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-referee[1]--contact_email">
+    <span class="label-inner">Contact email</span>
+    
+  <input type="email" name="fieldset_referee[1][contact_email]" id="form-referee[1]--contact_email" placeholder="" />
+  </label>
+  
+</div>
+        </div>
+        <h3>Second referee</h3>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-referee[2]--name">
+    <span class="label-inner">Name</span>
+    
+  <input type="text" name="fieldset_referee[2][name]" id="form-referee[2]--name" placeholder="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-referee[2]--job_title">
+    <span class="label-inner">Job title</span>
+    
+  <input type="text" name="fieldset_referee[2][job_title]" id="form-referee[2]--job_title" placeholder="" />
+  </label>
+  
+</div>
+        </div>
+        <div class="field-group">
+          <div class="input-group half">
+  <label for="form-referee[2]--contact_phone">
+    <span class="label-inner">Contact phone</span>
+    
+  <input type="text" name="fieldset_referee[2][contact_phone]" id="form-referee[2]--contact_phone" placeholder="" />
+  </label>
+  
+</div>
+          <div class="input-group half">
+  <label for="form-referee[2]--contact_email">
+    <span class="label-inner">Contact email</span>
+    
+  <input type="email" name="fieldset_referee[2][contact_email]" id="form-referee[2]--contact_email" placeholder="" />
+  </label>
+  
+</div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Education</legend>
+        <p class="fieldset-intro">Please provide details of your formal education, including any schools, colleges and universities attended. Training or short courses should not be listed here; include them in the next section.</p>
+
+        <div class="duplicator">
+          <div class="input-group ">
+  <label for="form-education[$$$]--institution">
+    Institution
+    
+  </label>
+  <textarea id="form-education[$$$]--institution" name="fieldset_education[$$$][institution]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-education[$$$]--qualification">
+    Qualification
+    
+  </label>
+  <textarea id="form-education[$$$]--qualification" name="fieldset_education[$$$][qualification]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-education[$$$]--grade">
+    Grade
+    
+  </label>
+  <textarea id="form-education[$$$]--grade" name="fieldset_education[$$$][grade]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-education[$$$]--date">
+    Date
+    
+  </label>
+  <textarea id="form-education[$$$]--date" name="fieldset_education[$$$][date]" placeholder="" disabled=""></textarea>
+  
+</div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Training and short courses</legend>
+        <p class="fieldset-intro">Include any additional training you think is relevant to the role here.</p>
+
+        <div class="duplicator">
+          <div class="input-group ">
+  <label for="form-training[$$$]--provider">
+    Provider
+    
+  </label>
+  <textarea id="form-training[$$$]--provider" name="fieldset_training[$$$][provider]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-training[$$$]--course_title">
+    Course title
+    
+  </label>
+  <textarea id="form-training[$$$]--course_title" name="fieldset_training[$$$][course_title]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-training[$$$]--grade">
+    Grade
+    
+  </label>
+  <textarea id="form-training[$$$]--grade" name="fieldset_training[$$$][grade]" placeholder="" disabled=""></textarea>
+  
+</div>
+          <div class="input-group ">
+  <label for="form-training[$$$]--date">
+    Date
+    
+  </label>
+  <textarea id="form-training[$$$]--date" name="fieldset_training[$$$][date]" placeholder="" disabled=""></textarea>
+  
+</div>
+        </div>
+      </fieldset>
+
+      <div class="tab-footer-navigation">
+        <a data-tab="about" class="button white back">Previous</a>
+        <a data-tab="submit" href="#" class="button white">Next</a>
+      </div>
+
+    </div>
+    <input type="radio" name="tabs" value="tab-submit" id="tab-submit" />
+    <label for="tab-submit">3. Submit</label>
+    <div class="tab-content">
+
+      <div class="pullout">
+        <h3>Equal opportunities</h3>
+        <p>St George’s Lupset Ltd is an equal opportunities employer.  All applicants will be considered on the basis of suitability for the post, regardless of sex, race, marital status, religion, disability, or sexual orientation.</p>
+      </div>
+
+      <h3>Declaration of accuracy</h3>
+      <div class="input-group ">
+  <label for="form-accuracy">
+    <input type="checkbox" name="accuracy" id="form-accuracy" />
+    <span class="label-inner">I declare that all the information given by me in this application is accurate.  I understand that any false information given in this application may render an offer of employment invalid and may lead to termination of employment.</span>
+    
+  </label>
+  
+</div>
+
+
+
+
+      <!-- recaptcha and submit -->
+      <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
+
+      <div class="form-status alert"></div>
+      <div class="tab-footer-navigation">
+        <a data-tab="experience" class="button white back">Previous</a>
+        <input type="submit" value="Submit" class="white button" />
+      </div>
+    </div>
+    <div class="slide"></div>
+
+  </form>
+:ET

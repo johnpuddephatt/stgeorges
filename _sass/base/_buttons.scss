@@ -28,8 +28,16 @@
   background-size: auto 40%;
   background-repeat: no-repeat;
   background-position: right $small-spacing center;
+  &.back {
+    padding-right: $small-spacing;
+    padding-left: 1.5 * $base-spacing;
+    background-position: left $small-spacing center;
+  }
   &.white {
     background-image: url(/images/chevron-white.svg);
+    &.back {
+      background-image: url(/images/chevron-white-backwards.svg);
+    }
     color: white;
     border-color: white;
     &:hover, &:focus {

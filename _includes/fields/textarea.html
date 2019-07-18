@@ -1,0 +1,15 @@
+<div class="input-group {{include.class}}">
+  <label for="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}">
+    {% if include.label %}{{ include.label }}{% else %}{{ include.name | replace: '_', ' ' | capitalize }}{% endif %}
+    {% if include.required %}<span class="required">*</span>{% endif%}
+  </label>
+  <textarea
+    id="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}"
+    name="{% if include.fieldset %}fieldset_{{include.fieldset}}[{% endif %}{{include.name}}{% if include.fieldset %}]{% endif%}"
+    placeholder="{{ include.placeholder}}"
+    {% if include.disabled %}disabled{% endif%}
+    {% if include.maxlength %}maxlength="{{include.maxlength}}"{% endif%}
+    {% if include.rows %}rows="{{include.rows}}"{% endif%}
+    {% if include.required %}required{% endif%}></textarea>
+  {% if include.help %}<p class="help-text">{{include.help}}</p>{% endif%}
+</div>

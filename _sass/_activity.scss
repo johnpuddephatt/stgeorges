@@ -17,6 +17,13 @@
   }
 }
 
+.section--hero--apply {
+  background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/38333181686_556310ebd0_k.jpg');
+  @media screen and (orientation: portrait) {
+    background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_auto,q_auto,f_auto,ar_415:515/dpr_auto,w_auto/c_limit,w_1000/#{$baseurl}/images/38333181686_556310ebd0_k.jpg');
+  }
+}
+
 .section--hero--sandal {
   background-image: url('//res.cloudinary.com/#{$cloudinary}/image/fetch/c_fill,g_south,q_auto,f_auto,ar_1280:492/dpr_auto,w_auto/c_limit,w_2000/#{$baseurl}/images/sandal3.jpg');
   @media screen and (orientation: portrait) {
