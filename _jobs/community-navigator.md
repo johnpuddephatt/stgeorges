@@ -5,6 +5,6 @@ description: ''
 contract: ''
 hours: "18.5"
 pay: "£22991 pro rata"
-application_link: "/uploads/2019/07/19/18-06 Information Sheet.pdf"
+application_link: "/uploads/2019/07/19/Information Sheet.pdf"
 
 ---
