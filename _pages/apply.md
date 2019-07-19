@@ -30,7 +30,7 @@ date: 2018-05-09 15:50:54 +0000
         <div class="alert">The details given in this section are confidential and <strong>will not be considered in any way during the appointment process</strong>.</div>
 
         {% include fields/radio.html fieldset="diversity" name="age_group" values="16-24,25-34,35-49,50+" %}
-        {% include fields/select.html fieldset="diversity" name="ethnicity" values="Asian - Bangladesh,Black - Caribbean,Asian - EEC,Black - EEC,Asian - Indian,Chinese,Asian - Pakistan,White - EEC,Asian - Other,White – Non EEC,Black - African,Other" %}
+        {% include fields/select.html fieldset="diversity" name="ethnicity" values="White  –  English / Welsh / Scottish / Northern Irish / British,White  –  Irish,White - Gypsy or Irish Traveller,White - Other,,Mixed / Multiple - White and Black Caribbean,Mixed / Multiple - White and Black African,Mixed / Multiple - White and Asian,Mixed / Multiple - Other,,Asian  –  Indian,Asian  –  Pakistani,Asian  –  Bangladeshi,Asian  –  Chinese,Asian  –  Any other Asian background,,Black  –  African,Black  –  Caribbean,Black  –  Other,,Other  –  Arab,Other  –  Any other group" %}
         {% include fields/radio.html fieldset="diversity" name="gender" values="Male,Female,Non-binary" %}
 
         {% include fields/textarea.html fieldset="diversity" name="interview_requirements" help="If you are successful in being invited for an interview do you have any specific requirements, i.e. an interview on the ground floor, information provided large print etc.? If so, please provide details." %}
@@ -39,7 +39,10 @@ date: 2018-05-09 15:50:54 +0000
 
       <fieldset>
         <legend>Convictions</legend>
-        {% include fields/radio.html name="have_you_ever_been_convicted_of_an_offence?" label="Have you ever been convicted of an offence?" values="yes,no" help="This post is exempt from the provisions of section 4 (2) of the Rehabilitation of Offenders Act 1974, by virtue of the Rehabilitation Act 1974 (Exceptions) Order 1975.  Due to the nature of the position, the person appointed would have to be cleared for Child Protection purposes in line with Working Together to Safeguarding (2013). This will include an enhanced Disclosure and Barring Service check (DBS)." required="true" %}
+        <p class="fieldset-intro">This post is exempt from the provisions of section 4 (2) of the Rehabilitation of Offenders Act 1974, by virtue of the Rehabilitation Act 1974 (Exceptions) Order 1975.  Due to the nature of the position, the person appointed would have to be cleared for Child Protection purposes in line with Working Together to Safeguarding (2013). This will include an enhanced Disclosure and Barring Service check (DBS).</p>
+        {% include fields/radio.html fieldset="convictions" name="have_you_ever_been_convicted_of_an_offence?" label="Have you ever been convicted of an offence?" values="yes,no" required="true" %}
+        {% include fields/textarea.html fieldset="convictions" name="details_of_any_convictions" %}
+
       </fieldset>
 
     <div class="tab-footer-navigation">
@@ -160,6 +163,8 @@ date: 2018-05-09 15:50:54 +0000
 
 
       <!-- recaptcha and submit -->
+      <h3>Confirm that you’re human</h3>
+      <p>This helps us prevent spam or other automated applications.</p>
       <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
 
       <div class="form-status alert"></div>
