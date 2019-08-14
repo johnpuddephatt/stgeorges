@@ -14,7 +14,7 @@ time_and_location:
 equipment:
 - Pen & Notepad
 information:
-- There will be an Induction for this course on the 19th September 10-1. you must
+- There will be an Induction for this course on the 19th September 10-1. You must
   bring I.D plus benefit proof.
 council: false
 
