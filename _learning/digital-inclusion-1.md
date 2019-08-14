@@ -3,7 +3,7 @@ layout: learning
 date: 2019-02-04T16:17:12.000+00:00
 title: Digital Inclusion
 qualification: Level 2
-subject_area: 'I.T, Employability and Customer Service '
+subject_area: ''
 description: 'I.T, Employability and Customer Service '
 outcomes: []
 requirements:
