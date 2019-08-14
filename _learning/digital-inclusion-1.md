@@ -11,7 +11,8 @@ requirements:
 time_and_location:
 - St George's Community Centre 02/08/19 9:30-2:30 for 6 days
 equipment: []
-information: []
+information:
+- You will receive a laptop upon completion of this course
 council: false
 
 ---
