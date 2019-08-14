@@ -13,7 +13,9 @@ time_and_location:
 - St George's Community Centre  23/09/19 9:30-3:30
 equipment:
 - Pen & Notepad
-information: []
+information:
+- There will be an Induction for this course on the 19th September 10-1. you must
+  bring I.D plus benefit proof.
 council: false
 
 ---
