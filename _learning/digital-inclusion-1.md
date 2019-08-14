@@ -12,7 +12,8 @@ requirements:
 - Must be 19+ unemployed and claiming a work related benefit
 time_and_location:
 - St George's Community Centre 02/08/19 9:30-2:30 for 6 days
-equipment: []
+equipment:
+- Pen & Paper
 information:
 - You will receive a laptop upon completion of this course
 council: false
