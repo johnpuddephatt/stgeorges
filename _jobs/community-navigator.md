@@ -11,6 +11,5 @@ contract: ''
 hours: '18.5 '
 pay: "£22,992 pro rata"
 application_link: "/uploads/2019/08/29/18-08 Community Navigator Information Sheet.pdf"
-published: false
 
 ---
