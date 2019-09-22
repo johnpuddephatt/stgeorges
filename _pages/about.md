@@ -1,5 +1,6 @@
 ---
 title: About
+name: 'foo'
 layout: page
 hidden: false
 description: |

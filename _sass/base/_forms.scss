@@ -116,6 +116,7 @@ textarea {
 .radiogroup  {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0;
   label {
     margin-bottom: 0;
@@ -233,6 +234,10 @@ form .message {
   margin-bottom: 0;
   opacity: .75;
   font-size: modular-scale(-1);
+}
+
+.input-group + .help-text {
+  margin-top: -$small-spacing;
 }
 
 [disabled] + .help-text {

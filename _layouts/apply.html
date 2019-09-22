@@ -6,7 +6,7 @@ layout: default
   <div class="container">
     <header class="activity-header">
       <h1 class="hero-title">{{ page.title }}</h1>
-      <div class="badge badge-autosave">Autosaving...</div>
+      <div class="hide-on-print badge badge-autosave">Autosaving...</div>
     </header>
   </div>
 </section>
@@ -25,5 +25,15 @@ layout: default
   </div>
 </section>
 
+<style>
+  @media print {
+    header, .section--hero, .activity-body, .main-footer, .footer-copyright, .tab-footer-navigation, .hide-on-print {
+      display: none;
+    }
+    .tab-content {
+      display: block !important;
+    }
+  }
+</style>
 {% include scripts_apply.html %}
 {% include scripts_tabs.html %}

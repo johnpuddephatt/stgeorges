@@ -37,6 +37,9 @@
     background-image: url(/images/chevron-white.svg);
     &.back {
       background-image: url(/images/chevron-white-backwards.svg);
+      &:hover, &:focus {
+        background-image: url(/images/chevron-black-backwards.svg);
+      }
     }
     color: white;
     border-color: white;

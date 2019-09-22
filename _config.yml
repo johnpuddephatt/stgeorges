@@ -54,10 +54,12 @@ collections:
     output: false
 
 # Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# markdown: kramdown
+
+# plugins:
+  # - jekyll-fe ed
+  # - jekyll-seo-tag
+
 exclude:
   - Gemfile
   - Gemfile.lock

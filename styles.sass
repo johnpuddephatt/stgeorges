@@ -3,7 +3,8 @@
 
 $local: false
 $cloudinary: {{ site.cloudinary }}
-$sizes: {% for breakpoint in site.breakpoints %}{{ breakpoint }}px,{% endfor%}
+$sizes: {% for breakpoint in site.breakpoints %}{{ breakpoint }}{% if forloop.last %}px{% else %}px,{% endif %}{% endfor%}
+
 $baseurl: 'https://stgeorgeslupset.org.uk'
 
 @import 'bourbon/bourbon'

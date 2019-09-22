@@ -7,12 +7,14 @@
 
     <div class="radiogroup">
       {% for value in valuesArray %}
+      <div>
         <input type="radio"
           id="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}--{{value}}"
           name="{% if include.fieldset %}fieldset_{{include.fieldset}}[{% endif %}{{include.name}}{% if include.fieldset %}]{% endif%}"
           value="{{ value }}"
           {% if include.disabled %}disabled{% endif%}>
         <label for="form-{% if include.fieldset %}{{include.fieldset}}--{% endif %}{{include.name}}--{{value}}">{{ value | capitalize }}</label>
+      </div>
       {% endfor %}
     </div>
 
