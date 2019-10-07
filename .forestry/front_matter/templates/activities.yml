@@ -63,16 +63,16 @@ fields:
   hidden: true
   default: '2019-02-04T16:17:12.000+00:00'
 pages:
+- _activities/dementia-cafe.md
+- _activities/boccia-bowling.md
+- _activities/cycling-for-all.md
 - _activities/tuesday-leisure-club.md
 - _activities/table-tennis.md
 - _activities/pilates.md
 - _activities/lunch-club.md
-- _activities/cycling-for-all.md
-- _activities/boccia-bowling.md
 - _activities/chatty-craft-group.md
 - _activities/chair-based-exercise.md
 - _activities/walking-group.md
 - _activities/world-of-words.md
 - _activities/singing-for-fun.md
 - _activities/new-activity.md
-- _activities/dementia-cafe.md
