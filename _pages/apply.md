@@ -53,7 +53,7 @@ date: 2018-05-09 15:50:54 +0000
 
       <fieldset>
         <legend>Safeguarding Children and Vulnerable Adults</legend>
-        <p class="fieldset-intro">This position involves working with vulnerable groups and we therefore conduct appropriate safeguarding measures. This will include an enhanced Disclosure and Barring Service check (DBS).</p>
+        <p class="fieldset-intro">This position involves working with vulnerable groups and we will therefore conduct appropriate safeguarding measures. This will include an enhanced Disclosure and Barring Service check (DBS).</p>
       <br>  <p class="fieldset-intro">A criminal record will not automatically bar you from working with us, however not disclosing criminal convictions could lead to the rejection of your application, or your dismissal if discovered after your appointment.</p>
 
 
@@ -108,10 +108,17 @@ date: 2018-05-09 15:50:54 +0000
         <p class="fieldset-intro">Please give details of all your previous jobs since leaving school/college in date order, starting with the most recent.  Any gaps in your employment history <strong>must</strong> also be included. Please <strong>do not</strong> include student placements here, these should be included in the next section.</p>
 
         <div class="duplicator">
-          {% include fields/textarea.html fieldset="previous_employment[$$$]" disabled="true" name="dates" %}
-          {% include fields/textarea.html fieldset="previous_employment[$$$]" disabled="true" name="title" %}
-          {% include fields/textarea.html fieldset="previous_employment[$$$]" disabled="true" name="employer" %}
-          {% include fields/textarea.html fieldset="previous_employment[$$$]" disabled="true" name="reason_you_left" %}
+          <h3>Previous employment $$$</h3>
+          {% include fields/select.html fieldset="previous_employment[$$$]" name="type" values="Employed,Unemployed,Volunteer,Studying,Caring responsibilities,Other" %}
+          <div class="field-group">
+            {% include fields/input.html type="text" fieldset="previous_employment[$$$]" disabled="true" name="title" %}
+            {% include fields/input.html type="text" fieldset="previous_employment[$$$]" disabled="true" name="employer" label="Name and address of employer" %}
+          </div>
+          <div class="field-group">
+            {% include fields/input.html type="date" fieldset="previous_employment[$$$]" disabled="true" name="date_from" class="half" %}
+            {% include fields/input.html type="date" fieldset="previous_employment[$$$]" disabled="true" name="leaving_date" class="half" %}
+          </div>
+          {% include fields/textarea.html fieldset="previous_employment[$$$]" disabled="true" name="reason_for_leaving" %}
         </div>
       </fieldset>
 
@@ -150,7 +157,7 @@ date: 2018-05-09 15:50:54 +0000
         <legend>Education</legend>
         <p class="fieldset-intro">Please provide details of your formal education, including any schools, colleges and universities attended. Training or short courses should not be listed here; include them in the next section.</p>
 
-        <div class="duplicator">
+        <div class="duplicator duplicator--table">
           {% include fields/textarea.html fieldset="education[$$$]" disabled="true" name="institution" %}
           {% include fields/textarea.html fieldset="education[$$$]" disabled="true" name="qualification" %}
           {% include fields/textarea.html fieldset="education[$$$]" disabled="true" name="award_body" %}
@@ -163,7 +170,7 @@ date: 2018-05-09 15:50:54 +0000
         <legend>Training and short courses</legend>
         <p class="fieldset-intro">Include any additional training you think is relevant to the role here.</p>
 
-        <div class="duplicator">
+        <div class="duplicator duplicator--table">
           {% include fields/textarea.html fieldset="training[$$$]" row="2" disabled="true" name="provider" %}
           {% include fields/textarea.html fieldset="training[$$$]" row="2" disabled="true" name="course_title" %}
           {% include fields/textarea.html fieldset="training[$$$]" row="2" disabled="true" name="grade" %}
@@ -203,7 +210,7 @@ date: 2018-05-09 15:50:54 +0000
         <input type="submit" value="Submit" class="white button"/>
       </div>
     </div>
-    
+
     <div class="slide"></div>
 
   </form>

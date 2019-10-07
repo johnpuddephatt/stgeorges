@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width">
-    <link rel="stylesheet" href="https://www.stgeorgeslupset.org.uk/styles.css">
-    <link rel="canonical" href="https://www.stgeorgeslupset.org.uk/apply/">
+    <link rel="stylesheet" href="http://localhost:4000/styles.css">
+    <link rel="canonical" href="http://localhost:4000/apply/">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -21,13 +21,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Use the form on this page to apply for a job at St George’s." />
 <meta property="og:description" content="Use the form on this page to apply for a job at St George’s." />
-<link rel="canonical" href="https://www.stgeorgeslupset.org.uk/apply/" />
-<meta property="og:url" content="https://www.stgeorgeslupset.org.uk/apply/" />
+<link rel="canonical" href="http://localhost:4000/apply/" />
+<meta property="og:url" content="http://localhost:4000/apply/" />
 <meta property="og:site_name" content="St George’s" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-05-09T16:50:54+01:00" />
 <script type="application/ld+json">
-{"url":"https://www.stgeorgeslupset.org.uk/apply/","description":"Use the form on this page to apply for a job at St George’s.","headline":"Apply to work with us","dateModified":"2018-05-09T16:50:54+01:00","datePublished":"2018-05-09T16:50:54+01:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.stgeorgeslupset.org.uk/apply/"},"@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/apply/","headline":"Apply to work with us","description":"Use the form on this page to apply for a job at St George’s.","dateModified":"2018-05-09T16:50:54+01:00","datePublished":"2018-05-09T16:50:54+01:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/apply/"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -42,7 +42,7 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/about/">
+              <a href="http://localhost:4000/about/">
                 About
               </a>
             </li>
@@ -50,7 +50,7 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/centre/">
+              <a href="http://localhost:4000/centre/">
                 Our centre
               </a>
             </li>
@@ -58,7 +58,7 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/contact/">
+              <a href="http://localhost:4000/contact/">
                 Contact
               </a>
             </li>
@@ -66,7 +66,7 @@
         
           
             <li>
-              <a href="https://www.stgeorgeslupset.org.uk/jobs/">
+              <a href="http://localhost:4000/jobs/">
                 Jobs & Volunteer
               </a>
             </li>
@@ -604,7 +604,7 @@
 
       <fieldset>
         <legend>Safeguarding Children and Vulnerable Adults</legend>
-        <p class="fieldset-intro">This position involves working with vulnerable groups and we therefore conduct appropriate safeguarding measures. This will include an enhanced Disclosure and Barring Service check (DBS).</p>
+        <p class="fieldset-intro">This position involves working with vulnerable groups and we will therefore conduct appropriate safeguarding measures. This will include an enhanced Disclosure and Barring Service check (DBS).</p>
       <br />  <p class="fieldset-intro">A criminal record will not automatically bar you from working with us, however not disclosing criminal convictions could lead to the rejection of your application, or your dismissal if discovered after your appointment.</p>
 
 
@@ -784,36 +784,75 @@
         <p class="fieldset-intro">Please give details of all your previous jobs since leaving school/college in date order, starting with the most recent.  Any gaps in your employment history <strong>must</strong> also be included. Please <strong>do not</strong> include student placements here, these should be included in the next section.</p>
 
         <div class="duplicator">
+          <h3>Previous employment $$$</h3>
           <div class="input-group ">
-  <label for="form-previous_employment[$$$]--dates">
-    Dates
+  <label for="form-previous_employment[$$$]--type">
+    Type
     
   </label>
-  <textarea id="form-previous_employment[$$$]--dates" name="fieldset_previous_employment[$$$][dates]" placeholder="" disabled=""></textarea>
+
   
+
+  <select id="form-previous_employment[$$$]--type" name="fieldset_previous_employment[$$$][type]">
+    
+      <option value="Employed">Employed</option>
+    
+      <option value="Unemployed">Unemployed</option>
+    
+      <option value="Volunteer">Volunteer</option>
+    
+      <option value="Studying">Studying</option>
+    
+      <option value="Caring responsibilities">Caring responsibilities</option>
+    
+      <option value="Other">Other</option>
+    
+  </select>
+  
+
 </div>
-          <div class="input-group ">
+          <div class="field-group">
+            <div class="input-group ">
   <label for="form-previous_employment[$$$]--title">
-    Title
+    <span class="label-inner">Title</span>
     
+  <input type="text" name="fieldset_previous_employment[$$$][title]" id="form-previous_employment[$$$]--title" placeholder="" disabled="" />
   </label>
-  <textarea id="form-previous_employment[$$$]--title" name="fieldset_previous_employment[$$$][title]" placeholder="" disabled=""></textarea>
   
 </div>
-          <div class="input-group ">
+            <div class="input-group ">
   <label for="form-previous_employment[$$$]--employer">
-    Employer
+    <span class="label-inner">Name and address of employer</span>
     
+  <input type="text" name="fieldset_previous_employment[$$$][employer]" id="form-previous_employment[$$$]--employer" placeholder="" disabled="" />
   </label>
-  <textarea id="form-previous_employment[$$$]--employer" name="fieldset_previous_employment[$$$][employer]" placeholder="" disabled=""></textarea>
   
 </div>
+          </div>
+          <div class="field-group">
+            <div class="input-group half">
+  <label for="form-previous_employment[$$$]--date_from">
+    <span class="label-inner">Date from</span>
+    
+  <input type="date" name="fieldset_previous_employment[$$$][date_from]" id="form-previous_employment[$$$]--date_from" placeholder="" disabled="" />
+  </label>
+  
+</div>
+            <div class="input-group half">
+  <label for="form-previous_employment[$$$]--leaving_date">
+    <span class="label-inner">Leaving date</span>
+    
+  <input type="date" name="fieldset_previous_employment[$$$][leaving_date]" id="form-previous_employment[$$$]--leaving_date" placeholder="" disabled="" />
+  </label>
+  
+</div>
+          </div>
           <div class="input-group ">
-  <label for="form-previous_employment[$$$]--reason_you_left">
-    Reason you left
+  <label for="form-previous_employment[$$$]--reason_for_leaving">
+    Reason for leaving
     
   </label>
-  <textarea id="form-previous_employment[$$$]--reason_you_left" name="fieldset_previous_employment[$$$][reason_you_left]" placeholder="" disabled=""></textarea>
+  <textarea id="form-previous_employment[$$$]--reason_for_leaving" name="fieldset_previous_employment[$$$][reason_for_leaving]" placeholder="" disabled=""></textarea>
   
 </div>
         </div>
@@ -1012,7 +1051,7 @@
         <legend>Education</legend>
         <p class="fieldset-intro">Please provide details of your formal education, including any schools, colleges and universities attended. Training or short courses should not be listed here; include them in the next section.</p>
 
-        <div class="duplicator">
+        <div class="duplicator duplicator--table">
           <div class="input-group ">
   <label for="form-education[$$$]--institution">
     Institution
@@ -1060,7 +1099,7 @@
         <legend>Training and short courses</legend>
         <p class="fieldset-intro">Include any additional training you think is relevant to the role here.</p>
 
-        <div class="duplicator">
+        <div class="duplicator duplicator--table">
           <div class="input-group ">
   <label for="form-training[$$$]--provider">
     Provider
@@ -1135,7 +1174,7 @@
         <input type="submit" value="Submit" class="white button" />
       </div>
     </div>
-    
+
     <div class="slide"></div>
 
   </form>
@@ -1223,6 +1262,10 @@
       var clone = button.previousElementSibling.cloneNode(true);
       clone.removeAttribute('hidden');
       button.dataset.count++;
+      cloneHeadings = clone.getElementsByTagName('H3');
+      for(var i = 0; i<cloneHeadings.length; i++) {
+        cloneHeadings[i].innerText = cloneHeadings[i].innerText.replace('$$$',button.dataset.count);
+      }
       cloneSelects = clone.getElementsByTagName('select');
       for(var i = 0; i<cloneSelects.length; i++) {
         cloneSelects[i].setAttribute('name', cloneSelects[i].getAttribute('name').replace('$$$', button.dataset.count));
@@ -1330,8 +1373,8 @@
       <h4 class="footer-title">St George’s provides happy, welcoming spaces where local people can feel part of something.</h4>
     </div>
     <div class="footer-right">
-    <img width="110" src="/uploads/safer-places.png" />
-    <img width="130" src="/uploads/disability-confident.png" />
+    <img width="100" src="/uploads/safer-places.png" />
+    <img width="120" src="/uploads/disability-confident.png" />
     </div>
     <div class="footer-centre">
       <p><strong>A big thank you to all our funders and partners!</strong></p>

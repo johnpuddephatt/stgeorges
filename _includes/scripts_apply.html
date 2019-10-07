@@ -66,6 +66,10 @@
       var clone = button.previousElementSibling.cloneNode(true);
       clone.removeAttribute('hidden');
       button.dataset.count++;
+      cloneHeadings = clone.getElementsByTagName('H3');
+      for(var i = 0; i<cloneHeadings.length; i++) {
+        cloneHeadings[i].innerText = cloneHeadings[i].innerText.replace('$$$',button.dataset.count);
+      }
       cloneSelects = clone.getElementsByTagName('select');
       for(var i = 0; i<cloneSelects.length; i++) {
         cloneSelects[i].setAttribute('name', cloneSelects[i].getAttribute('name').replace('$$$', button.dataset.count));

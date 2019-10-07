@@ -173,8 +173,16 @@ form .message {
 }
 
 .duplicator {
+  border-bottom: $base-border;
+  padding-bottom: $base-spacing;
+  margin-bottom: $base-spacing;
+}
+
+.duplicator--table {
   display: flex;
   border: $base-border;
+  padding-bottom: 0;
+  margin-bottom: 0;
   .input-group {
     flex: 1;
     margin-bottom: 0;

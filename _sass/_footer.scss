@@ -50,16 +50,15 @@
   .footer-right {
     width: 25%;
     float: right;
-    display: flex;
     align-items: center;
     justify-content: flex-end;
     img {
       flex: 0 1 auto;
-      margin-left: $base-spacing;
+      margin-left: $small-spacing;
     }
     display: none;
     @media screen and (min-width: $medium-screen) {
-      display: block;
+      display: flex;
     }
   }
   .footer-centre {

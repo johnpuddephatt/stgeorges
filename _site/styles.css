@@ -87,23 +87,25 @@ form .message { margin-bottom: 2.4rem; }
 
 .fieldset-intro { margin-top: -2.4rem; margin-bottom: 2.4rem; color: #737373; }
 
-.duplicator { display: flex; border: 1px solid #ddd; }
+.duplicator { border-bottom: 1px solid #ddd; padding-bottom: 2.4rem; margin-bottom: 2.4rem; }
 
-.duplicator .input-group { flex: 1; margin-bottom: 0; }
+.duplicator--table { display: flex; border: 1px solid #ddd; padding-bottom: 0; margin-bottom: 0; }
 
-.duplicator .input-group + .input-group { border-left: 1px solid #ddd; }
+.duplicator--table .input-group { flex: 1; margin-bottom: 0; }
 
-.duplicator label { padding: 0.3rem; margin-bottom: 0; border-bottom: 1px solid #ddd; }
+.duplicator--table .input-group + .input-group { border-left: 1px solid #ddd; }
 
-.duplicator[hidden] { display: none; }
+.duplicator--table label { padding: 0.3rem; margin-bottom: 0; border-bottom: 1px solid #ddd; }
 
-.duplicator [type='color'], .duplicator [type='date'], .duplicator [type='datetime'], .duplicator [type='datetime-local'], .duplicator [type='email'], .duplicator [type='month'], .duplicator [type='number'], .duplicator [type='password'], .duplicator [type='search'], .duplicator [type='tel'], .duplicator [type='text'], .duplicator [type='time'], .duplicator [type='url'], .duplicator [type='week'], .duplicator input:not([type]), .duplicator textarea, .duplicator select { border: none; box-shadow: none; padding: 0.3rem; border-radius: 0; margin-bottom: 0; font-size: 0.8em; }
+.duplicator--table[hidden] { display: none; }
 
-.duplicator textarea { resize: none; }
+.duplicator--table [type='color'], .duplicator--table [type='date'], .duplicator--table [type='datetime'], .duplicator--table [type='datetime-local'], .duplicator--table [type='email'], .duplicator--table [type='month'], .duplicator--table [type='number'], .duplicator--table [type='password'], .duplicator--table [type='search'], .duplicator--table [type='tel'], .duplicator--table [type='text'], .duplicator--table [type='time'], .duplicator--table [type='url'], .duplicator--table [type='week'], .duplicator--table input:not([type]), .duplicator--table textarea, .duplicator--table select { border: none; box-shadow: none; padding: 0.3rem; border-radius: 0; margin-bottom: 0; font-size: 0.8em; }
 
-.duplicator + .duplicator { border-top: none; }
+.duplicator--table textarea { resize: none; }
 
-.duplicator + .duplicator label { display: none; }
+.duplicator--table + .duplicator { border-top: none; }
+
+.duplicator--table + .duplicator label { display: none; }
 
 .duplicator-button { margin-top: 1.2rem; float: right; }
 
@@ -173,7 +175,7 @@ hr { border-bottom: 1px solid #ddd; border-left: 0; border-right: 0; border-top:
 
 @font-face { font-family: "Paper Cutout"; src: url("./fonts/Paper_Cutout.woff2") format("woff2"), url("./fonts/Paper_Cutout.woff") format("woff"), url("./fonts/Paper_Cutout.ttf") format("truetype"); font-style: normal; font-weight: 400; file-formats: ttf; }
 
-.alert { background-color: rgba(245, 181, 1, 0.5); border-left: 1.2rem solid #F5B501; padding: 1.2rem; }
+.alert { background-color: rgba(245, 181, 1, 0.5); border-left: 1.2rem solid #F5B501; padding: 1.2rem; margin-bottom: 1.2rem; }
 
 .alert:empty { display: none; }
 
@@ -351,11 +353,11 @@ hr { border-bottom: 1px solid #ddd; border-left: 0; border-right: 0; border-top:
 
 @media screen and (min-width: 1200px) { .main-footer .footer-left { width: 35%; } }
 
-.main-footer .footer-right { width: 25%; float: right; display: flex; align-items: center; justify-content: flex-end; display: none; }
+.main-footer .footer-right { width: 25%; float: right; align-items: center; justify-content: flex-end; display: none; }
 
-.main-footer .footer-right img { flex: 0 1 auto; margin-left: 2.4rem; }
+.main-footer .footer-right img { flex: 0 1 auto; margin-left: 1.2rem; }
 
-@media screen and (min-width: 720px) { .main-footer .footer-right { display: block; } }
+@media screen and (min-width: 720px) { .main-footer .footer-right { display: flex; } }
 
 .main-footer .footer-centre { margin-top: 4.8rem; display: none; }
 

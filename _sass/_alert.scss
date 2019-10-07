@@ -2,6 +2,7 @@
   background-color: transparentize($yellow,0.5);
   border-left: $small-spacing solid $yellow;
   padding: $small-spacing;
+  margin-bottom: $small-spacing;
   &:empty {
     display: none;
   }
