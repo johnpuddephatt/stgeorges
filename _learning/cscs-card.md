@@ -2,7 +2,7 @@
 layout: learning
 date: 2019-02-04T16:17:12.000+00:00
 title: CSCS Card
-qualification: ''
+qualification: FREE CSCS Card on completion of the course.
 subject_area: ''
 description: You will learn about Health and Safety in the work place.
 outcomes: []
