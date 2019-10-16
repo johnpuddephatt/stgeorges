@@ -14,7 +14,7 @@ time_and_location:
 equipment:
 - Pen and Paper
 information:
-- ID and proof of benefits will be required.
+- Photo ID and proof of benefits will be required.
 council: false
 
 ---
