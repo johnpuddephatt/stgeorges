@@ -11,6 +11,5 @@ suitabilities:
 - Everyone welcome includes Wine and nibbles.
 signup: false
 additional_info: For further information please contact Sheena Ibbotson on 01924 369361
-published: false
 
 ---
