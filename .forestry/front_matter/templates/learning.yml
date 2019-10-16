@@ -54,6 +54,6 @@ fields:
   label: Wakefield Council course
   description: Enable this setting to display the Wakefield council logo
 pages:
-- _learning/work-club.md
 - _learning/digital-inclusion-1.md
+- _learning/work-club.md
 - _learning/forklift-truck-licence.md
