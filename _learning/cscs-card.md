@@ -6,7 +6,7 @@ qualification: ''
 subject_area: CSCS Card
 description: FREE CSCS Card on completion of the course.
 outcomes:
-- FREE CSCS Card on completion of the course.
+- About Health and Safety in the work place.
 requirements: []
 time_and_location:
 - St George's Community Centre 4th November 9:30-3:30 for 2 Weeks
