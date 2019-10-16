@@ -14,6 +14,5 @@ equipment:
 information:
 - You must be 19+ and claiming a work related benefit.
 council: false
-published: false
 
 ---
