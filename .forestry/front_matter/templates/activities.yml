@@ -63,8 +63,8 @@ fields:
   hidden: true
   default: '2019-02-04T16:17:12.000+00:00'
 pages:
-- _activities/art-exhibition-1.md
 - _activities/art-exhibition.md
+- _activities/art-exhibition-1.md
 - _activities/dementia-cafe.md
 - _activities/boccia-bowling.md
 - _activities/cycling-for-all.md
