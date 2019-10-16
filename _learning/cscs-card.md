@@ -1,0 +1,19 @@
+---
+layout: learning
+date: 2019-02-04T16:17:12.000+00:00
+title: CSCS Card
+qualification: ''
+subject_area: ''
+description: You will learn about Health and Safety in the work place.
+outcomes: []
+requirements: []
+time_and_location:
+- St George's Community Centre 4th November 9:30-3:30 for 2 Weeks
+equipment:
+- Pen and Paper
+information:
+- You must be 19+ and claiming a work related benefit.
+council: false
+published: false
+
+---
