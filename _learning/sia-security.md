@@ -14,6 +14,5 @@ equipment:
 information:
 - FREE SIA Training must be 19+ and unemployed.
 council: false
-published: false
 
 ---
