@@ -49,7 +49,7 @@ fields:
   hidden: true
   default: story
 pages:
-- _stories/wellbeing.md
 - _stories/childcare.md
-- _stories/learning.md
+- _stories/wellbeing.md
 - _stories/youngpeople.md
+- _stories/learning.md
