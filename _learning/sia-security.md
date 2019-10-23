@@ -5,7 +5,8 @@ title: SIA Security
 qualification: FREE SIA Badge
 subject_area: ''
 description: FREE SIA Training
-outcomes: []
+outcomes:
+- What it takes to work within the security industry.
 requirements:
 - 19+ and unemployed.
 time_and_location:
