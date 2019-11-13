@@ -1,13 +1,16 @@
 ---
 layout: activity
-title: Poems for pleasure
-description: Have you a favourite poem that you would like to share? Join us in listening to poems being read and learn something about the poets that wrote them in a relaxed, friendly atmosphere. We welcome people sharing their favourite poems but all are welcome with no pressure to read out aloud.
+title: Introduction to poetry
+description: Would you like to join us to know how to start looking at poetry? Our
+  aim is to make poetry accessible to all. A relaxed friendly atmosphere with no pressure
+  to read out aloud.
 times:
-  - Wednesday 1.00pm - 3.00pm (fortnightly)
+- Wednesday 1.00pm - 3.00pm (fortnightly)
 cost: Free
 location: St George's Community Centre
 suitabilities:
-  - All abilities welcomed
+- All abilities welcomed
 signup: false
-date: 2018-05-09 15:50:54 +0000
+date: 2018-05-09T15:50:54.000+00:00
+
 ---
