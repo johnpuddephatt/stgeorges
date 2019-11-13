@@ -9,10 +9,12 @@ outcomes:
 - What it takes to work within the security industry.
 requirements:
 - 19+ and unemployed.
-time_and_location: []
+time_and_location:
+- 'St George''s Community Centre 29th January 9:30-4:30 for 6 sessions '
 equipment:
 - Pen and Paper.
-information: []
+information:
+- Induction date is on 22nd January 10-3
 council: false
 
 ---
