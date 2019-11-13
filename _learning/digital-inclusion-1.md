@@ -11,7 +11,7 @@ outcomes:
 requirements:
 - Must be 19+ unemployed and claiming a work related benefit
 time_and_location:
-- St George's Community Centre 18th November 9:30-2:30 for 7 days
+- St George's Community Centre 12th December 9:30-2:30 for 7 days
 equipment:
 - Pen & Paper
 information:
