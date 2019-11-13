@@ -9,8 +9,7 @@ outcomes:
 - What it takes to work within the security industry.
 requirements:
 - 19+ and unemployed.
-time_and_location:
-- TBC
+time_and_location: []
 equipment:
 - Pen and Paper.
 information: []
