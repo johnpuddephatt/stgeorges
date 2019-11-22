@@ -43,6 +43,7 @@ fields:
   hidden: true
   default: young-people
 pages:
+- _young-people/yoga.md
 - _young-people/a-z.md
 - _young-people/youth-cafe.md
 - _young-people/homework-study-space.md
