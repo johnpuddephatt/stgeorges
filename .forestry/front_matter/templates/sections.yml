@@ -69,7 +69,7 @@ fields:
   hidden: true
   default: section
 pages:
-- _sections/learning.md
 - _sections/young-people.md
+- _sections/learning.md
 - _sections/wellbeing.md
 - _sections/nurseries.md
