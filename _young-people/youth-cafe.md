@@ -10,6 +10,5 @@ times:
 cost: 50p Entry with free food/drink
 location: The George Centre, George A Green road
 signup: false
-published: false
 
 ---
