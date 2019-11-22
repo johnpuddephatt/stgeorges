@@ -43,6 +43,7 @@ fields:
   hidden: true
   default: young-people
 pages:
+- _young-people/youth-cafe-tuesday-12-16.md
 - _young-people/youth-cafe.md
 - _young-people/school-holidays.md
 - _young-people/project-i-tech.md
