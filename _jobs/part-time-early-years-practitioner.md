@@ -8,5 +8,6 @@ contract: Temporary
 hours: 18 hours over 3 days Monday, Wednesday and Thursday 10am-4.30pm
 pay: "£7.70-£8.71 per hour dependent on age, qualification/experience"
 application_link: "/uploads/2019/10/14/19-10 Information Sheet-1.docx"
+published: false
 
 ---
