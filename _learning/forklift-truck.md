@@ -17,7 +17,7 @@ equipment:
 - Pen and Paper
 information:
 - You must be 19+ and claiming a work related benefit.
-- Induction date is on 22nd January 10-3
+- Induction date is on 30th March 10am-1pm
 - After the 12 day course you will be booked in to the nearest forklift truck centre
   for a three day practical test.
 council: false
