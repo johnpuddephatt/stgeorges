@@ -10,8 +10,8 @@ outcomes:
 requirements:
 - 19+ and unemployed.
 time_and_location:
-- 'St George''s Community Centre 29th January 9:30-4:30 for 6 Weeks on Wednesday,
-  Thursday, and Friday. '
+- 'St George''s Community Centre 24th  March 9:30-4:30 for 6 Weeks on Wednesday, Thursday,
+  and Friday. '
 equipment:
 - Pen and Paper.
 information:
