@@ -66,5 +66,3 @@ fields:
   hidden: true
   default: ''
   description: Not used.
-pages:
-- _pages/Caronavirus.md
