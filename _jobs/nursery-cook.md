@@ -9,5 +9,6 @@ contract: Permanent
 hours: 15 hours over 2 days (Thursday and Friday)
 pay: "£16277-£16758 pro rata and dependent on experience "
 application_link: "/uploads/2019/10/14/18-09 Information Sheet - Cook.docx"
+published: false
 
 ---
