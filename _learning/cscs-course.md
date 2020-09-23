@@ -24,5 +24,6 @@ equipment:
 information:
 - 'You will gain the following:'
 council: false
+published: false
 
 ---
