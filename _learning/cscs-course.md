@@ -15,6 +15,5 @@ time_and_location:
 equipment: []
 information: []
 council: false
-published: false
 
 ---
