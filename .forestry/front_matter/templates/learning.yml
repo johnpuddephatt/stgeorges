@@ -54,5 +54,6 @@ fields:
   label: Wakefield Council course
   description: Enable this setting to display the Wakefield council logo
 pages:
+- _learning/cscs-course.md
 - _learning/digital-inclusion-1.md
 - _learning/sia-security.md
