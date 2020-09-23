@@ -22,7 +22,8 @@ equipment:
 - Proof Of latest benefit
 - Face Covering (Exemptions apply see gov.uk)
 information:
-- 'You will gain the following:'
+- You will gain a FREE CSCS Card
 council: false
+published: false
 
 ---
