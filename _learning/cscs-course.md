@@ -20,7 +20,8 @@ equipment:
 - Proof of Address (i.e Utility Bill)
 - Proof Of latest benefit
 - Face Covering (Exemptions apply see gov.uk)
-information: []
+information:
+- If you have any questions about this course call us on 01924 369631
 council: false
 
 ---
