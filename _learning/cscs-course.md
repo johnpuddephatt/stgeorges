@@ -3,13 +3,12 @@ layout: learning
 date: 2019-02-04T16:17:12.000+00:00
 title: CSCS Course
 qualification: FREE CSCS Card
-subject_area: You will gain a FREE CSCS Card
-description: |-
-  Fully funded CSCS green five year operative card,
-  CSCS Card Workshops,
-  Employability Skills,
-  Customer Service Skills,
-  Health and Safety,
+subject_area: ''
+description: 'You will gain a Fully funded CSCS green five year operative card. You
+  will also gain other assets useful to any workplace such as Employability Skills,
+  Customer service skills and finally knowledge about health and safety.
+
+'
 outcomes: []
 requirements:
 - 'You MUST be 19+ and claiming a work related benefit '
