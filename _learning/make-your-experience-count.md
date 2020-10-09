@@ -8,14 +8,16 @@ description: 'Are you ready to review where you are in your life? Do you want to
   a difference – to yourself, your family, your community? Are you looking to start
   work, volunteer, work for yourself, learn some new skills or just give your confidence
   a boost, then this course can help. '
-outcomes: []
+outcomes:
+- Possible challenges and how to overcome them and set some realistic goals for the
+  future.
 requirements: []
 time_and_location:
 - 9:30 to 12:00
 - Every Thursday from 19th November to 10TH December (4 Sessions)
-equipment: []
+equipment:
+- A face mask (Unless exempt)
 information: []
 council: false
-published: false
 
 ---
