@@ -11,7 +11,8 @@ description: 'Are you ready to review where you are in your life? Do you want to
 outcomes:
 - Possible challenges and how to overcome them and set some realistic goals for the
   future.
-requirements: []
+requirements:
+- Anyone whom would like to attend this FREE course
 time_and_location:
 - 9:30 to 12:00
 - Every Thursday from 19th November to 10TH December (4 Sessions)
