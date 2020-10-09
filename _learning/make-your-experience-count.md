@@ -20,6 +20,5 @@ equipment:
 - A face mask (Unless exempt)
 information: []
 council: false
-published: false
 
 ---
