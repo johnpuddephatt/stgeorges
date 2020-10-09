@@ -9,6 +9,5 @@ times:
 cost: Free for 7-11 Year olds
 location: 'St Georges Community Centre '
 signup: false
-published: false
 
 ---
