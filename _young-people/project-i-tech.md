@@ -12,5 +12,6 @@ times:
 cost: Free
 location: St Georges Community Centre
 signup: false
+published: false
 
 ---
