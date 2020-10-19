@@ -2,11 +2,9 @@
 layout: section
 title: Wellbeing
 subtitle: Activities &amp; Advice
-description: |
+description: |-
   Covid-19 Update
   We have limited wellbeing services available at the moment, including telephone befriending and social prescribing. Please ring our office on 01924 369631 if you would like to access these. With restrictions changing regularly please do give us a call to keep up to date with what we are offering. Thank you
-
-  Our activities can improve mental and physical health, while the advice we provide can help you make positive changes to your lifestyle. As well as classes, we run weekly clubs for people who feel lonely, want to chat with new people or have a long-term health condition.
 introduction_title: We can help you feel good
 introduction: |
   Improve your health and wellbeing through things like singing, pilates, table tennis, cycling, gardening and healthier cooking.
