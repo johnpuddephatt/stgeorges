@@ -12,8 +12,7 @@ times:
 - Our service operates from Monday to Friday
 cost: Free
 location: Virtual - Over telephone
-suitabilities:
-- Any adult
+suitabilities: []
 signup: false
 additional_info: '"Its good to talk"'
 
