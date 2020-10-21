@@ -7,7 +7,7 @@ description: |-
 
   That is why we are offering a free telephone befriending service for all adults.
 
-  If you would like to know more call us on 01924 369631 or email info@stgeorgeslupset.org.uk
+  If you would like to know more call us on 01924 369631
 times:
 - Our service operates from Monday to Friday
 cost: Free
