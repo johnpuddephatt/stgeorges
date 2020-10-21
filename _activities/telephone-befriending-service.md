@@ -10,10 +10,11 @@ description: |-
   If you would like to know more call us on 01924 369631 or email info@stgeorgeslupset.org.uk
 times:
 - Our service operates from Monday to Friday
-cost: ''
-location: ''
-suitabilities: []
+cost: Free
+location: Virtual - Over telephone
+suitabilities:
+- Any adult
 signup: false
-additional_info: ''
+additional_info: '"Its good to talk"'
 
 ---
