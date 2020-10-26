@@ -10,13 +10,14 @@ outcomes:
 requirements:
 - 19+ and unemployed.
 time_and_location:
-- 'St George''s Community Centre 24th  March 9:30-4:30 for 6 Weeks on Wednesday, Thursday,
-  and Friday. '
+- 'St George''s Community Centre '
+- 'Induction: Friday 13th November '
+- 'Start Date: Monday 16th November'
 equipment:
+- A face mask (Unless exempt)
 - Pen and Paper.
 information:
 - Induction date is on 22nd January 10-3
 council: false
-published: false
 
 ---
