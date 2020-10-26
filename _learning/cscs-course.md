@@ -1,7 +1,7 @@
 ---
 layout: learning
 date: 2019-02-04T16:17:12.000+00:00
-title: CSCS Course
+title: CSCS Course - November
 qualification: FREE CSCS Card
 subject_area: ''
 description: 'You will gain a Fully funded CSCS green five year operative card. You
