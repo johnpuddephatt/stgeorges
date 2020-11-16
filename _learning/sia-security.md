@@ -19,5 +19,6 @@ equipment:
 information:
 - Induction date is on 22nd January 10-3
 council: false
+published: false
 
 ---
