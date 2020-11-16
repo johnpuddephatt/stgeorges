@@ -18,5 +18,6 @@ equipment:
 information:
 - You will receive a laptop upon completion of this course
 council: false
+published: false
 
 ---
