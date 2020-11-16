@@ -11,13 +11,12 @@ outcomes:
 requirements:
 - Must be 19+ unemployed and claiming a work related benefit
 time_and_location:
-- St George's Community Centre 16th November 9:30-3:00 for 10 days
+- St George's Community Centre 30th November 9:30-3:00 for 10 days
 equipment:
 - You MUST have a face mask (Exemptions apply)
 - Pen & Paper
 information:
 - You will receive a laptop upon completion of this course
 council: false
-published: false
 
 ---
