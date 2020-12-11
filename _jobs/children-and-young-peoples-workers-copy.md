@@ -17,6 +17,5 @@ contract: Temporary
 hours: 37 hours per week
 pay: Subject to Job Evaluation £20530 to £24,000
 application_link: "/uploads/2020/12/11/20-11-information-sheet.pdf"
-published: false
 
 ---
