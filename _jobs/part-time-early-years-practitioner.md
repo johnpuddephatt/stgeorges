@@ -1,6 +1,6 @@
 ---
 date: 2019-02-04T16:17:12.000+00:00
-title: Children and Young Peoples Workers (Relief)
+title: 'Children and Young Peoples Workers '
 description: We are looking to recruit a number of part time or sessional Children
   and Young People’s Workers, with a back ground in Play Work, Youth Work or with
   other equivalent proven experience. You will be part of a small team supporting
