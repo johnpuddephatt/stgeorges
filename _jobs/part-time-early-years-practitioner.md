@@ -13,6 +13,5 @@ hours: 'The work will include evenings, school holidays and occasional weekends.
   be required to work off site from time to time. '
 pay: "£17000-£20500-pro rata and dependent on qualification/experience"
 application_link: "/uploads/2020/12/11/20-12-information-sheet.pdf"
-published: false
 
 ---
