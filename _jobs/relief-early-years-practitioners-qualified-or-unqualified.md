@@ -9,7 +9,7 @@ description: 'We are always looking for people to work with us when we get busy 
   Tracy or Berni '
 contract: Flexible
 hours: Flexible
-pay: "£7.70 to £8.71 dependant on age, experience and qualifications."
+pay: "£8.06-£8.84 dependent on age, experience and qualifications."
 application_link: ''
 
 ---
