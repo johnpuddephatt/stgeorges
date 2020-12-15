@@ -7,6 +7,5 @@ contract: Permanent
 hours: 37 hours per week
 pay: "£25000-£28000 "
 application_link: "/uploads/2020/12/15/20-12-information-sheet.pdf"
-published: false
 
 ---
