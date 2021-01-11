@@ -47,22 +47,22 @@ layout: default
                   {{ item.description | markdownify }}
                   <ul>
                     {% if item.contract %}
-                      <li><strong>Contract:</strong> {{ item.contract }}</li>
+                      <li class="tab-child-item-row"><strong>Contract:</strong><p>{{ item.contract }}</p></li>
                     {% endif %}
                     {% if item.pay %}
-                      <li><strong>Pay:</strong> {{ item.pay }}</li>
+                      <li class="tab-child-item-row"><strong>Pay:</strong><p>{{ item.pay }}</p></li>
                     {% endif %}
                     {% if item.hours %}
-                      <li><strong>Hours:</strong> {{ item.hours }}</li>
+                      <li class="tab-child-item-row"><strong>Hours:</strong><p>{{ item.hours }}</p></li>
                     {% endif %}
                     {% if item.time %}
-                      <li><strong>Time involved:</strong> {{ item.time }}</li>
+                      <li class="tab-child-item-row"><strong>Time involved:</strong><p>{{ item.time }}</p></li>
                     {% endif %}
                     {% if item.contact_email %}
-                      <li><strong>Contact email:</strong> <a href="mailto:{{ item.contact_email }}">{{ item.contact_email }}</a></li>
+                      <li class="tab-child-item-row"><strong>Contact email:</strong><p><a href="mailto:{{ item.contact_email }}">{{ item.contact_email }}</a></p></li>
                     {% endif %}
                     {% if item.contact_phone %}
-                      <li><strong>Contact phone:</strong> {{ item.contact_phone }}</li>
+                      <li class="tab-child-item-row"><strong>Contact phone:</strong><p>{{ item.contact_phone }}</p></li>
                     {% endif %}
                   </ul>{{item}}
                   {% if item.application_link %}

@@ -205,6 +205,11 @@ input[name="tabs"] + label {
     strong {
       display: inline-block;
       width: 25%;
+      flex: 0 0 25%;
+    }
+
+    p {
+      margin-bottom: 0;
     }
 
     ul {
@@ -220,6 +225,15 @@ input[name="tabs"] + label {
 
       &::before {
         content: none;
+      }
+    }
+    
+    &-row {
+      display: flex;
+      flex-direction: row;
+
+      strong {
+        padding-right: 0.25em;
       }
     }
   }
