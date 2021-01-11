@@ -14,6 +14,5 @@ hours: "18.5"
 pay: 'Subject to Job Evaluation£20015 to £26,000 and dependant on qualifications and
   experience pro rata '
 application_link: "/uploads/2021/01/11/21-01-information-sheet-job-description.pdf"
-published: false
 
 ---
