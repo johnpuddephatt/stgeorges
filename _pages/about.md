@@ -1,11 +1,13 @@
 ---
 title: About
-name: 'foo'
+name: foo
 layout: page
 hidden: false
-description: |
-  St George’s provides happy, welcoming spaces where local people can feel part of something.
-date: 2018-05-09 15:50:54 +0000
+description: 'St George’s provides happy, welcoming spaces where local people can
+  feel part of something.
+
+'
+date: 2018-05-09T15:50:54.000+00:00
 tabs:
 - title: Our values
   content: |-
@@ -50,14 +52,10 @@ tabs:
 
     <div class="trustee-photos">
       <div class="trustee">
-        <img src="/images/staff/lesley.jpg" />
-        <h4>Lesley Wagstaff</h4>
-        <p>Community Centre Manager</p>
-      </div>
       <div class="trustee">
         <img src="/images/staff/berni.jpg" />
         <h4>Berni O’Brien</h4>
-        <p>Children and Young People Manager</p>
+        <p>Chief Executive Officer</p>
       </div>
     </div>
 
@@ -117,4 +115,5 @@ tabs:
       </div>
 
     </div>
+
 ---
