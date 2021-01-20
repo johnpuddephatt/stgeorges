@@ -64,7 +64,6 @@ fields:
   label: Date
   type: datetime
   hidden: true
-  default: ''
   description: Not used.
 pages:
 - _pages/news.md
