@@ -48,7 +48,7 @@ tabs:
 
     ![Photo of staff at St George’s](/images/staff-group.jpg)
 
-    ## Our senior leaders
+    Our senior leaders
 
     <div class="trustee-photos">
       <div class="trustee">
@@ -59,7 +59,7 @@ tabs:
       </div>
     </div>
 
-    ## Our trustees
+    Our trustees
     Our work is overseen by our board of trustees; an experienced team with a range of professional backgrounds who use their knowledge and experience to help guide the organisation towards fulfilling its charitable aims.
 
     <div class="trustee-photos">
