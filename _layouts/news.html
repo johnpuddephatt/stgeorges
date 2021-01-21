@@ -28,8 +28,9 @@ layout: default
           <p>{{ post.date | date: "%-d %B %Y" }}</p>
           <h3>{{ post.title }}</h3>
           {{ post.content | truncate: 140 }}
-        {% endfor %}
+          <span class="news-item--read-more">Read more »</span>
         </a>
+        {% endfor %}
       </div>
 
   </div>

@@ -1,4 +1,5 @@
 .news-item {
+  display: block;
   color: $base-font-color;
   padding: $base-spacing 0;
 
@@ -10,4 +11,11 @@
 .post-title {
   font-size: 2.5em;
   margin: $base-spacing 0 1.5* $base-spacing;
+}
+
+.news-item--read-more {
+  display: inline-block;
+  margin-top: $small-spacing;
+  font-weight: bold;
+  font-size: modular-scale(-1);
 }
