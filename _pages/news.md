@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: news
 title: News
-hidden: false
-description: News from St George's
+description: The latest news from St George's Community Centre.
 tabs: []
-date:
-published: false
+published: true
+hidden: false
 date: 2020-01-01 15:50:54 +0000
-
 ---
+

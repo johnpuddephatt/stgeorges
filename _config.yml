@@ -30,6 +30,9 @@ collections:
   pages:
     output: true
     permalink: /:name/index.html
+  news:
+    output: true
+    permalink: /news/:title/index.html
   sections:
     output: true
     permalink: /:name/index.html
@@ -72,6 +75,11 @@ defaults:
       type: activities
     values:
       layout: activity
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
   - scope:
       path: ""
       type: nurseries

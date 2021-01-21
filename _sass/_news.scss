@@ -1,0 +1,13 @@
+.news-item {
+  color: $base-font-color;
+  padding: $base-spacing 0;
+
+  + .news-item {
+    border-top: 1px solid lightgray;
+  }
+}
+
+.post-title {
+  font-size: 2.5em;
+  margin: $base-spacing 0 1.5* $base-spacing;
+}
