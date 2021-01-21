@@ -12,3 +12,5 @@ fields:
   type: datetime
   hidden: false
   default: ''
+pages:
+- _news/another-story.md
