@@ -7,6 +7,6 @@ description: |
 contract: Permanent and temporary positions available across our nursery settings
 hours: Between 15-37 various hours available across our nursery settings
 pay: "£15500-£19500 dependant on qualification and experience/pro rata"
-application_link: "/uploads/2020/12/11/20-12-information-sheet.pdf"
+application_link: "/uploads/2021/01/25/21-01-information-sheet-qeyp.docx"
 
 ---
