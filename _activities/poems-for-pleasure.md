@@ -1,7 +1,7 @@
 ---
 layout: activity
 title: Family Fitness
-description: This is a fun fitness group for primary school age children and parents.
+description: This is a fun fitness group for primary school age children and guardians.
 times:
 - Mondays 4.00pm - 5.00pm (7th June - 12th July)
 cost: Free
