@@ -1,21 +1,11 @@
 ---
 layout: page
-hidden: true
-title: Safeguarding Statement
-description:
-  "• St George’s Lupset Ltd (St George’s) is committed to and takes its
-  duty of safeguarding and promoting the well-being of all children, young people
-  and vulnerable adults and protecting them from harm, seriously. \n• St George’s
-  recognises that children, young people and some adults can be vulnerable and rely
-  on the support of adults and the wider community to help them reach their full potential.
-  \n• St George’s respects everyone irrespective of gender, sexuality, race, culture,
-  religion or economic status and that they have the right to play as full a part
-  as possible within their community. \n• This commitment is shared by trustees, staff,
-  students and volunteers working at or with St George’s."
+hidden: false
+title: Privacy policy
+description: ''
 date: 2018-05-09T15:50:54.000+00:00
-published: false
----
 
+---
 ### 1. Your personal data – what is it?
 
 Personal data relates to a living individual who can be identified from that data. Identification can be by the information alone or in conjunction with any other information in the data controller’s possession or likely to come into such possession. The processing of personal data is governed by the General Data Protection Regulation 2018 (the “GDPR”).
