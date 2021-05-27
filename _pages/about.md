@@ -35,6 +35,9 @@ tabs:
     have the right to play as full a part as possible within their community. \n\n•
     This commitment is shared by trustees, staff, students and volunteers working
     at or with St George’s.\n"
+  childname: ''
+  childname_heading: ''
+  files: []
 - title: Our purpose
   content: |+
     We’re a locally-focused independent charity and recognised community anchor working with the public and private sector for positive change in Lupset, West Wakefield and beyond. Founded in 1997, we’ve successfully delivered services and activities to improve personal and community health and wellbeing for the past 20 years.
@@ -52,6 +55,9 @@ tabs:
     We’re a strong, resilient organisation with 53 different partner organisations and an income of £1.2M of which over 88% comes from non-grant sources.
 
 
+  childname: ''
+  childname_heading: ''
+  files: []
 - title: Our people
   content: |-
     The work St George’s does is carried out by over sixty members of dedicated staff, backed by a valued team of volunteers.
@@ -125,5 +131,8 @@ tabs:
       </div>
 
     </div>
+  childname: ''
+  childname_heading: ''
+  files: []
 
 ---
