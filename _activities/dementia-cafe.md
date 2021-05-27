@@ -4,7 +4,7 @@ title: Dementia cafe
 description: Our Dementia Café provides a safe, comfortable and supportive environment
   for people with dementia and their carers to socialise.
 times:
-- Third Friday of every month 1.30pm - 2.30pm
+- Third Friday of every month 1.30pm-2.30pm
 cost: "£3"
 location: St George's Community Centre
 signup: true
