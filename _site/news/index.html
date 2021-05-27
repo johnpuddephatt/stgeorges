@@ -217,33 +217,37 @@
     </div>
 
 
+    
 
-      <div class="content-wrap">
-        
+    <div class="tab-wrap" data-tabs="0">
+      
+      <div class="slide"></div>
 
 
-        
-        
-        <a class="news-item" href="/news/another-story/">
-          <p>6 January 2021</p>
-          <h3>Another story</h3>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et ...
-          <span class="news-item--read-more">Read more »</span>
-        </a>
-        
-        <a class="news-item" href="/news/post/">
-          <p>13 December 2019</p>
-          <h3>Sample news story</h3>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et ...
-          <span class="news-item--read-more">Read more »</span>
-        </a>
-        
-      </div>
 
+    </div>
   </div>
 </section>
 
+<script>
+  var tab = window.location.hash.substr(1);
+  if(tab) {
+    var target = document.getElementById('tab-' + tab);
+    target.checked = true;
+  }
 
+  var footerButtons = document.querySelectorAll('.tab-footer-navigation a');
+  for (var i = 0; i < footerButtons.length; i++) {
+    footerButtons[i].addEventListener('click', function(e){
+      e.preventDefault();
+      var tab = e.target.dataset.tab;
+      var target = document.getElementById('tab-' + tab);
+      target.checked = true;
+      target.scrollIntoView({behavior: "smooth", block: "start"});
+    });
+  }
+
+</script>
 
     <footer class="section main-footer">
   <div class="container">

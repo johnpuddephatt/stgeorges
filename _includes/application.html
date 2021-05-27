@@ -1,0 +1,361 @@
+<form
+  novalidate=""
+  action="https://form.letsdance.agency/ZbM5mMyr"
+  method="POST"
+  class="tab-wrap"
+  data-tabs="3"
+  data-redirect="/thankyou"
+  data-failure="<h3>Error</h3><p>Your application was not sent. Please try again and contact us if the problem persists.</p>"
+  data-loading="<strong>Please wait.</strong> Sending your application."
+  data-success="<h3>Thank you</h3><p>Your application has been submitted.</p>"
+>
+  <input checked type="radio" name="tabs" value="tab-about" id="tab-about" />
+  <label for="tab-about">1. About you</label>
+  <div class="tab-content">
+    {% assign jobs = site.jobs | map: 'title' | join: "," %} {% include
+    fields/select.html label="Job title" help="Select the job you’re applying
+    for." name="_subject" values=jobs required="true"%}
+
+    <div class="pullout hide-on-print">
+      <h3>Before you begin</h3>
+      <p>
+        This form features an autosave function which reduces the chance of you
+        losing data if you navigate away from the page during completion,
+        however
+        <strong>we cannot be held responsible for any loss of data</strong>
+        incurred while completing the form so we strongly encourage you to write
+        out all longer answers in a text editor or word processor and copy them
+        into the form when complete.
+      </p>
+      <p>
+        We encourage you to look through the form to familiarise yourself with
+        all questions before beginning to complete it. This will help you
+        understand what information is best suited where, and should allow you
+        to estimate the time it will take you to complete the form.
+      </p>
+    </div>
+
+    <fieldset>
+      <legend>Your name and contact details</legend>
+      <div class="field-group">
+        {% include fields/input.html fieldset="contact_details" type="text"
+        name="name" placeholder="Enter your first name" required="true"
+        class="half" %} {% include fields/input.html fieldset="contact_details"
+        type="text" name="name" placeholder="Enter your family name"
+        required="true" class="half" %}
+      </div>
+      <div class="field-group">
+        {% include fields/input.html fieldset="contact_details" type="email"
+        name="email" placeholder="Enter your email address" required="true"
+        class="half" %} {% include fields/input.html fieldset="contact_details"
+        type="text" name="phone" placeholder="Enter your phone number"
+        required="true" class="half" %}
+      </div>
+
+      {% include fields/textarea.html fieldset="contact_details" name="address"
+      placeholder="Please provide your address including postcode"
+      required="true" %}
+    </fieldset>
+
+    <fieldset>
+      <legend>Diversity</legend>
+      <p class="fieldset-intro">
+        St George’s Lupset Ltd is an equal opportunities employer. All
+        applicants will be considered on the basis of suitability for the post,
+        regardless of sex, race, marital status, religion, disability, or sexual
+        orientation. Answering the questions below allows us to monitor our
+        commitment to being an equal opportunities employer.
+      </p>
+
+      <div class="alert">
+        The details given in this section are confidential and
+        <strong
+          >will not be considered in any way during the appointment
+          process</strong
+        >.
+      </div>
+      {% include fields/select.html fieldset="diversity" name="gender"
+      values=",Man,Woman,Intersex,Non-binary,Prefer not to say,Other" %} {%
+      include fields/select.html fieldset="diversity" name="marriage" label="Are
+      you married or in a civil partnership?" values=",Yes,No,Prefer not to say"
+      %} {% include fields/select.html fieldset="diversity" name="age_group"
+      values=",16-24,25-29,30-34,35-39,40-44,45-49,50-54,55-50,60-64,65+" %} {%
+      include fields/select.html fieldset="diversity" name="ethnicity"
+      values=",White – English,White – Welsh,White – Scottish,White – Northern
+      Irish,White – Irish,White – British,White - Gypsy or Irish Traveller,White
+      - Other,,Mixed / Multiple - White and Black Caribbean,Mixed / Multiple -
+      White and Black African,Mixed / Multiple - White and Asian,Mixed /
+      Multiple - Other,,Asian/Asian British – Indian,Asian/Asian British –
+      Pakistani,Asian/Asian British – Bangladeshi,Asian/Asian British –
+      Chinese,Asian/Asian British – Any other Asian
+      background,,Black/African/Caribbean/Black British –
+      African,Black/African/Caribbean/Black British –
+      Caribbean,Black/African/Caribbean/Black British – Other,,Other ethnic
+      group – Arab,Other ethnic group – Any other group, Prefer not to say"
+      help="Ethnic origin is not about nationality, place of birth or
+      citizenship. It is about the group to which you perceive you belong."%} {%
+      include fields/select.html fieldset="diversity" name="gender"
+      values=",Man,Woman,Intersex,Non-binary,Prefer not to say,Other" %} {%
+      include fields/select.html fieldset="diversity" name="disability"
+      label="Do you consider yourself to have a disability or health condition?"
+      values=",Yes,No,Prefer not to say" %} {% include fields/select.html
+      fieldset="diversity" name="sexuality" label="What is your sexual
+      orientation?" values=",Heterosexual,Gay,Lesbian,Bisexual,Other,Prefer not
+      to say" %} {% include fields/select.html fieldset="diversity"
+      name="religion" label="What is your religion or belief?" values=",No
+      religion or
+      belief,Buddhist,Christian,Hindu,Jewish,Muslim,Sikh,Other,Prefer not to
+      say" %} {% include fields/select.html fieldset="diversity" name="carer"
+      label="Do you have caring responsibilities?" values=",None,Primary carer
+      of a child/children (under 18),Primary carer of disabled
+      child/children,Primary carer of disabled adult (18 and over),Primary carer
+      of older person,Secondary carer (another person carries out the main
+      caring role),Prefer not to say​" %}
+    </fieldset>
+
+    <fieldset>
+      <legend>Safeguarding Children and Vulnerable Adults</legend>
+      <p class="fieldset-intro">
+        This position involves working with vulnerable groups and we will
+        therefore conduct appropriate safeguarding measures. This will include
+        an enhanced Disclosure and Barring Service check (DBS).
+      </p>
+      <br />
+      <p class="fieldset-intro">
+        A criminal record will not automatically bar you from working with us,
+        however not disclosing criminal convictions could lead to the rejection
+        of your application, or your dismissal if discovered after your
+        appointment.
+      </p>
+
+      {% include fields/radio.html fieldset="convictions"
+      name="have_you_ever_been_convicted_of_an_offence?" label="Have you ever
+      been convicted of an offence?" values="yes,no" required="true" %} {%
+      include fields/textarea.html fieldset="convictions"
+      name="details_of_any_convictions" help="You must declare any convictions,
+      cautions, reprimands or final warnings that are not “protected” as defined
+      by the Rehabilitation of Offenders Act 1974 (Exceptions) Order 1975 (as
+      amended in 2013)." %}
+    </fieldset>
+
+    <div class="tab-footer-navigation">
+      <button disabled class="back white">Previous</button>
+      <a data-tab="experience" href="#" class="button white">Next</a>
+    </div>
+  </div>
+  <input type="radio" name="tabs" value="tab-experience" id="tab-experience" />
+  <label for="tab-experience">2. Your experience</label>
+
+  <div class="tab-content">
+    <fieldset>
+      <legend>Describe your suitability for the role</legend>
+      <p class="fieldset-intro">
+        Tell us what experience, skills and abilities you can bring to the job.
+        Match your skills to the person specification, and include skills gained
+        from paid or voluntary work, or through family and leisure activities.
+      </p>
+      {% include fields/textarea.html fieldset="suitability"
+      name="information_to_support_your_application" rows="15" maxlength="6000"
+      required="true" %}
+    </fieldset>
+
+    <fieldset>
+      <legend>Present or most recent employment</legend>
+      <div class="field-group">
+        {% include fields/input.html fieldset="employment" type="text"
+        name="job_title" class="half"%} {% include fields/input.html
+        fieldset="employment" type="text" name="employer" class="half" %}
+      </div>
+      <div class="field-group">
+        {% include fields/input.html fieldset="employment" type="date"
+        name="date_appointed" class="half" %} {% include fields/input.html
+        fieldset="employment" type="date" name="date_left" help="Only if you’ve
+        already left this role" class="half" %}
+      </div>
+      <div class="field-group">
+        {% include fields/input.html fieldset="employment" type="text"
+        name="salary_or_hourly_wage" class="half" %} {% include
+        fields/input.html fieldset="employment" type="text" name="notice_period"
+        class="half" %}
+      </div>
+
+      {% include fields/textarea.html fieldset="employment" name="duties"
+      placeholder="Summarise your main duties and responsibilities" %} {%
+      include fields/textarea.html fieldset="employment"
+      name="reason_for_leaving" placeholder="Please state your reason for
+      leaving, if relevant." %} {% include fields/input.html
+      fieldset="employment" type="text" name="current_line_manager" %} {%
+      include fields/radio.html fieldset="employment"
+      name="contact_current_line_manager" values="Yes,No" label="Can we contact
+      this person for a reference before an interview?" %}
+    </fieldset>
+
+    <fieldset>
+      <legend>Previous employment</legend>
+      <p class="fieldset-intro">
+        Please give details of all your previous jobs since leaving
+        school/college in date order, starting with the most recent. Any gaps in
+        your employment history <strong>must</strong> also be included. Please
+        <strong>do not</strong> include student placements here, these should be
+        included in the next section.
+      </p>
+
+      <div class="duplicator">
+        <h3>Previous employment $$$</h3>
+        {% include fields/select.html fieldset="previous_employment[$$$]"
+        name="type" values="Employed,Unemployed,Volunteer,Studying,Caring
+        responsibilities,Other" %}
+        <div class="field-group">
+          {% include fields/input.html type="text"
+          fieldset="previous_employment[$$$]" disabled="true" name="title" %} {%
+          include fields/input.html type="text"
+          fieldset="previous_employment[$$$]" disabled="true" name="employer"
+          label="Name and address of employer" %}
+        </div>
+        <div class="field-group">
+          {% include fields/input.html type="date"
+          fieldset="previous_employment[$$$]" disabled="true" name="date_from"
+          class="half" %} {% include fields/input.html type="date"
+          fieldset="previous_employment[$$$]" disabled="true"
+          name="leaving_date" class="half" %}
+        </div>
+        {% include fields/textarea.html fieldset="previous_employment[$$$]"
+        disabled="true" name="reason_for_leaving" %}
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>References</legend>
+      <p class="fieldset-intro">
+        References may relate to current or previous employment, or to voluntary
+        or student placements. Character references may be submitted providing
+        they are not from family members.
+      </p>
+      <div class="alert">
+        Please obtain permission from your references before indicating we can
+        contact them
+      </div>
+      <h3>First referee</h3>
+      <div class="field-group">
+        {% include fields/input.html fieldset="referee[1]" type="text"
+        name="name" class="half" %} {% include fields/input.html
+        fieldset="referee[1]" type="text" name="job_title" class="half" %}
+      </div>
+      <div class="field-group">
+        {% include fields/input.html fieldset="referee[1]" type="text"
+        name="contact_phone" class="half" %} {% include fields/input.html
+        fieldset="referee[1]" type="email" name="contact_email" class="half" %}
+      </div>
+      {% include fields/select.html fieldset="referee[1]" name="connection"
+      values="Line Manager,College Tutor, Headteacher, School Teacher, Volunteer
+      Placement, Colleague, Other" help="Your first referee should be your
+      present employer or, if you are not employed at present, your previous
+      employer. Only if you have never been in paid employment or have recently
+      left education should you choose an alternative first reference"%} {%
+      include fields/radio.html fieldset="referee[2]" name="contact_referee"
+      values="Yes,No" label="Can we contact this person for a reference before
+      an interview?" help="At least one reference must be available prior to
+      interview, and you will not be able to start work until we have received
+      two references." %}
+
+      <h3>Second referee</h3>
+      <div class="field-group">
+        {% include fields/input.html fieldset="referee[2]" type="text"
+        name="name" class="half" %} {% include fields/input.html
+        fieldset="referee[2]" type="text" name="job_title" class="half" %}
+      </div>
+      <div class="field-group">
+        {% include fields/input.html fieldset="referee[2]" type="text"
+        name="contact_phone" class="half" %} {% include fields/input.html
+        fieldset="referee[2]" type="email" name="contact_email" class="half" %}
+      </div>
+      {% include fields/select.html fieldset="referee[2]" name="connection"
+      values="Line Manager,College Tutor, Headteacher, School Teacher, Volunteer
+      Placement, Colleague, Other" %} {% include fields/radio.html
+      fieldset="referee[2]" name="contact_referee" values="Yes,No" label="Can we
+      contact this person for a reference before an interview?" help="At least
+      one reference must be available prior to interview, and you will not be
+      able to start work until we have received two references." %}
+    </fieldset>
+
+    <fieldset>
+      <legend>Education</legend>
+      <p class="fieldset-intro">
+        Please provide details of your formal education, including any schools,
+        colleges and universities attended. Training or short courses should not
+        be listed here; include them in the next section.
+      </p>
+
+      <div class="duplicator duplicator--table">
+        {% include fields/textarea.html fieldset="education[$$$]"
+        disabled="true" name="institution" %} {% include fields/textarea.html
+        fieldset="education[$$$]" disabled="true" name="qualification" %} {%
+        include fields/textarea.html fieldset="education[$$$]" disabled="true"
+        name="award_body" %} {% include fields/textarea.html
+        fieldset="education[$$$]" disabled="true" name="grade" %} {% include
+        fields/textarea.html fieldset="education[$$$]" disabled="true"
+        name="date" %}
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Training and short courses</legend>
+      <p class="fieldset-intro">
+        Include any additional training you think is relevant to the role here.
+      </p>
+
+      <div class="duplicator duplicator--table">
+        {% include fields/textarea.html fieldset="training[$$$]" row="2"
+        disabled="true" name="provider" %} {% include fields/textarea.html
+        fieldset="training[$$$]" row="2" disabled="true" name="course_title" %}
+        {% include fields/textarea.html fieldset="training[$$$]" row="2"
+        disabled="true" name="grade" %} {% include fields/textarea.html
+        fieldset="training[$$$]" row="2" disabled="true" name="date" %}
+      </div>
+    </fieldset>
+
+    <div class="tab-footer-navigation">
+      <a data-tab="about" class="button white back">Previous</a>
+      <a data-tab="submit" href="#" class="button white">Next</a>
+    </div>
+  </div>
+  <input type="radio" name="tabs" value="tab-submit" id="tab-submit" />
+  <label for="tab-submit">3. Submit</label>
+  <div class="tab-content">
+    <h3>Declaration of accuracy</h3>
+    {% include fields/check.html type="text" name="accuracy" label="I declare
+    that all the information given by me in this application is accurate. I
+    understand that any false information given in this application may render
+    an offer of employment invalid and may lead to termination of employment."
+    %}
+
+    <!-- recaptcha and submit -->
+    <div class="hide-on-print">
+      <h3>Confirm that you’re human</h3>
+      <p>This helps us prevent spam or other automated applications.</p>
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"
+      ></div>
+    </div>
+
+    <div class="hide-on-print">
+      <h3>Print or keep a copy of your application</h3>
+      <p>
+        We strongly recommend saving a copy of your application before
+        submitting. Clicking the button below will allow you to print your
+        application. On many computer systems this will also include an option
+        to save the application as a PDF on your computer.
+      </p>
+      <a class="button" href="javascript:window.print()">Print</a>
+    </div>
+
+    <div class="form-status alert"></div>
+    <div class="tab-footer-navigation">
+      <a data-tab="experience" class="button white back">Previous</a>
+      <input type="submit" value="Submit" class="white button" />
+    </div>
+  </div>
+
+  <div class="slide"></div>
+</form>
