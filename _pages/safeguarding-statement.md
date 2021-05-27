@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Safeguarding statement
-hidden: false
+hidden: true
 description: ""
 date: 2018-05-09T15:50:54.000+00:00
 ---

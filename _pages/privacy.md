@@ -1,11 +1,11 @@
 ---
 layout: page
-hidden: false
+hidden: true
 title: Privacy policy
-description: ''
+description: ""
 date: 2018-05-09T15:50:54.000+00:00
-
 ---
+
 ### 1. Your personal data – what is it?
 
 Personal data relates to a living individual who can be identified from that data. Identification can be by the information alone or in conjunction with any other information in the data controller’s possession or likely to come into such possession. The processing of personal data is governed by the General Data Protection Regulation 2018 (the “GDPR”).

@@ -2,33 +2,33 @@
 label: Page (simple)
 hide_body: false
 fields:
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-- name: layout
-  label: Layout
-  type: text
-  hidden: true
-  default: page
-- name: hidden
-  label: Hidden
-  type: boolean
-  hidden: false
-  default: ''
-- name: description
-  label: Description
-  type: textarea
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: true
-  description: Not used.
-  default: now
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ""
+  - name: layout
+    label: Layout
+    type: text
+    hidden: true
+    default: page
+  - name: hidden
+    label: Hide from navigation
+    type: boolean
+    hidden: false
+    default: ""
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ""
+  - name: date
+    label: Date
+    type: datetime
+    hidden: true
+    description: Not used.
+    default: now
 pages:
-- _pages/news.md
-- _pages/privacy.md
-- _pages/safeguarding-statement.md
+  - _pages/news.md
+  - _pages/privacy.md
+  - _pages/safeguarding-statement.md
