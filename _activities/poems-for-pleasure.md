@@ -1,16 +1,14 @@
 ---
 layout: activity
-title: Introduction to poetry
-description: Would you like to join us to know how to start looking at poetry? Our
-  aim is to make poetry accessible to all. A relaxed friendly atmosphere with no pressure
-  to read out aloud.
+title: Family Fitness
+description: This is a fun fitness group for primary school age children and parents.
 times:
-- Wednesday 1.00pm - 3.00pm (fortnightly)
+- Mondays 4.00pm - 5.00pm (7th June - 12th July)
 cost: Free
 location: St George's Community Centre
 suitabilities:
 - All abilities welcomed
-signup: false
+signup: true
 date: 2018-05-09T15:50:54.000+00:00
 published: false
 
