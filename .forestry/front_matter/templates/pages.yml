@@ -2,71 +2,71 @@
 label: Page with tabs
 hide_body: true
 fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: page
+- name: hidden
+  label: Hide from navigation
+  type: boolean
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: tabs
+  label: Tabs
+  type: field_group_list
+  fields:
   - name: title
     label: Title
     type: text
     hidden: false
-    default: ""
-  - name: layout
-    label: Layout
-    type: text
-    hidden: true
-    default: page
-  - name: hidden
-    label: Hide from navigation
-    type: boolean
-    hidden: false
-    default: ""
-  - name: description
-    label: Description
+    default: ''
+  - name: content
+    label: Content
     type: textarea
     hidden: false
-    default: ""
-  - name: tabs
-    label: Tabs
-    type: field_group_list
-    fields:
-      - name: title
-        label: Title
-        type: text
-        hidden: false
-        default: ""
-      - name: content
-        label: Content
-        type: textarea
-        hidden: false
-        default: ""
-        config:
-          wysiwyg: false
-      - name: childname
-        label: Childname
-        type: text
-        hidden: true
-        default: ""
-      - name: childname_heading
-        label: Childname heading
-        type: text
-        hidden: true
-        default: ""
-      - type: field_group_list
-        name: files
-        label: Files
-        fields:
-          - type: text
-            name: name
-            label: Name
-          - type: file
-            name: path
-            label: Path
-    hidden: false
-    default: ""
-  - name: date
-    label: Date
-    type: datetime
+    default: ''
+    config:
+      wysiwyg: false
+  - name: childname
+    label: Childname
+    type: text
     hidden: true
-    description: Not used.
+    default: ''
+  - name: childname_heading
+    label: Childname heading
+    type: text
+    hidden: true
+    default: ''
+  - type: field_group_list
+    name: files
+    label: Files
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: file
+      name: path
+      label: Path
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: true
+  description: Not used.
 pages:
-  - _pages/about.md
-  - _pages/centre.md
-  - _pages/contact.md
-  - _pages/jobs.md
+- _pages/about.md
+- _pages/centre.md
+- _pages/contact.md
+- _pages/jobs.md
