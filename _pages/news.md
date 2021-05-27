@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: page
 title: News
 description: The latest news from St George's Community Centre.
 tabs: []

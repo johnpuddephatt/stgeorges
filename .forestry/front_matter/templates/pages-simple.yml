@@ -28,4 +28,5 @@ fields:
   hidden: true
   description: Not used.
 pages:
+- _pages/news.md
 - _pages/privacy.md
