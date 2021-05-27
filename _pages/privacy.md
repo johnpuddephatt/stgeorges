@@ -1,6 +1,6 @@
 ---
 layout: page
-hidden: false
+hidden: true
 title: Safeguarding Statement
 description: "• St George’s Lupset Ltd (St George’s) is committed to and takes its
   duty of safeguarding and promoting the well-being of all children, young people
