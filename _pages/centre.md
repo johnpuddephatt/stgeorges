@@ -5,7 +5,7 @@ hidden: false
 description: Our community centre in Lupset is the space where a lot of our work – from
   wellbeing classes to our youth café – takes place. But it’s also the base from which
   we offer many services and facilities.
-date: 2018-05-09 15:50:54 +0000
+date: 2018-05-09T15:50:54.000+00:00
 tabs:
 - title: Our cafe
   content: |-
@@ -19,6 +19,8 @@ tabs:
   files:
   - name: Cafe menu
     path: "/uploads/St-Georges-Menu.pdf"
+  childname: ''
+  childname_heading: ''
 - title: Room hire
   content: |-
     St George’s Community Centre is a warm, welcoming modern building close to Wakefield City Centre with good motorway links.
@@ -58,6 +60,9 @@ tabs:
     </form>
   files:
   - path: "/uploads/2018/12/19/St George's booking form.pdf"
+    name: ''
+  childname: ''
+  childname_heading: ''
 - title: Transport hire
   content: "St George’s has its own Minibus that can be hired with a driver included.
     The Minibus is a 17 seater inclusive of driver and can accommodate up to 2 wheelchairs
@@ -91,5 +96,7 @@ tabs:
     <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
     <input type="submit" value="Send" class="button"/>
     </form>
+  childname: ''
+  childname_heading: ''
 
 ---
