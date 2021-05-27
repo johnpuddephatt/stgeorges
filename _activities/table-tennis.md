@@ -1,12 +1,16 @@
 ---
 layout: activity
 title: Table tennis
-description: This over 50's group is small and friendly, the emphasis is on socialising as well as playing. Great for meeting new people and enjoying a little exercise too.
+description: This over 50's group is small and friendly, the emphasis is on socialising
+  as well as playing. Great for meeting new people and enjoying a little exercise
+  too.
 times:
 - Monday 7.00pm - 8.30pm
-cost: £1
+cost: "£1"
 location: St George's Community Centre
 signup: false
 additional_info: Bats and balls provided
-date: 2018-05-09 15:50:54 +0000
+date: 2018-05-09T15:50:54.000+00:00
+published: false
+
 ---
