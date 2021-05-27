@@ -1,16 +1,17 @@
 ---
 layout: activity
-title: Table tennis
-description: This over 50's group is small and friendly, the emphasis is on socialising
-  as well as playing. Great for meeting new people and enjoying a little exercise
-  too.
+title: Autism Stay and Play
+description: |-
+  Autism Stay and Play is coming to Lupset!
+  Starting on Thursday 10th June we are running this group as a 6 week pilot scheme at Wakefield West Methodist Church. For further information and to complete an initial assessment, please contact Erika 07786803051, Erika.Smith@stgeorgeslupset.org.uk 01924 369631
 times:
-- Monday 7.00pm - 8.30pm
-cost: "£1"
+- Thursdays get in touch for times.
+cost: Free
 location: St George's Community Centre
-signup: false
-additional_info: Bats and balls provided
+signup: true
+additional_info: ''
 date: 2018-05-09T15:50:54.000+00:00
+suitabilities: []
 published: false
 
 ---
