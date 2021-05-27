@@ -28,7 +28,7 @@ tabs:
     ### We’re responsible
     We take pride in being honest and professional in all that we do. That means taking responsibility, not only for how we treat the people we work with, but also how we look after our money.
 - title: Our purpose
-  content: |-
+  content: |+
     We’re a locally-focused independent charity and recognised community anchor working with the public and private sector for positive change in Lupset, West Wakefield and beyond. Founded in 1997, we’ve successfully delivered services and activities to improve personal and community health and wellbeing for the past 20 years.
 
     ### We’re here to meet the needs of our community
@@ -42,6 +42,8 @@ tabs:
 
     ### We’re here to have long term impact
     We’re a strong, resilient organisation with 53 different partner organisations and an income of £1.2M of which over 88% comes from non-grant sources.
+
+
 - title: Our people
   content: |-
     The work St George’s does is carried out by over sixty members of dedicated staff, backed by a valued team of volunteers.
@@ -115,5 +117,17 @@ tabs:
       </div>
 
     </div>
+- title: Safeguarding statement
+  content: "• St George’s Lupset Ltd (St George’s) is committed to and takes its duty
+    of safeguarding and promoting the well-being of all children, young people and
+    vulnerable adults and protecting them from harm, seriously. \n• St George’s recognises
+    that children, young people and some adults can be vulnerable and rely on the
+    support of adults and the wider community to help them reach their full potential.
+    \n• St George’s respects everyone irrespective of gender, sexuality, race, culture,
+    religion or economic status and that they have the right to play as full a part
+    as possible within their community. \n• This commitment is shared by trustees,
+    staff, students and volunteers working at or with St George’s.\n"
+  childname: ''
+  childname_heading: ''
 
 ---
