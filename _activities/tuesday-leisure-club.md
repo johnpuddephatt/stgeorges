@@ -1,16 +1,16 @@
 ---
 layout: activity
-title: Tuesday leisure club
+title: Thursday Leisure Club
 description: Fancy some TLC? This small and friendly group welcomes everyone especially
   those who may be lonely, isolated or have long term health conditions. It's sociable,
   caring and fun!
 times:
-- Tuesday Fortnightly 2.30pm - 4.30pm
+- Thursday Weekly 1.00pm - 2.30pm
 cost: "£3"
 location: St George's Community Centre
-signup: false
+signup: true
 suitabilities: []
-date: 2018-05-09 15:50:54 +0000
+date: 2018-05-09T15:50:54.000+00:00
 additional_info: ''
 
 ---
