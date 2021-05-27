@@ -1,16 +1,14 @@
 ---
 layout: activity
-title: Boccia bowling
-description: Seated bowls suitable for everyone
+title: Parent Support Group
+description: A weekly group to support parents.
 times:
-- Tuesday 2.30pm - 4.30pm (fortnightly)
-cost: "£3"
+- 'Weekly Fridays 1.30pm-2.30pm '
+cost: ''
 location: St George's Community Centre
-suitabilities:
-- Have mobility issues
-- Are deaf hard of hearing
-signup: false
-additional_info: Equipment provided
+suitabilities: []
+signup: true
+additional_info: ''
 date: 2018-05-09T15:50:54.000+00:00
 
 ---
