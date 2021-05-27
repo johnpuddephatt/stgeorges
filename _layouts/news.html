@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<section class="section section--hero section--hero--single section--hero--{{page.path | replace:'_pages/','' | replace: '.md', ''}}">
+
+<section
+  class="section section--hero section--hero--single section--hero--{{page.path | replace:'_pages/','' | replace: '.md', ''}}"
+>
   <div class="container">
     <header class="activity-header">
       <h1 class="hero-title">{{ page.title }}</h1>
@@ -9,30 +12,26 @@ layout: default
   </div>
 </section>
 
-<section class="section section--body section--body--{{page.path | replace:'/index.md',''}}">
+<section
+  class="section section--body section--body--{{page.path | replace:'/index.md',''}}"
+>
   <div class="container">
-
-
     <div class="activity-body">
-      {{ page.description | markdownify | prepend: '<h2 class="activity-intro">' | append: '</h2>' }}
+      {{ page.description | markdownify | prepend: '
+      <h2 class="activity-intro">' | append: '</h2>
+      ' }}
     </div>
 
-
-
-      <div class="content-wrap">
-        {{ page.content | markdownify }}
-
-        {% assign reversedNews = site.news | reverse %}
-        {% for post in reversedNews %}
-        <a class="news-item" href="{{ post.url | replace: 'index.html', ''}}">
-          <p>{{ post.date | date: "%-d %B %Y" }}</p>
-          <h3>{{ post.title }}</h3>
-          {{ post.content | truncate: 140 }}
-          <span class="news-item--read-more">Read more »</span>
-        </a>
-        {% endfor %}
-      </div>
-
+    <div class="content-wrap">
+      {{ page.content | markdownify }} {% assign reversedNews = site.news |
+      reverse %} {% for post in reversedNews %}
+      <a class="news-item" href="{{ post.url | replace: 'index.html', ''}}">
+        <p>{{ post.date | date: "%-d %B %Y" }}</p>
+        <h3>{{ post.title }}</h3>
+        {{ post.content | truncate: 140 }}
+        <span class="news-item--read-more">Read more »</span>
+      </a>
+      {% endfor %}
+    </div>
   </div>
 </section>
-
