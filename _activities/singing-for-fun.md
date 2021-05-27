@@ -1,14 +1,16 @@
 ---
 layout: activity
-title: Singing for fun
-description: You don't have to be a singer just willing to have a go! The group is
-  informal and fun.
+title: Allotment Helping Hands
+description: Do you enjoy pottering in the garden or spending time outside? Come and
+  help put life back into our Allotment! Garden experience not essential just a willingness
+  to get stuck in.
 times:
-- Thursday 1pm - 3pm
-cost: "£3"
+- Tuesdays, Wednesdays and Thursdays 10am
+cost: Free
 location: St George's Community Centre
-signup: false
+signup: true
 date: 2018-05-09T15:50:54.000+00:00
-published: false
+suitabilities: []
+additional_info: All ages welcome
 
 ---
