@@ -27,6 +27,7 @@ fields:
   type: datetime
   hidden: true
   description: Not used.
+  default: now
 pages:
 - _pages/news.md
 - _pages/privacy.md
