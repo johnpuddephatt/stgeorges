@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: page-simple
 hidden: true
 title: Safeguarding Statement
-description: "• St George’s Lupset Ltd (St George’s) is committed to and takes its
+description:
+  "• St George’s Lupset Ltd (St George’s) is committed to and takes its
   duty of safeguarding and promoting the well-being of all children, young people
   and vulnerable adults and protecting them from harm, seriously. \n• St George’s
   recognises that children, young people and some adults can be vulnerable and rely
@@ -13,15 +14,15 @@ description: "• St George’s Lupset Ltd (St George’s) is committed to and t
   students and volunteers working at or with St George’s."
 date: 2018-05-09T15:50:54.000+00:00
 published: false
-
 ---
+
 ### 1. Your personal data – what is it?
 
-Personal data relates to a living individual who can be identified from that data.  Identification can be by the information alone or in conjunction with any other information in the data controller’s possession or likely to come into such possession. The processing of personal data is governed by the General Data Protection Regulation 2018 (the “GDPR”).
+Personal data relates to a living individual who can be identified from that data. Identification can be by the information alone or in conjunction with any other information in the data controller’s possession or likely to come into such possession. The processing of personal data is governed by the General Data Protection Regulation 2018 (the “GDPR”).
 
 ### 2. Who are we?
 
-The Board of Trustees of St George’s Lupset Limited is the Data Controller (contact details below).  This means it decides how your personal data is processed and for what purposes. Each department of the company has a named Data Champion who is your first contact in case of a query or complaint.
+The Board of Trustees of St George’s Lupset Limited is the Data Controller (contact details below). This means it decides how your personal data is processed and for what purposes. Each department of the company has a named Data Champion who is your first contact in case of a query or complaint.
 
 ### 3. How do we process your personal data?
 
@@ -53,18 +54,18 @@ With your permission we may use your personal data for the following purposes: -
 
 ### 5. Sharing your personal data
 
- Your personal data will be treated as strictly confidential and will only be shared with other users of the Community Centre in order to carry out a service to other Trustees, volunteers or Service users. Your personal data will not be shared with third parties outside of the Community Centre parish with your consent.
+Your personal data will be treated as strictly confidential and will only be shared with other users of the Community Centre in order to carry out a service to other Trustees, volunteers or Service users. Your personal data will not be shared with third parties outside of the Community Centre parish with your consent.
 
 ### 6. How long do we keep your personal data?
 
- We keep data in accordance with the guidance set out by the Information Commissioner and this varies depending on the type and purpose of data stored. We keep an updated list of this as it relates to St George’s Lupset Ltd.
+We keep data in accordance with the guidance set out by the Information Commissioner and this varies depending on the type and purpose of data stored.We keep an updated list of this as it relates to St George’s Lupset Ltd.
 
 ### 7. Your rights and your personal data
 
 Unless subject to an exemption under the GDPR, you have the following rights with respect to your personal data: -
 
-- The right to request a copy of your personal data which St George’s Lupset  Limited holds about you;
-- The right to request that St George’s Lupset Limited corrects any personal data if it is found to be inaccurate or out of date;  
+- The right to request a copy of your personal data which St George’s Lupset Limited holds about you;
+- The right to request that St George’s Lupset Limited corrects any personal data if it is found to be inaccurate or out of date;
 - The right to request your personal data is erased where it is no longer necessary for St George’s Lupset Limited to retain such data;
 - The right to withdraw your consent to the processing at any time;
 - The right to request that the Data Controller provide the data subject with his/her personal data and where possible, to transmit that data directly to another data controller, (known as the right to data portability), [NB this only applies where the processing is based on consent or is necessary for the performance of a contract with the data subject and in either case the data controller processes the data by automated means];
