@@ -67,4 +67,5 @@ fields:
   description: Not used.
 pages:
 - _pages/centre.md
+- _pages/contact.md
 - _pages/jobs.md
