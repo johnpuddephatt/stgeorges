@@ -10,23 +10,31 @@ description: 'St George’s provides happy, welcoming spaces where local people 
 date: 2018-05-09T15:50:54.000+00:00
 tabs:
 - title: Our values
-  content: |-
-    We know the work St George’s does makes a real difference to our community members. But we also know that the way we do things matters just as much as what we actually do. That’s why everything we do is guided by our values. They tell our community members what they can expect from us, and help our staff make the right decisions.
-
-    ### We’re welcoming
-    St George’s exists to meet the needs of a diverse local community. That means providing friendly, inclusive spaces where everyone feels welcome.
-
-    ### We’re positive
-    We want to raise aspirations and give people the opportunity to make life-improving choices. That means we look to inspire people with a positive, can-do attitude.
-
-    ### We’re caring
-    Being caring means we treat people with respect, compassion and dignity. But it also means that we work with passion, because we care about making a difference.
-
-    ### We’re fair
-    We’re here for everyone in Lupset, which means we believe in treating people equally and without prejudice.
-
-    ### We’re responsible
-    We take pride in being honest and professional in all that we do. That means taking responsibility, not only for how we treat the people we work with, but also how we look after our money.
+  content: "We know the work St George’s does makes a real difference to our community
+    members. But we also know that the way we do things matters just as much as what
+    we actually do. That’s why everything we do is guided by our values. They tell
+    our community members what they can expect from us, and help our staff make the
+    right decisions.\n\n### We’re welcoming\nSt George’s exists to meet the needs
+    of a diverse local community. That means providing friendly, inclusive spaces
+    where everyone feels welcome.\n\n### We’re positive\nWe want to raise aspirations
+    and give people the opportunity to make life-improving choices. That means we
+    look to inspire people with a positive, can-do attitude.\n\n### We’re caring\nBeing
+    caring means we treat people with respect, compassion and dignity. But it also
+    means that we work with passion, because we care about making a difference.\n\n###
+    We’re fair\nWe’re here for everyone in Lupset, which means we believe in treating
+    people equally and without prejudice.\n\n### We’re responsible\nWe take pride
+    in being honest and professional in all that we do. That means taking responsibility,
+    not only for how we treat the people we work with, but also how we look after
+    our money.\n\n### Our Safeguarding Statement\n• St George’s Lupset Ltd (St George’s)
+    is committed to and takes its duty of safeguarding and promoting the well-being
+    of all children, young people and vulnerable adults and protecting them from harm,
+    seriously. \n• St George’s recognises that children, young people and some adults
+    can be vulnerable and rely on the support of adults and the wider community to
+    help them reach their full potential. \n• St George’s respects everyone irrespective
+    of gender, sexuality, race, culture, religion or economic status and that they
+    have the right to play as full a part as possible within their community. \n•
+    This commitment is shared by trustees, staff, students and volunteers working
+    at or with St George’s.\n"
 - title: Our purpose
   content: |+
     We’re a locally-focused independent charity and recognised community anchor working with the public and private sector for positive change in Lupset, West Wakefield and beyond. Founded in 1997, we’ve successfully delivered services and activities to improve personal and community health and wellbeing for the past 20 years.
@@ -117,17 +125,5 @@ tabs:
       </div>
 
     </div>
-- title: Safeguarding statement
-  content: "• St George’s Lupset Ltd (St George’s) is committed to and takes its duty
-    of safeguarding and promoting the well-being of all children, young people and
-    vulnerable adults and protecting them from harm, seriously. \n• St George’s recognises
-    that children, young people and some adults can be vulnerable and rely on the
-    support of adults and the wider community to help them reach their full potential.
-    \n• St George’s respects everyone irrespective of gender, sexuality, race, culture,
-    religion or economic status and that they have the right to play as full a part
-    as possible within their community. \n• This commitment is shared by trustees,
-    staff, students and volunteers working at or with St George’s.\n"
-  childname: ''
-  childname_heading: ''
 
 ---
