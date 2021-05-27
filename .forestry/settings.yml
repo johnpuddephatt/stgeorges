@@ -10,6 +10,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - pages-simple
   - pages
 - type: directory
   path: _volunteering
