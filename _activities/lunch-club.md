@@ -4,12 +4,12 @@ title: Lunch club
 description: Delicious homemade 3 course lunch with time for a cuppa and a chat too.
 times:
 - 12noon
-cost: £5
+cost: "£5"
 location: St George's Community Centre
 suitabilities:
-  - Have mobility issues
+- Have mobility issues
 signup: false
 additional_info: Transport available locally for £5 (booking is essential)
-date: 2018-05-09 15:50:54 +0000
+date: 2018-05-09T15:50:54.000+00:00
 
 ---
