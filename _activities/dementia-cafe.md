@@ -13,6 +13,7 @@ additional_info: |
 
   These regular social groups improve wellbeing and reduce isolation for whole families. New friendships are often formed and people who attend can leave the sessions feeling like they have a better quality of life.
 date: 2018-05-09T15:50:54.000+00:00
-suitabilities: []
+suitabilities:
+- Those with dementia and their carers.
 
 ---
