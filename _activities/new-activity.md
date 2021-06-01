@@ -6,11 +6,14 @@ description: Volunteering can help you gain skills, improve employability, make 
   and feel part of something.  We have a number of volunteer opportunities from helping
   hands in the allotment to telephone befriending or helping with admin.  If you are
   interested give Erika a call 01924 369631.
-times: []
-cost: ''
+times:
+- Various contact us to find out more.
+- ''
+cost: Free
 location: ''
-suitabilities: []
+suitabilities:
+- Everyone
 signup: true
-additional_info: ''
+additional_info: Call 01924 369631
 
 ---
