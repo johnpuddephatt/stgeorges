@@ -8,8 +8,9 @@ times:
 cost: Free
 location: St George's Community Centre
 signup: true
-additional_info: ''
+additional_info: Call the centre for more details.
 date: 2018-05-09T15:50:54.000+00:00
-suitabilities: []
+suitabilities:
+- Everyone
 
 ---
