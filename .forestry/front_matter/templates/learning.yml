@@ -54,5 +54,6 @@ fields:
   label: Wakefield Council course
   description: Enable this setting to display the Wakefield council logo
 pages:
+- _learning/7-ways-to-mindfulness.md
 - _learning/crafts-and-conversation.md
 - _learning/cscs-course-1.md
