@@ -2,12 +2,13 @@
 layout: section
 title: Wellbeing
 subtitle: Activities &amp; Advice
-description: |-
-  Covid-19 Update
-  We have limited wellbeing services available at the moment, including telephone befriending and social prescribing. Please ring our office on 01924 369631 if you would like to access these. With restrictions changing regularly please do give us a call to keep up to date with what we are offering. Thank you
+description: Wellbeing services have returned in person at St George's.  We have lots
+  of groups operating within guidelines so please check out the activities below or
+  gives us a call.   All groups require booking in advance.  Please ring our office
+  on 01924 369631 if you would like to attend any group.
 introduction_title: We can help you feel good
 introduction: |
-  Improve your health and wellbeing through things like singing, pilates, table tennis, cycling, gardening and healthier cooking.
+  Improve your health and wellbeing through things like family fitness, coffee mornings, gardening, stay and plays and healthier cooking.
 
   There’s also a dementia cafe every month where people – including carers – can socialise and receive support.
 introduction_photo: "/images/wellbeing-intro.jpg"
