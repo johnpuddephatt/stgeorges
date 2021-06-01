@@ -10,9 +10,12 @@ outcomes:
 - Lower stress, lower blood pressure, improve sleep and mental health.
 requirements:
 - Just yourself!
-time_and_location: []
-equipment: []
-information: []
+time_and_location:
+- Tuesdays 1:00-3:30pm from 8/6/21 to 20/7/21
+equipment:
+- Nothing
+information:
+- Please contact the centre to book.
 council: false
 
 ---
