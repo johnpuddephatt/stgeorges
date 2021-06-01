@@ -1,14 +1,15 @@
 ---
 layout: activity
-title: Walking group
-description: Walks suitable for everyone and well behaved dogs are welcome too.
+title: All Things Digital
+description: Get help with all things digital!  From email to social media, setting
+  up a smartphone or tablet and getting help with laptops.
 times:
-- Thursday 10am
-cost: free
+- Friday 130pm-330pm Every week
+cost: Free
 location: St George's Community Centre
 signup: true
-additional_info: Please wear sensible shoes and clothing appropriate for the weather.
+additional_info: ''
 date: 2018-05-09T15:50:54.000+00:00
-published: false
+suitabilities: []
 
 ---
