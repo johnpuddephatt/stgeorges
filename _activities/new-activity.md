@@ -10,7 +10,7 @@ times:
 - Various contact us to find out more.
 - ''
 cost: Free
-location: ''
+location: St George's Community Centre
 suitabilities:
 - Everyone
 signup: true
