@@ -18,5 +18,6 @@ equipment:
 information:
 - Call the centre to book.
 council: false
+published: false
 
 ---
