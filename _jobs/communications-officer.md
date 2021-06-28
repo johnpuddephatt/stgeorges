@@ -6,6 +6,6 @@ description: This is an exciting opportunity for a passionate Communications Off
 contract: TBC
 hours: "18.5"
 pay: "£22,200 per annum pro rata"
-application_link: "/uploads/2021/06/23/21-06-information-sheet-co.docx"
+application_link: "/uploads/2021/06/28/21-06-communication-officer-application-pack.pdf"
 
 ---
