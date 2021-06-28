@@ -23,5 +23,6 @@ equipment: []
 information:
 - If you have any questions about this course call us on 01924 369631
 council: false
+published: false
 
 ---
