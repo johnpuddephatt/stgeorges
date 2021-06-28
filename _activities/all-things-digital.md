@@ -12,5 +12,6 @@ location: St Georges Community Centre
 suitabilities: []
 signup: false
 additional_info: ''
+published: false
 
 ---
