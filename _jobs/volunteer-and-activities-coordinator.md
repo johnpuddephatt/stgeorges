@@ -8,5 +8,6 @@ contract: Three year funded post
 hours: 37 hours per week
 pay: "£20,700"
 application_link: "/uploads/2021/07/12/volunteer-and-activity-coordinator-job-information-sheet-v2.docx"
+published: false
 
 ---
