@@ -40,7 +40,7 @@ tabs:
     We also have furnished office space to let at reasonable rates. Contact us for prices.
   files:
   - path: "/uploads/2018/12/19/St George's booking form.pdf"
-    name: ''
+    name: 'Room booking form'
   childname: ''
   childname_heading: ''
 - title: Transport hire
