@@ -9,8 +9,9 @@ times:
 cost: "£3"
 location: St George's Community Centre
 signup: true
-suitabilities: []
+suitabilities:
+- Over 50s
 date: 2018-05-09T15:50:54.000+00:00
-additional_info: ''
+additional_info: Call the centre to book.
 
 ---

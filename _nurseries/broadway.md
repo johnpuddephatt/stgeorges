@@ -11,7 +11,7 @@ services:
 - Our Toddler Plus Room cares for children aged approximately 2 to 3+ and takes a maximum of 24 children
 - Our Pre-School Room cares for children aged 3+ to 5 years and takes a maximum of 24 children
 opening_hours: 8.00am - 6.00pm
-phone: '01924 330265'
+phone: '01924 330260'
 email: childcare@stgeorgeslupset.org.uk
 ofsted_link: https://reports.ofsted.gov.uk/provider/16/503017
 viewing_code: '<iframe class="nurseryinabox" width="100%" frameborder="0" style="overflow:

@@ -10,5 +10,6 @@ suitabilities:
 - All abilities welcomed
 signup: true
 date: 2018-05-09T15:50:54.000+00:00
+additional_info: Call the centre to book.
 
 ---

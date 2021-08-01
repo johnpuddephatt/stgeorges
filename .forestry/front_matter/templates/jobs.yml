@@ -39,9 +39,11 @@ fields:
   config:
     maxSize: '5'
 pages:
+- _jobs/communications-officer.md
 - _jobs/early-years-practioner.md
 - _jobs/nursery-cook.md
 - _jobs/nursery-manager-full-day-care.md
 - _jobs/part-time-early-years-practitioner.md
 - _jobs/qualified-early-years-practitioners.md
 - _jobs/relief-early-years-practitioners-qualified-or-unqualified.md
+- _jobs/volunteer-and-activities-coordinator.md
