@@ -72,7 +72,7 @@ layout: default
                 </li>
               {% endfor %}
             </ul>
-          {% elsif tab.childname %}
+          {% elsif tab.childname && tab.childname != '' %}
             <p class="message">No specific {{tab.childname}} opportunities to show you at this time.</p>
           {% endif %}
 

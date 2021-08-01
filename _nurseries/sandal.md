@@ -4,10 +4,8 @@ title: Childcare @ Sandal
 description: ''
 address: 255 Barnsley Road, Sandal, Wakefield WF1 5NU
 services:
-- |-
-  - Our baby room cares for children aged 3 months to approximately 24 months.
-
-  - Our toddler room cares for children aged 24 months - 5 years.
+- Our baby room cares for children aged 3 months to approximately 24 months.
+- Our toddler room cares for children aged 24 months - 5 years.
 opening_hours: 8.00am - 6.00pm
 phone: '01924 330269'
 email: childcare@stgeorgeslupset.org.uk

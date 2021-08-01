@@ -48,34 +48,4 @@ tabs:
   childname: ''
   childname_heading: ''
   files: []
-- title: Send us a message
-  content: "<form action=\"https://form.letsdance.agency/vzMz7DYk\" method=\"POST\">
-    \   \n  <input type=\"text\" name=\"_subject\" hidden value=\"Enquiry from St
-    George’s website\"/>\n  <label for=\"form-name\">Name\n  <input type=\"text\"
-    name=\"name\" id=\"form-name\" placeholder=\"Enter your name\" required/>\n  </label>\n
-    \ <label for=\"form-email\">Email\n  <input type=\"email\" name=\"_replyto\" id=\"form-email\"
-    placeholder=\"Enter your email address\" required/>\n  </label>\n  <label for=\"form-phone\">Phone
-    number\n  <input type=\"number\" name=\"phone\" id=\"form-phone\" placeholder=\"Enter
-    your phone number (optional)\"/>\n  </label>\n  <label for=\"form-type\">My enquiry
-    is about</label>\n  <select name=\"type\" id=\"form-type\">\n    <option value=\"\"
-    disabled selected>Please select...</option>\n    <option value=\"Childcare\">Childcare
-    and early education</option>\n    <option value=\"Learning and employability\">Learning
-    and employability</option>\n    <option value=\"Wellbeing\">Wellbeing</option>\n
-    \   <option value=\"Young people’s activities\">Young people’s activities</option>\n
-    \   <option value=\"The cafe\">The Cafe</option>\n    <option value=\"Room hire\">Room
-    Hire</option>\n    <option value=\"Minibus hire\">Minibus Hire</option>\n    <option
-    value=\"Volunteering\">Volunteering</option>\n    <option value=\"Other\">Other</option>\n
-    \ </select>\n  <div class=\"alert\" id=\"childcare-alert\"></div>\n  <input name=\"_cc\"
-    type=\"hidden\" id=\"form-cc\" />\n  <label for=\"form-message\">Message</label>\n
-    \ <textarea type=\"number\" name=\"message\" id=\"form-message\" placeholder=\"Enter
-    your message\"></textarea>\n  <div class=\"g-recaptcha\" data-sitekey=\"6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM\"></div>\n
-    \ <input type=\"submit\" value=\"Send\" class=\"button\"/>\n</form>\n<script type=\"text/javascript\">\n
-    \ var contactType = document.querySelector('#form-type');\n  var formCc = document.querySelector('#form-cc');\n
-    \ contactType.addEventListener(\"change\", function(){\n    if(this.value == 'Childcare')
-    {\n      formCc.value = 'childcare@stgeorgeslupset.co.uk';\n    }\n    else {\n
-    \     formCc.value = '';\n    }\n  });\n</script>"
-  childname: ''
-  childname_heading: ''
-  files: []
-
 ---
