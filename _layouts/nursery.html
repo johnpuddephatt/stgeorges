@@ -24,7 +24,7 @@ layout: default
         <h2>Our services</h2>
         {% if page.services.size > 0 %}
         <ul>
-        {% foreach page.services as service%}
+        {% foreach service in page.services %}
         <li>{{ page.services }}</li>
         {% endforeach %}
         </ul>
