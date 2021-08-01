@@ -64,26 +64,8 @@ layout: default
         </ul>
       {% endif %}
 
-      <button type="button" class="enquire-button white" name="button">Enquire about {{page.title}}</button>
-      <form class="enquire-form" action="https://form.letsdance.agency/vzMz7DYk" method="POST">
-        <h2>Enquire about {{page.title}}</h2>
-      <input type="text" name="_subject" hidden value="Enquiry about {{page.title}} from St George’s website"/>
-      <label for="form-name">Name
-      <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
-      </label>
-      <label for="form-email">Email
-      <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
-      </label>
-      <label for="form-phone">Phone number
-      <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
-      </label>
-      <label for="form-message">Message
-      <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
-      </label>
-      <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
-
-      <input type="submit" value="Send" class="button white"/>
-      </form>
+      
+      <a class="enquire-button white" href="mailto:info@stgeorgeslupset.org.uk?subject=Enquiry about {{page.title}}">Enquire about {{page.title}}</a>
 
       {% if page.council %}
         <div class="council-logo">

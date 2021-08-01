@@ -38,26 +38,6 @@ tabs:
     As well as offering tea, coffee and refreshments, our coffee shop staff can provide catering services. Please ask for details when booking.
 
     We also have furnished office space to let at reasonable rates. Contact us for prices.
-  contact: |
-    <button type="button" class="enquire-button" name="button">Enquire about room hire</button>
-    <form class="enquire-form" action="https://form.letsdance.agency/vzMz7DYk" method="POST">
-    <h2>Enquire about Room hire</h2>
-    <input type="text" name="_subject" hidden value="Enquiry about Room Hire from St George’s website"/>
-    <label for="form-name">Name
-    <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
-    </label>
-    <label for="form-email">Email
-    <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
-    </label>
-    <label for="form-phone">Phone number
-    <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
-    </label>
-    <label for="form-message">Message
-    <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
-    </label>
-    <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
-    <input type="submit" value="Send" class="button"/>
-    </form>
   files:
   - path: "/uploads/2018/12/19/St George's booking form.pdf"
     name: ''
@@ -76,26 +56,6 @@ tabs:
     path: "/uploads/Transport-Membership-Form.docx"
   - name: Booking form
     path: "/uploads/Transport-Booking-Form.docx"
-  contact: |
-    <button type="button" class="enquire-button" name="button">Enquire about transport</button>
-    <form class="enquire-form" action="https://form.letsdance.agency/vzMz7DYk" method="POST">
-    <h2>Enquire about Transport</h2>
-    <input type="text" name="_subject" hidden value="Enquiry about Community Transport from St George’s website"/>
-    <label for="form-name">Name
-    <input type="text" name="name" id="form-name" placeholder="Enter your name" required/>
-    </label>
-    <label for="form-email">Email
-    <input type="email" name="_replyto" id="form-email" placeholder="Enter your email address" required/>
-    </label>
-    <label for="form-phone">Phone number
-    <input type="number" name="phone" id="form-phone" placeholder="Enter your phone number (optional)"/>
-    </label>
-    <label for="form-message">Message
-    <textarea type="number" name="message" id="form-message" placeholder="Enter your message"></textarea>
-    </label>
-    <div class="g-recaptcha" data-sitekey="6LdNn1AUAAAAAA-VLy7CCzufqQi7EhPyoWQwcHIM"></div>
-    <input type="submit" value="Send" class="button"/>
-    </form>
   childname: ''
   childname_heading: ''
 
