@@ -22,8 +22,13 @@ layout: default
       <label for="tab-overview">Overview</label>
       <div class="tab-content">
         <h2>Our services</h2>
-        {{ page.services | markdownify }}
-
+        {% if page.services.size > 0 %}
+        <ul>
+        {% foreach page.services as service%}
+        <li>{{ page.services }}</li>
+        {% endforeach %}
+        </ul>
+        {% endif %}
         <h2>Ofsted</h2>
         {% if page.ofsted_link %}<a class="button" href="{{ page.ofsted_link }}" target="_blank">View our Ofsted reports and rating</a>{% endif %}
 
