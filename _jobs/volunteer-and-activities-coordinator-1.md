@@ -8,6 +8,6 @@ description: We need your expertise to develop and implement a strategic volunte
 contract: 3 year funded post
 hours: 37 hours per week
 pay: "£22,400-£24,200"
-application_link: "/uploads/2021/09/09/21-09-information-sheet-c-m-post.docx"
+application_link: "/uploads/2021/09/13/21-09-volunteer-and-activity-coordinator-job-information-sheet.docx"
 
 ---
